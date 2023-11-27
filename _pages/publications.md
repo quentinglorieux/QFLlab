@@ -11,22 +11,21 @@ permalink: /publications/
 
 ## Group highlights
 
-**At the end of this page, you can find the [full list of publications and patents](#full-list-of-publications). All papers are also available on [arXiv](https://arxiv.org/search/?searchtype=author&query=Allan%2C+M+P).**
+**At the end of this page, you can find the [full list of publications](#full-list-of-publications). All papers are available on Open Access on [arXiv](https://arxiv.org/a/glorieux_q_1.html).**
 
 {% assign number_printed = 0 %}
-{% for publi in site.data.publist %}
+{% for publi in site.data.pub_highlights %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
-{% if publi.highlight == 1 %}
 
 {% if even_odd == 0 %}
 <div class="row">
 {% endif %}
 
 <div class="col-sm-6 clearfix">
- <div class="well">
+ <div class="well" style="min-height:500px">
   <pubtit>{{ publi.title }}</pubtit>
-  <img src="{{ site.url }}{{ site.baseurl }}/images/pubpic/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
+  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/highlights/{{ publi.image }}" class="img-responsive" width="33%" style="float: left" />
   <p>{{ publi.description }}</p>
   <p><em>{{ publi.authors }}</em></p>
   <p><strong><a href="{{ publi.link.url }}">{{ publi.link.display }}</a></strong></p>
@@ -41,7 +40,6 @@ permalink: /publications/
 </div>
 {% endif %}
 
-{% endif %}
 {% endfor %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
