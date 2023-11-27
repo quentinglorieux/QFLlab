@@ -1,0 +1,97 @@
+- name: Quentin Glorieux
+  photo: Glorieux.jpg
+  info: Associate Professor
+  status: PI
+  email: quentin.glorieux@lkb.upmc.fr
+  number_educ: 2
+  education1: 
+  education2: 
+
+- name: Alberto Bramati
+  photo: Alberto.jpg
+  info: Full Professor
+  status: PI
+  email: niu@physics.leidenuniv.nl
+  number_educ: 2
+  education1: PhD with <a href="http://www2.phy.pku.edu.cn/~xilin/group-members.html">Xi Lin</a> and <a href="http://faculty.pku.edu.cn/JianWangGroup/en/zhym/25393/list/index.htm">Jian Wei</a>, Peking University
+  education2: BSc Jilin University
+
+- name: Hanna le Jeannic
+  photo: Hanna.png
+  info: CNRS Researcher
+  status: PI
+  email: jwlee0421@postech.ac.kr
+  number_educ: 2
+  education1: PhD with [Yukio Hasegawa](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/hasegawa_group_en.html) at the University of Tokyo
+  education2: Master, University of Tokyo
+
+- name: Tangui Aladjidi
+  photo: Tangui.jpg
+  info: Postdoc, since 2023
+  status: postdoc
+  email: benschop@physics.leidenuniv.nl
+  number_educ: 3
+  education1: PhD Student, 2018-2023
+  education2: Master Leiden University with Milan Allan
+  education3: Casimir PhD fellowship
+
+- name: Chengjie Ding
+  photo: Chengjie.jpg
+  info: Postdoc, since 2023
+  status: postdoc
+  email: benschop@physics.leidenuniv.nl
+  number_educ: 2
+  education1: PhD, Institute of Physics, Chinese Academy of Sciences, with [Hong-Jun Gao](http://n04.iphy.ac.cn/english/zt/hongjungao.html).
+  education2: BSc University of Chinese Academy of Sciences
+
+- name: Maxime Jacquet
+  photo: Maxime.jpg
+  info: Postdoc, since 2020
+  status: postdoc
+  email: benschop@physics.leidenuniv.nl
+  number_educ: 2
+  education1: PhD, KIT, with [Wulf Wulfhekel](https://www.int.kit.edu/1941_701.php).
+  education2: MSc KIT
+
+- name: Clara Piekarski
+  photo: Clara.png
+  info: PhD Student, started October 2022
+  status: phd
+  email: b
+  number_educ: 2
+  education1: Master Applied Physics, TU Delft
+  education2: Casimir/Nanofront PhD fellowship
+  education3:
+  education4:
+
+- name: Alix Merolle
+  photo: Alix.jpg
+  info: PhD Student, started October 2023
+  status: phd
+  email: b
+  number_educ: 2
+  education1: Master Leiden University
+  education2: BSc, University of the Basque Country
+  education3:
+  education4:
+
+- name: Myrann Baker-Rasooli
+  photo: Myrann.jpg
+  info: PhD Student, started October 2021. <br> Co-direction with Laurence Pruvost at LCPMR.
+  status: phd
+  email: Oosten@fmd.physics.leidenuniv.nl
+  number_educ: 2
+  education1: Leidse instrumentmakers School
+  education2: Associate degree Mechanical Engineering, Hogeschool Arnhem Nijmegen
+
+
+
+- name: "This could be you !"
+  photo: bottle.png
+  info: See <a href="/vacancies">openings</a> for more info
+  status: phd
+  email: milan.allan@gmail.com
+  number_educ: 0
+  education1:
+  education2:
+  education3:

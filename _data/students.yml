@@ -1,0 +1,25 @@
+#- name:
+#  photo: rock.jpg
+#  info:
+#  email:
+#  number_educ:
+#  education1:
+#  education2:
+#  education3:
+#  education4:
+
+- name: Quentin Schibler
+  photo: bio-photo.jpg
+  info: Fine mechanical engineer (also associated with the FMD)
+  email: h.s.m.van.bohemen@physics.leidenuniv.nl
+  number_educ: 1
+  education1: 
+
+- name: Simon Lepleux
+  photo: ilse.jpeg
+  info: Shared PhD student in the [van Nieuwenburg group](https://evert.info), working with us
+  email: Bastiaans@Physics.LeidenUniv.nl
+  number_educ: 1
+  education1: Master Leiden University
+
+

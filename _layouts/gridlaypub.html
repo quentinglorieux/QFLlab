@@ -1,0 +1,45 @@
+---
+layout: default
+---
+<!-- Display the content on your page -->
+
+
+<div id="gridid" class="col-sm-12">
+  {{ content }}
+</div>
+
+<div id="api-content">Loading...</div>
+
+<script>
+  async function fetchDataAndDisplay() {
+    try {
+      const response = await fetch('https://api.openalex.org/works?filter=authorships.author.id:A5024990264');
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+
+      const data = await response.json();
+      const results = data.results;
+
+      const apiContent = document.getElementById('api-content');
+      apiContent.innerHTML = '';
+
+      const ul = document.createElement('ul');
+      results.forEach(item => {
+        const li = document.createElement('li');
+        li.textContent = item.title;
+        ul.appendChild(li);
+      });
+
+      apiContent.appendChild(ul);
+    } catch (error) {
+      console.error('Error fetching or processing data:', error);
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', fetchDataAndDisplay);
+</script>
+
+
+
+
