@@ -8,7 +8,7 @@
   education2: IUF Junior Fellow since 2018
   education3: Marie Curie Postdoc at NIST (Bill Phillips group)
   education4: PhD at Paris Diderot (Thomas Coudreau)
-  education5: Master at Institut d'Optique
+  education5: MSc at Institut d'Optique
 
 - name: Alberto Bramati
   tagline: Italian Godfather
@@ -16,46 +16,51 @@
   info: Full Professor
   status: PI
   email: alberto.bramati@lkb.upmc.fr
-  number_educ: 2
+  number_educ: 3
   education1: IUF Senior Fellow since 2018 
-  education2: PhD at LKB
+  education2: Postdoc at LPL
+  education3: PhD at LKB
 
 - name: Hanna le Jeannic
+  tagline: Quantum Hanna
   photo: Hanna.png
   info: CNRS Researcher
   status: PI
   email: hanna.lejeannic@lkb.upmc.fr
-  number_educ: 2
-  education1: PhD at LKB (Laurat group)
-  education2: Master, University of Tokyo
+  number_educ: 3
+  education1: Postdoc at NBI (Peter Lodhal group)
+  education2: PhD at LKB (Laurat group)
+  education3: MSc at ESPCI
 
 - name: Tangui Aladjidi
+  tagline: Colormaps and cycling maniac
   photo: Tangui.jpg
   info: Postdoc, since 2023
   status: postdoc
-  email: benschop@physics.leidenuniv.nl
-  number_educ: 3
-  education1: PhD Student, 2018-2023
-  education2: Master Leiden University with Milan Allan
-  education3: Casimir PhD fellowship
+  email: tangui.aladjidi@lkb.upmc.fr
+  number_educ: 2
+  education1: PhD at LKB, Paris
+  education2: MSc at Ecole Polytechnique
 
 - name: Chengjie Ding
+  tagline: Nanofiber artist
   photo: Chengjie.jpg
   info: Postdoc, since 2023
   status: postdoc
-  email: benschop@physics.leidenuniv.nl
+  email: changjie.ding@lkb.upmc.fr
   number_educ: 2
-  education1: PhD, Institute of Physics, Chinese Academy of Sciences, with [Hong-Jun Gao](http://n04.iphy.ac.cn/english/zt/hongjungao.html).
-  education2: BSc University of Chinese Academy of Sciences
+  education1: PhD at LKB, Paris
+  education2: BSc at ECNU, Shanghai
 
 - name: Maxime Jacquet
+  tagline: Analogue Gravity Guru
   photo: Maxime.jpg
   info: Postdoc, since 2020
   status: postdoc
-  email: benschop@physics.leidenuniv.nl
+  email: maxime.jacquet@lkb.upmc.fr
   number_educ: 2
-  education1: PhD, KIT, with [Wulf Wulfhekel](https://www.int.kit.edu/1941_701.php).
-  education2: MSc KIT
+  education1: PhD
+  education2: MSc 
 
 - name: Clara Piekarski
   photo: Clara.png
@@ -63,30 +68,27 @@
   status: phd
   email: b
   number_educ: 2
-  education1: Master Applied Physics, TU Delft
-  education2: Casimir/Nanofront PhD fellowship
-  education3:
-  education4:
+  education1: MSc at ETH Zurich
+  education2: BSc at Ecole Polytechnique
+
 
 - name: Alix Merolle
   photo: Alix.jpg
   info: PhD Student, started October 2023
   status: phd
-  email: b
-  number_educ: 2
-  education1: Master Leiden University
-  education2: BSc, University of the Basque Country
-  education3:
-  education4:
+  email: alix.merolle@lkb.upmc.fr
+  number_educ: 1
+  education1: MSc LUMI - Sorbonne University
+
 
 - name: Myrann Baker-Rasooli
-  photo: Myrann.jpg
+  tagline: Photon fluid surfer
+  photo: Myrann2.png
   info: PhD Student, started October 2021. <br> Co-direction with Laurence Pruvost at LCPMR.
   status: phd
-  email: Oosten@fmd.physics.leidenuniv.nl
-  number_educ: 2
-  education1: Leidse instrumentmakers School
-  education2: Associate degree Mechanical Engineering, Hogeschool Arnhem Nijmegen
+  email: myrann.abobaker@lkb.upmc.fr
+  number_educ: 1
+  education1: MSc LUMI - Sorbonne University
 
 
 

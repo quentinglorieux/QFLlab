@@ -9,17 +9,17 @@
 #  education4:
 
 - name: Quentin Schibler
-  photo: bio-photo.jpg
-  info: Fine mechanical engineer (also associated with the FMD)
-  email: h.s.m.van.bohemen@physics.leidenuniv.nl
+  photo: 
+  info: MSc - Topic 1
+  email: 
   number_educ: 1
-  education1: 
+  education1:  ENS Paris Saclay
 
 - name: Simon Lepleux
-  photo: ilse.jpeg
-  info: Shared PhD student in the [van Nieuwenburg group](https://evert.info), working with us
-  email: Bastiaans@Physics.LeidenUniv.nl
+  photo: 
+  info: MSc - Topic 2
+  email: 
   number_educ: 1
-  education1: Master Leiden University
+  education1: ENS Paris Saclay
 
 

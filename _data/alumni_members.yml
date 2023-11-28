@@ -1,22 +1,22 @@
-- name: X
-  photo: verdoes.jpg
-  duration: In the Quantum Fluids of Light Lab 2015 - 2018, now Project manager at the FMD
-  info: Fine mechanical engineer associated with the FMD working in our group
+- name: Murad Abuzarli
+  tagline:
+  photo: Murad.png
+  duration: PhD from 2020 to 2023
+  info: Titre
   email: verdoes@fmd.physics.leidenuniv.nl
-  number_educ: 1
-  education1: Leidse instrumentmakers School
-  education2:
-  education3:
-  education4:
+  number_educ: 2
+  education1: Now at 
+  education2: 
 
-- name: Y
-  photo: irene.jpg
+
+- name: Ferdinand Claude
+  photo: Ferdinand.jpg
   info: PhD student
-  duration: In the Quantum Fluids of Light Lab Jan 2015 to June 2019, now R&D scientist at Nearfield Instruments
-  email: Battisti@Physics.LeidenUniv.nl
+  duration: 
+  email: 
   number_educ: 3
-  education1: Master Padova University
-  education2: Master thesis at Leiden University with <a href="https://www.physics.leidenuniv.nl/vanruitenbeek">Jan van Ruitenbeek</a>
-  education3: PhD Leiden University, prize for reseacher of the year at the Science faculty
+  education1:
+  education2: 
+  education3:
 
 
