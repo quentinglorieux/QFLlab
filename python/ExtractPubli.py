@@ -65,7 +65,12 @@ def extract_info(row):
 
     match = re.search(r'physrev(.+?)(\d+)', row["doi"])
     if match:
-        journal_abbreviation = match.group(1)
+        if match.group(1)[0] not in ('l', 'r', 'x') : 
+            journal_abbreviation = match.group(1)[0].capitalize()
+        else: 
+            journal_abbreviation = ""
+    else:
+        journal_abbreviation = ""
 
     return {
         "title": row["title"],
