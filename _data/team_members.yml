@@ -3,26 +3,30 @@
   info: Associate Professor
   status: PI
   email: quentin.glorieux@lkb.upmc.fr
-  number_educ: 2
-  education1: 
-  education2: 
+  number_educ: 5
+  education1: Group leader of the ERC CoG project
+  education2: IUF Junior Fellow since 2018
+  education3: Marie Curie Postdoc at NIST (Bill Phillips group)
+  education4: PhD at Paris Diderot (Thomas Coudreau)
+  education5: Master at Institut d'Optique
 
 - name: Alberto Bramati
+  tagline: Italian Godfather
   photo: Alberto.jpg
   info: Full Professor
   status: PI
-  email: niu@physics.leidenuniv.nl
+  email: alberto.bramati@lkb.upmc.fr
   number_educ: 2
-  education1: PhD with <a href="http://www2.phy.pku.edu.cn/~xilin/group-members.html">Xi Lin</a> and <a href="http://faculty.pku.edu.cn/JianWangGroup/en/zhym/25393/list/index.htm">Jian Wei</a>, Peking University
-  education2: BSc Jilin University
+  education1: IUF Senior Fellow since 2018 
+  education2: PhD at LKB
 
 - name: Hanna le Jeannic
   photo: Hanna.png
   info: CNRS Researcher
   status: PI
-  email: jwlee0421@postech.ac.kr
+  email: hanna.lejeannic@lkb.upmc.fr
   number_educ: 2
-  education1: PhD with [Yukio Hasegawa](https://www.issp.u-tokyo.ac.jp/maincontents/organization/labs/hasegawa_group_en.html) at the University of Tokyo
+  education1: PhD at LKB (Laurat group)
   education2: Master, University of Tokyo
 
 - name: Tangui Aladjidi

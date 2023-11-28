@@ -1,17 +1,16 @@
 ---
 title: "Glorieux Lab - Publications"
-layout: gridlaypub
+layout: publications
 excerpt: "Glorieux Lab -- Publications."
 sitemap: false
 permalink: /publications/
 ---
 
-
 # Publications
 
-## Group highlights
-
 **At the end of this page, you can find the [full list of publications](#full-list-of-publications). All papers are available on Open Access on [arXiv](https://arxiv.org/a/glorieux_q_1.html).**
+
+## Group highlights
 
 {% assign number_printed = 0 %}
 {% for publi in site.data.pub_highlights %}
@@ -19,6 +18,7 @@ permalink: /publications/
 {% assign even_odd = number_printed | modulo: 2 %}
 
 {% if even_odd == 0 %}
+
 <div class="row">
 {% endif %}
 
@@ -37,6 +37,7 @@ permalink: /publications/
 {% assign number_printed = number_printed | plus: 1 %}
 
 {% if even_odd == 1 %}
+
 </div>
 {% endif %}
 
@@ -44,11 +45,11 @@ permalink: /publications/
 
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 1 %}
+
 </div>
 {% endif %}
 
 <p> &nbsp; </p>
-
 
 <!-- ## Patents
 <em>Milan P Allan, S Gröblacher, RA Norte, M Leeuwenhoek</em><br />Novel atomic force microscopy probes with phononic crystals<br /> PCT/NL20-20/050797 (2020)
@@ -57,9 +58,4 @@ permalink: /publications/
 
 ## Full List of publications
 
-<!-- {% for publi in site.data.pub2 %}
 
-  {{ publi.title }} <br />
-  <em>{{ publi.authors }} </em><br /><a href="{{ publi.link.url }}">{{ publi.link.display }}</a>
-
-{% endfor %} -->
