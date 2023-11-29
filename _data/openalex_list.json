@@ -27,13 +27,6 @@
       "url": "https://doi.org/10.1021/acsphotonics.2c01437",
       "display": "ACS Photonics 10 1 (2023)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0002-0149-9128"
-    ],
     "doi": "https://doi.org/10.1021/acsphotonics.2c01437",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/2207.03201",
@@ -91,17 +84,6 @@
       "url": "https://doi.org/10.1103/physrevlett.130.111501",
       "display": "Physical Review Letters 130 11 (2023)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0977-7054",
-      "https://orcid.org/0000-0002-4135-7087",
-      "https://orcid.org/0000-0002-2552-4199",
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-9838-0149",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.130.111501",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/2110.14452",
@@ -147,14 +129,6 @@
       "url": "https://doi.org/10.1103/physrevb.107.174507",
       "display": "Physical review 107 17 (2023)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0003-0977-7054",
-      "https://orcid.org/0000-0002-9838-0149",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevb.107.174507",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/2211.12373",
@@ -192,12 +166,6 @@
       "url": "https://doi.org/10.1088/1367-2630/acce5a",
       "display": "New Journal of Physics 25 5 (2023)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-7929-5547",
-      "https://orcid.org/0000-0001-5194-3680"
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/acce5a",
     "is_oa": true,
     "oa_url": "https://iopscience.iop.org/article/10.1088/1367-2630/acce5a/pdf",
@@ -255,17 +223,6 @@
       "url": "https://doi.org/10.1021/acs.nanolett.3c02739",
       "display": "Nano Letters 23 22 (2023)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0003-1214-6026",
-      "https://orcid.org/0000-0002-0302-8442",
-      "https://orcid.org/0000-0002-3917-2470",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-5341-9046",
-      "https://orcid.org/0000-0003-2582-1422",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1021/acs.nanolett.3c02739",
     "is_oa": false,
     "oa_url": null,
@@ -323,17 +280,6 @@
       "url": "https://doi.org/10.1038/s41467-022-30603-1",
       "display": "Nature Communications 13 1 (2022)."
     },
-    "orcid": [
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-0672-5788",
-      "https://orcid.org/0000-0001-6871-6003",
-      "https://orcid.org/0000-0002-3865-8145",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1038/s41467-022-30603-1",
     "is_oa": true,
     "oa_url": "https://www.nature.com/articles/s41467-022-30603-1.pdf",
@@ -383,15 +329,6 @@
       "url": "https://doi.org/10.1103/physrevlett.129.103601",
       "display": "Physical Review Letters 129 10 (2022)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0003-0977-7054",
-      "https://orcid.org/0000-0002-4087-084X",
-      "https://orcid.org/0000-0002-9838-0149",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.129.103601",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/2112.09903",
@@ -445,16 +382,6 @@
       "url": "https://doi.org/10.1140/epjd/s10053-022-00477-5",
       "display": "The European Physical Journal D 76 8 (2022)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0977-7054",
-      null,
-      null,
-      "https://orcid.org/0000-0002-4135-7087",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-9838-0149",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1140/epjd/s10053-022-00477-5",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1140/epjd/s10053-022-00477-5",
@@ -492,12 +419,6 @@
       "url": "https://doi.org/10.1103/physrevlett.129.100602",
       "display": "Physical Review Letters 129 10 (2022)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-6956-0159",
-      "https://orcid.org/0000-0002-0672-5788",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.129.100602",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/2203.07399",
@@ -547,15 +468,6 @@
       "url": "https://doi.org/10.1103/physrevlett.128.093601",
       "display": "Physical Review Letters 128 9 (2022)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0002-7886-5624",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0002-1134-7013"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.128.093601",
     "is_oa": true,
     "oa_url": "https://hal.science/hal-03644005/document",
@@ -609,16 +521,6 @@
       "url": "https://doi.org/10.1140/epjd/s10053-022-00563-8",
       "display": "The European Physical Journal D 76 12 (2022)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0977-7054",
-      null,
-      null,
-      "https://orcid.org/0000-0002-4135-7087",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0002-9838-0149",
-      null
-    ],
     "doi": "https://doi.org/10.1140/epjd/s10053-022-00563-8",
     "is_oa": true,
     "oa_url": "https://link.springer.com/content/pdf/10.1140/epjd/s10053-022-00563-8.pdf",
@@ -656,12 +558,6 @@
       "url": "https://doi.org/10.1051/epjconf/202226608004",
       "display": "Epj Web of Conferences 266 None (2022)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0002-6956-0159",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1051/epjconf/202226608004",
     "is_oa": true,
     "oa_url": "https://www.epj-conferences.org/articles/epjconf/pdf/2022/10/epjconf_eosam2022_08004.pdf",
@@ -711,15 +607,6 @@
       "url": "https://doi.org/10.1103/physrevlett.126.183901",
       "display": "Physical Review Letters 126 18 (2021)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-0672-5788",
-      "https://orcid.org/0000-0001-5750-3942",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-3541-0483",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0001-8814-7848"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.126.183901",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/2101.00720",
@@ -765,14 +652,6 @@
       "url": "https://doi.org/10.1103/physrevlett.127.023401",
       "display": "Physical Review Letters 127 2 (2021)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0001-6871-6003",
-      "https://orcid.org/0000-0002-3865-8145",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.127.023401",
     "is_oa": true,
     "oa_url": "https://hal.science/hal-03644006/document",
@@ -814,13 +693,6 @@
       "url": "https://doi.org/10.1209/0295-5075/134/24001",
       "display": "EPL 134 2 (2021)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-0672-5788",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1209/0295-5075/134/24001",
     "is_oa": true,
     "oa_url": "https://hal.sorbonne-universite.fr/hal-03510842/document",
@@ -878,17 +750,6 @@
       "url": "https://doi.org/10.1103/physreva.104.013515",
       "display": "Physical review 104 1 (2021)."
     },
-    "orcid": [
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-3518-4159",
-      "https://orcid.org/0000-0002-8554-4036",
-      null,
-      "https://orcid.org/0000-0001-5194-3680",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-0672-5788"
-    ],
     "doi": "https://doi.org/10.1103/physreva.104.013515",
     "is_oa": true,
     "oa_url": "https://hal.science/hal-03375392/document",
@@ -950,18 +811,6 @@
       "url": "https://doi.org/10.1209/0295-5075/134/24004",
       "display": "EPL 134 2 (2021)."
     },
-    "orcid": [
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0001-5323-8192",
-      null,
-      "https://orcid.org/0000-0002-2506-759X",
-      "https://orcid.org/0000-0002-2849-7667",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1209/0295-5075/134/24004",
     "is_oa": true,
     "oa_url": "https://uca.hal.science/hal-03705442/document",
@@ -1027,19 +876,6 @@
       "url": "https://doi.org/10.1002/qute.202000052",
       "display": "Advanced Quantum Technologies 3 11 (2020)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-7886-5624",
-      "https://orcid.org/0000-0003-0977-7054",
-      null,
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-2508-8315",
-      "https://orcid.org/0000-0001-7823-8420",
-      "https://orcid.org/0000-0002-8554-4036",
-      null
-    ],
     "doi": "https://doi.org/10.1002/qute.202000052",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/2005.12569",
@@ -1105,19 +941,6 @@
       "url": "https://doi.org/10.1098/rsta.2019.0225",
       "display": "Philosophical Transactions of the Royal Society A 378 2177 (2020)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0977-7054",
-      "https://orcid.org/0000-0002-7886-5624",
-      null,
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-2508-8315",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      null
-    ],
     "doi": "https://doi.org/10.1098/rsta.2019.0225",
     "is_oa": true,
     "oa_url": "https://royalsocietypublishing.org/doi/pdf/10.1098/rsta.2019.0225",
@@ -1179,18 +1002,6 @@
       "url": "https://doi.org/10.1103/physrevresearch.2.043297",
       "display": "Physical review research 2 4 (2020)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-8273-3333",
-      null,
-      "https://orcid.org/0000-0002-0672-5788",
-      null,
-      "https://orcid.org/0000-0001-8397-334X",
-      "https://orcid.org/0000-0002-9838-0149",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1103/physrevresearch.2.043297",
     "is_oa": true,
     "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevResearch.2.043297",
@@ -1256,19 +1067,6 @@
       "url": "https://doi.org/10.1364/optica.405946",
       "display": "Optica 7 12 (2020)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0001-5323-8192",
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-5470-9301",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-2506-759X",
-      "https://orcid.org/0000-0002-2849-7667",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1364/optica.405946",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1364/optica.405946",
@@ -1322,16 +1120,6 @@
       "url": "https://doi.org/10.1021/acsphotonics.0c00820",
       "display": "ACS Photonics 7 8 (2020)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-1951-5357",
-      null,
-      "https://orcid.org/0000-0002-6312-0056",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0003-2582-1422",
-      "https://orcid.org/0000-0001-7676-3205",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1021/acsphotonics.0c00820",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/2005.09359",
@@ -1385,16 +1173,6 @@
       "url": "https://doi.org/10.1103/physrevx.10.041028",
       "display": "Physical Review X 10 4 (2020)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0002-1217-8661",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevx.10.041028",
     "is_oa": true,
     "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevX.10.041028",
@@ -1444,15 +1222,6 @@
       "url": "https://doi.org/10.1103/physrevresearch.2.023049",
       "display": "Physical review research 2 2 (2020)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0002-4521-0023",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevresearch.2.023049",
     "is_oa": true,
     "oa_url": "https://journals.aps.org/prresearch/pdf/10.1103/PhysRevResearch.2.023049",
@@ -1514,18 +1283,6 @@
       "url": "https://doi.org/10.1103/physrevresearch.2.042041",
       "display": "Physical review research 2 4 (2020)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0001-5323-8192",
-      null,
-      "https://orcid.org/0000-0002-2506-759X",
-      "https://orcid.org/0000-0003-0511-363X",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-2849-7667",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevresearch.2.042041",
     "is_oa": true,
     "oa_url": "http://link.aps.org/pdf/10.1103/PhysRevResearch.2.042041",
@@ -1579,16 +1336,6 @@
       "url": "https://doi.org/10.1007/s00340-020-07452-1",
       "display": "Applied Physics B None None (2020)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-2629-1657",
-      null,
-      null,
-      "https://orcid.org/0000-0002-0672-5788",
-      null,
-      "https://orcid.org/0000-0003-4587-6420",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1007/s00340-020-07452-1",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/2001.11253",
@@ -1642,16 +1389,6 @@
       "url": "https://doi.org/10.1088/1742-6596/1537/1/012005",
       "display": "Journal of physics 1537 1 (2020)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-1951-5357",
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0001-7676-3205",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1088/1742-6596/1537/1/012005",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1088/1742-6596/1537/1/012005",
@@ -1717,19 +1454,6 @@
       "url": "https://doi.org/10.1103/physrevlett.123.215301",
       "display": "Physical Review Letters 123 21 (2019)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0001-5323-8192",
-      null,
-      "https://orcid.org/0000-0002-5470-9301",
-      null,
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0002-2506-759X",
-      "https://orcid.org/0000-0002-2849-7667"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.123.215301",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1905.04063",
@@ -1763,11 +1487,6 @@
       "url": "https://doi.org/10.1364/oe.27.018818",
       "display": "Optics Express 27 13 (2019)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1364/oe.27.018818",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1364/oe.27.018818",
@@ -1825,17 +1544,6 @@
       "url": "https://doi.org/10.1088/1367-2630/ab31cc",
       "display": "New Journal of Physics 21 7 (2019)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-2629-1657",
-      null,
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-4587-6420",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/ab31cc",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1088/1367-2630/ab31cc",
@@ -1889,16 +1597,6 @@
       "url": "https://doi.org/10.1364/oe.27.030067",
       "display": "Optics Express 27 21 (2019)."
     },
-    "orcid": [
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-0672-5788",
-      "https://orcid.org/0000-0003-4587-6420",
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1364/oe.27.030067",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1364/oe.27.030067",
@@ -1936,12 +1634,6 @@
       "url": "https://doi.org/10.1088/1361-6455/ab3e98",
       "display": "Journal of Physics B 52 21 (2019)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-4521-0023",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      null
-    ],
     "doi": "https://doi.org/10.1088/1361-6455/ab3e98",
     "is_oa": true,
     "oa_url": "https://iopscience.iop.org/article/10.1088/1361-6455/ab3e98/pdf",
@@ -1987,14 +1679,6 @@
       "url": "https://doi.org/10.1364/oe.27.000350",
       "display": "Optics Express 27 2 (2019)."
     },
-    "orcid": [
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-5973-1460",
-      null
-    ],
     "doi": "https://doi.org/10.1364/oe.27.000350",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1364/oe.27.000350",
@@ -2056,18 +1740,6 @@
       "url": "https://doi.org/10.1364/josab.36.001823",
       "display": "Journal of The Optical Society of America B-optical Physics 36 7 (2019)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-4521-0023",
-      "https://orcid.org/0000-0001-9878-3434",
-      null,
-      null,
-      "https://orcid.org/0000-0001-8068-6599",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      null,
-      "https://orcid.org/0000-0001-5492-1428"
-    ],
     "doi": "https://doi.org/10.1364/josab.36.001823",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/1903.04802",
@@ -2113,14 +1785,6 @@
       "url": "https://doi.org/10.1103/physrevlett.121.183604",
       "display": "Physical Review Letters 121 18 (2018)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-0672-5788",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.121.183604",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1807.10242",
@@ -2174,16 +1838,6 @@
       "url": "https://doi.org/10.1103/physrevapplied.9.064035",
       "display": "Physical review applied 9 6 (2018)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-2629-1657",
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036",
-      null,
-      "https://orcid.org/0000-0003-0903-0233"
-    ],
     "doi": "https://doi.org/10.1103/physrevapplied.9.064035",
     "is_oa": true,
     "oa_url": "https://hal.sorbonne-universite.fr/hal-01949453/document",
@@ -2237,16 +1891,6 @@
       "url": "https://doi.org/10.1002/cphc.201800694",
       "display": "ChemPhysChem 19 23 (2018)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-1369-6890",
-      "https://orcid.org/0000-0003-1601-6392",
-      "https://orcid.org/0000-0001-6438-3256",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1002/cphc.201800694",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/1807.08621",
@@ -2296,15 +1940,6 @@
       "url": "https://doi.org/10.1103/physrevb.98.024503",
       "display": "Physical review 98 2 (2018)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-7886-5624",
-      null,
-      null,
-      "https://orcid.org/0000-0002-5728-9189",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevb.98.024503",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/1802.06906",
@@ -2358,16 +1993,6 @@
       "url": "https://doi.org/10.1103/physrevlett.116.116402",
       "display": "Physical Review Letters 116 11 (2016)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-7886-5624",
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0003-2713-1062",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevlett.116.116402",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/1509.02680",
@@ -2425,17 +2050,6 @@
       "url": "https://doi.org/10.1038/srep19721",
       "display": "Scientific Reports 6 1 (2016)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-1830-7495",
-      null,
-      null,
-      "https://orcid.org/0000-0003-0949-8397",
-      "https://orcid.org/0000-0003-1601-6392",
-      "https://orcid.org/0000-0002-1369-6890",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0001-7676-3205"
-    ],
     "doi": "https://doi.org/10.1038/srep19721",
     "is_oa": true,
     "oa_url": "https://www.nature.com/articles/srep19721.pdf",
@@ -2485,15 +2099,6 @@
       "url": "https://doi.org/10.1016/j.crhy.2016.05.005",
       "display": "Comptes Rendus Physique 17 8 (2016)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-7886-5624",
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1016/j.crhy.2016.05.005",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1016/j.crhy.2016.05.005",
@@ -2551,17 +2156,6 @@
       "url": "https://doi.org/10.1038/srep22823",
       "display": "Scientific Reports 6 1 (2016)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-1830-7495",
-      null,
-      null,
-      "https://orcid.org/0000-0003-0949-8397",
-      "https://orcid.org/0000-0003-1601-6392",
-      "https://orcid.org/0000-0002-1369-6890",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-8554-4036",
-      "https://orcid.org/0000-0001-7676-3205"
-    ],
     "doi": "https://doi.org/10.1038/srep22823",
     "is_oa": true,
     "oa_url": "https://www.nature.com/articles/srep22823.pdf",
@@ -2615,16 +2209,6 @@
       "url": "https://doi.org/10.1021/acsnano.5b01354",
       "display": "ACS Nano 9 8 (2015)."
     },
-    "orcid": [
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-1369-6890",
-      "https://orcid.org/0000-0003-1601-6392",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1021/acsnano.5b01354",
     "is_oa": false,
     "oa_url": null,
@@ -2674,15 +2258,6 @@
       "url": "https://doi.org/10.1038/srep09230",
       "display": "Scientific Reports 5 1 (2015)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-7886-5624",
-      "https://orcid.org/0000-0003-2826-4377",
-      "https://orcid.org/0000-0002-2506-759X",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0002-2849-7667",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1038/srep09230",
     "is_oa": true,
     "oa_url": "https://www.nature.com/articles/srep09230.pdf",
@@ -2732,15 +2307,6 @@
       "url": "https://doi.org/10.1117/12.2086776",
       "display": "Proceedings of SPIE None None (2015)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0001-7257-9064",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0003-2399-2797",
-      "https://orcid.org/0000-0003-0277-2584",
-      null,
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1117/12.2086776",
     "is_oa": false,
     "oa_url": null,
@@ -2782,13 +2348,6 @@
       "url": "https://doi.org/10.1117/12.2076013",
       "display": "Proceedings of SPIE None None (2015)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-7886-5624",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1117/12.2076013",
     "is_oa": false,
     "oa_url": null,
@@ -2838,15 +2397,6 @@
       "url": "https://doi.org/10.1038/nphoton.2014.112",
       "display": "Nature Photonics 8 7 (2014)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0001-7257-9064",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0003-2399-2797",
-      "https://orcid.org/0000-0003-0277-2584",
-      null,
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1038/nphoton.2014.112",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/1405.7726",
@@ -2900,16 +2450,6 @@
       "url": "https://doi.org/10.1103/physrevb.90.035311",
       "display": "Physical Review B 90 3 (2014)."
     },
-    "orcid": [
-      null,
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-1489-7758",
-      null,
-      "https://orcid.org/0000-0002-1369-6890",
-      "https://orcid.org/0000-0003-1601-6392",
-      "https://orcid.org/0000-0002-8554-4036"
-    ],
     "doi": "https://doi.org/10.1103/physrevb.90.035311",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1502.01740",
@@ -2959,15 +2499,6 @@
       "url": "https://doi.org/10.1088/1367-2630/16/1/013011",
       "display": "New Journal of Physics 16 1 (2014)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-2399-2797",
-      "https://orcid.org/0000-0001-7257-9064",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0003-4326-6821",
-      null,
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/16/1/013011",
     "is_oa": true,
     "oa_url": "https://iopscience.iop.org/article/10.1088/1367-2630/16/1/013011/pdf",
@@ -3009,13 +2540,6 @@
       "url": "https://doi.org/10.1117/12.2047545",
       "display": "Proceedings of SPIE None None (2014)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0001-7257-9064",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0003-2399-2797",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1117/12.2047545",
     "is_oa": false,
     "oa_url": null,
@@ -3073,17 +2597,6 @@
       "url": "https://doi.org/10.1088/1367-2630/15/8/085027",
       "display": "New Journal of Physics 15 8 (2013)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-9370-2006",
-      null,
-      "https://orcid.org/0000-0003-3109-6650",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0001-8193-5825",
-      "https://orcid.org/0000-0002-4421-601X",
-      null,
-      null
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/15/8/085027",
     "is_oa": true,
     "oa_url": "https://iopscience.iop.org/article/10.1088/1367-2630/15/8/085027/pdf",
@@ -3129,14 +2642,6 @@
       "url": "https://doi.org/10.1103/physreva.88.043836",
       "display": "Physical Review A 88 4 (2013)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0001-5377-1122",
-      null,
-      "https://orcid.org/0000-0001-7257-9064",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1103/physreva.88.043836",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1305.4353",
@@ -3182,14 +2687,6 @@
       "url": "https://doi.org/10.1103/physreva.87.010101",
       "display": "Physical Review A 87 1 (2013)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-2399-2797",
-      "https://orcid.org/0000-0001-7257-9064",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1103/physreva.87.010101",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1209.6079",
@@ -3223,11 +2720,6 @@
       "url": "https://doi.org/10.1088/1367-2630/15/3/035005",
       "display": "New Journal of Physics 15 3 (2013)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/15/3/035005",
     "is_oa": true,
     "oa_url": "https://iopscience.iop.org/article/10.1088/1367-2630/15/3/035005/pdf",
@@ -3285,17 +2777,6 @@
       "url": "https://doi.org/10.1088/1742-6596/467/1/012009",
       "display": "Journal of physics 467 None (2013)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0002-9370-2006",
-      null,
-      "https://orcid.org/0000-0003-3109-6650",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0001-8193-5825",
-      "https://orcid.org/0000-0002-4421-601X",
-      null,
-      null
-    ],
     "doi": "https://doi.org/10.1088/1742-6596/467/1/012009",
     "is_oa": true,
     "oa_url": "https://iopscience.iop.org/article/10.1088/1742-6596/467/1/012009/pdf",
@@ -3337,13 +2818,6 @@
       "url": "https://doi.org/10.1364/oe.20.012350",
       "display": "Optics Express 20 11 (2012)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0001-5377-1122",
-      "https://orcid.org/0000-0001-6323-6756",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1364/oe.20.012350",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1364/oe.20.012350",
@@ -3385,13 +2859,6 @@
       "url": "https://doi.org/10.1364/oe.20.017050",
       "display": "Optics Express 20 15 (2012)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0001-6323-6756",
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0001-5377-1122",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1364/oe.20.017050",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1364/oe.20.017050",
@@ -3429,12 +2896,6 @@
       "url": "https://doi.org/10.1088/1367-2630/14/12/123024",
       "display": "New Journal of Physics 14 12 (2012)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/14/12/123024",
     "is_oa": true,
     "oa_url": "https://doi.org/10.1088/1367-2630/14/12/123024",
@@ -3472,12 +2933,6 @@
       "url": "https://doi.org/10.1140/epjd/e2012-30037-1",
       "display": "The European Physical Journal D 66 11 (2012)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0001-5377-1122",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1140/epjd/e2012-30037-1",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1203.0577",
@@ -3519,13 +2974,6 @@
       "url": "https://doi.org/10.1117/2.1201206.004337",
       "display": "Spie Newsroom None None (2012)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      "https://orcid.org/0000-0001-5377-1122",
-      "https://orcid.org/0000-0001-6323-6756",
-      "https://orcid.org/0000-0002-7929-5547"
-    ],
     "doi": "https://doi.org/10.1117/2.1201206.004337",
     "is_oa": false,
     "oa_url": null,
@@ -3567,13 +3015,6 @@
       "url": "https://doi.org/10.1103/physreva.84.053826",
       "display": "Physical Review A 84 5 (2011)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8879-7813",
-      null
-    ],
     "doi": "https://doi.org/10.1103/physreva.84.053826",
     "is_oa": true,
     "oa_url": "https://arxiv.org/pdf/1111.4103",
@@ -3611,7 +3052,7 @@
         "orcid": null
       },
       {
-        "name": "Ga\u00e9tan Messin",
+        "name": "Ga\u00ebtan Messin",
         "orcid": null
       }
     ],
@@ -3619,14 +3060,6 @@
       "url": "https://doi.org/10.1088/1367-2630/13/4/043030",
       "display": "New Journal of Physics 13 4 (2011)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-2914-545X",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      null
-    ],
     "doi": "https://doi.org/10.1088/1367-2630/13/4/043030",
     "is_oa": true,
     "oa_url": "http://iopscience.iop.org/article/10.1088/1367-2630/13/4/043030/pdf",
@@ -3676,15 +3109,6 @@
       "url": "https://doi.org/10.1103/physreva.82.033819",
       "display": "Physical Review A 82 3 (2010)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      "https://orcid.org/0000-0002-9448-2535",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8879-7813",
-      null,
-      "https://orcid.org/0000-0003-2659-7565"
-    ],
     "doi": "https://doi.org/10.1103/physreva.82.033819",
     "is_oa": true,
     "oa_url": "http://arxiv.org/pdf/1007.1610",
@@ -3726,13 +3150,6 @@
       "url": "https://doi.org/10.1117/12.854953",
       "display": "Proceedings of SPIE None None (2010)."
     },
-    "orcid": [
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8879-7813",
-      null
-    ],
     "doi": "https://doi.org/10.1117/12.854953",
     "is_oa": true,
     "oa_url": "https://zenodo.org/record/3659524/files/glorieux2010.pdf",
@@ -3778,14 +3195,6 @@
       "url": "https://doi.org/10.1117/12.855579",
       "display": "Proceedings of SPIE None None (2010)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8879-7813",
-      null
-    ],
     "doi": "https://doi.org/10.1117/12.855579",
     "is_oa": false,
     "oa_url": null,
@@ -3839,16 +3248,6 @@
       "url": "https://doi.org/10.1088/0953-4075/42/15/154014",
       "display": "Journal of Physics B 42 15 (2009)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-9448-2535",
-      null,
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      "https://orcid.org/0000-0002-8879-7813",
-      null
-    ],
     "doi": "https://doi.org/10.1088/0953-4075/42/15/154014",
     "is_oa": false,
     "oa_url": null,
@@ -3898,15 +3297,6 @@
       "url": "https://doi.org/10.1007/s00340-009-3686-6",
       "display": "Applied Physics B 97 1 (2009)."
     },
-    "orcid": [
-      null,
-      "https://orcid.org/0000-0002-9448-2535",
-      "https://orcid.org/0000-0003-0903-0233",
-      null,
-      null,
-      null,
-      "https://orcid.org/0000-0002-8879-7813"
-    ],
     "doi": "https://doi.org/10.1007/s00340-009-3686-6",
     "is_oa": true,
     "oa_url": "https://hal.science/hal-00340119/document",

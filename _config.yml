@@ -8,8 +8,7 @@
 # Site settings
 title: The Quantum Fluids of Light Lab
 email: quentin.glorieux@lkb.upmc.fr
-description: > # this means to ignore newlines until "baseurl:"
-  Website of the Quantum Fluids of Light Lab.
+description: Website of the Quantum Fluids of Light Lab.
 baseurl: ""
 url: ""
 
@@ -26,9 +25,6 @@ highlighter: rouge
 lsi: false
 excerpt_separator: "\n\n"
 incremental: false
-
-
-
 
 # Markdown Processing
 kramdown:

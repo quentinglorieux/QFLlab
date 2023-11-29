@@ -89,7 +89,7 @@ def extract_info(row):
             + str(row["publication_year"])
             + ").",
         },
-        "orcid": [entry["author"]["orcid"] for entry in row["authorships"]],
+        # "orcid": [entry["author"]["orcid"] for entry in row["authorships"]],
         "doi": row["doi"],
         "is_oa": row["open_access"]["is_oa"],
         "oa_url": row["open_access"]["oa_url"],

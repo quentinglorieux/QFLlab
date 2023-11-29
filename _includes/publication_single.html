@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html>
-   
-<div style="padding-top: 20px; padding-bottom: 50px;">
-<ol reversed>
-  {% for publi in site.data.openalex_list %}
-  <li style="padding-bottom: 10px">
+<li style="padding-bottom: 10px">
     <strong> {{ publi.title }} </strong>
     <br />
     {% for author in publi.authors %} {{ author.name }}{% if author.orcid %}<sup><a href={{ author.orcid }} target="_blank"><i class="ai ai-orcid"></i></a></sup>{% endif %}{% unless forloop.last
@@ -19,10 +13,8 @@
     <br />
     {% endif %}
 </li>
-  {% endfor %}
-</ol>
-  </div>
-</html>
+
+
 <style scoped>
     i{font-size: smaller;
     color: #A6CE39;}

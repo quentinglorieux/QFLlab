@@ -23,8 +23,8 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,4
 .btn {
   padding: ($padding-base-vertical + 2) $padding-base-horizontal $padding-base-vertical;
   @include shadow();
-  font-size: 12px;
-  font-weight: bold;
+  font-size: 13px;
+  font-weight: 400;
   text-transform: uppercase;
 
   &:hover {

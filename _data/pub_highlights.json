@@ -2,25 +2,41 @@
   {
     "title": "Turbulent dynamics in two-dimensional paraxial fluid of light",
     "image": "turbulence.png",
-    "description": "Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.",
-    "authors": "J-F Ge, KM Bastiaans, D Chatzopoulos, D Cho, WO Tromp, T Benschop, J Niu, G Gu, MP Allan",
+    "description": "A",
+    "authors": "A",
     "link": {
-      "url": "https://www.nature.com/articles/s41467-023-39109-w",
-      "display": "Nature Communications 4, 3341 (2023)"
+      "url": "A",
+      "display": "Accepted in PRA"
     },
     "highlight": 1,
-    "news2": "See [news item](https://www.universiteitleiden.nl/en/news/2023/06/new-method-to-find-majoranas-tested-for-the-first-time) by Michelle Willebrands"
+    "news2": ""
   },
   {
     "title": "Hot atomic vapors for nonlinear and quantum optics",
     "image": "review.png",
-    "description": "Shot noise has been suggested for a long time as a tell-tale probe for Majorana bound states. We are the first to carry out local tunneling shot noise measurements on the putative vortex Majorana states.",
-    "authors": "JJiasen Niu, Koen M. Bastiaans, Jianfeng Ge, Ruchi Tomar, John Jesudasan, Pratap Raychaudhuri, Max Karrer, Reinhold Kleiner, Dieter Koelle, Arnaud Barbier, Eduard F.C. Driessen, Yaroslav M. Blanter, Milan P. Allan",
+    "description": "A general review to discuss all the cool physics done with hot atomic vapors. It goes from conventional non-linear wave-mixing to squeezing, quantum memories and more recent topics about quantum fluids of light.",
+    "authors": [
+      {
+        "name": "Quentin Glorieux",
+        "orcid": "https://orcid.org/0000-0003-0903-0233"
+      },
+      {
+        "name": "Tangui Aladjidi",
+        "orcid": null
+      },
+      {
+        "name": "Paul D. Lett",
+        "orcid": "https://orcid.org/0000-0002-7929-5547"
+      },
+      {
+        "name": "Robin Kaiser",
+        "orcid": "https://orcid.org/0000-0001-5194-3680"
+      }
+    ],
     "link": {
-      "url": "https://arxiv.org/abs/2306.02397",
-      "display": "arXiv"
-    },
-    "highlight": 1
+      "url": "https://doi.org/10.1088/1367-2630/acce5a",
+      "display": "New Journal of Physics 25 5 (2023)."
+    }
   },
   {
     "title": "Quantum vacuum excitation of a quasinormal mode in an analog model of black hole spacetime",
