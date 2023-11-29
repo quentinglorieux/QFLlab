@@ -9,7 +9,7 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,4
 @import url($web-font-path);
 
 @mixin shadow($width: 4px){
-  border-width: 0 1px $width 1px;
+  border-width: 0 0px $width 0px;
 }
 
 // Navbar =====================================================================
@@ -26,15 +26,20 @@ $web-font-path: "https://fonts.googleapis.com/css?family=Open+Sans:300,400,700,4
   font-size: 13px;
   font-weight: 400;
   text-transform: uppercase;
+  color:var(--body-color);
+  background-color: var(--well-bg);
 
   &:hover {
     margin-top: 1px;
     border-bottom-width: 3px;
+    color:var( --link-color);
+  background-color: var(--button-hover);
   }
 
   &:active {
     margin-top: 2px;
     border-bottom-width: 2px;
+    color:var( --link-color);
     @include box-shadow(none);
   }
 
@@ -505,7 +510,7 @@ a.list-group-item {
 }
 
 .panel {
-  border: 1px solid $navbar-default-border;
+  border: 1px solid var(--navbar-default-border);
   @include shadow();
 
   &-default {

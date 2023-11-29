@@ -8,7 +8,7 @@
   min-height: 20px;
   padding: 19px;
   margin-bottom: 20px;
-  background-color: $well-bg;
+  background-color: var(--well-bg);
   border: 1px solid $well-border;
   // border: 1px solid $navbar-default-border;
   border-radius: $border-radius-base;

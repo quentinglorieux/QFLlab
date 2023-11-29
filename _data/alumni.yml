@@ -1,0 +1,13 @@
+- name: BSc (X), Spring 2017
+  status: bsc
+  pdf:
+
+- name: Visitor (X), Spring 2017
+  status: visitor
+
+- name: MSc (X), Spring 2017
+  status: master
+  pdf:
+
+
+

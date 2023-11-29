@@ -35,20 +35,15 @@ permalink: /team/
 
 {% assign number_printed = 0 %}
 {% for member in site.data.alumni_members %}
-
 {% assign even_odd = number_printed | modulo: 2 %}
-
 {% if even_odd == 0 %}
-
 <div class="row">
 {% endif %}
-
 <div class="col-sm-6 clearfix">
   <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
   <ul style="overflow: hidden">
-
   </ul>
 </div>
 
@@ -73,21 +68,24 @@ permalink: /team/
 
 <div class="col-sm-4 clearfix">
 <h4>Visitors</h4>
-{% for member in site.data.alumni_visitors %}
+{% assign visitor_list = site.data.alumni | where:"status","visitor" %}
+{% for member in visitor_list %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
-{% for member in site.data.alumni_msc %}
+{% assign master_list = site.data.alumni | where:"status","master" %}
+{% for member in master_list %}
 {{ member.name }}
 {% endfor %}
 </div>
 
 <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
-{% for member in site.data.alumni_bsc %}
+{% assign bsc_list = site.data.alumni | where:"status","bsc" %}
+{% for member in bsc_list %}
 {{ member.name }}
 {% endfor %}
 </div>

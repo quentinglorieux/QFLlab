@@ -6,6 +6,8 @@ sitemap: false
 permalink: /
 ---
 
+<button id="darkModeToggle">Toggle Dark Mode</button>
+
 We explore **Quantum Optics** through the prism of **degenerate quantum gases**.<br>
 Our goal is to mix optics and atomic physics to explore
 superfluidity, turbulence and quantum simulation with **Quantum Fluids of Light (QFL)**.

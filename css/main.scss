@@ -11,7 +11,11 @@ img { margin-bottom: 24px;
 
 body {
 	padding-top: 70px;
+	background-color: var(--body-bg);
+	color: var(--body-color) !important;
+	font-weight: 300;
 }
+
 
 figcaption {
     text-align: right;
@@ -37,13 +41,12 @@ pubtit {
 	font-weight: bold;
 }
 
-firstp {
-}
 
 .container-fluid {
   margin-right: auto;
   margin-left: auto;
   max-width: 1200px; /* or 950px */
+ 
 }
 
 /* Home, News */
@@ -60,12 +63,13 @@ firstp {
 	margin-bottom: 6px;
 }
 
-/* Team & Publications */
-#gridid img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }
-#homeid img { margin: 0 0 0 0; border-radius:5%; box-shadow: 0px 0px 0px #888888 }
-#picid img { margin: 6px 3px 60px 6px; border-radius:1%; box-shadow: 2px 2px 5px #888888 }
-#gridid .row { margin-bottom: 24px; }
-
+#homeid{
+	margin-top: 10px;
+	margin-bottom: 40px;
+}
+#newsid{
+	margin-top: 30px;
+}
 
 /* Team & Publications */
 #team img { margin: 16px 22px 6px 0; border-radius:10%; box-shadow: 2px 2px 5px #888888 }

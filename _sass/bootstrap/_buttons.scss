@@ -170,5 +170,5 @@ input[type="button"] {
 
 
 .year-button.active{
-  color: $primary
+  color:var( --link-color);
 } 
