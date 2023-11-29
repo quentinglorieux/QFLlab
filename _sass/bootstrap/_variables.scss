@@ -46,25 +46,24 @@ $text-color:            $gray !default;
     --headings-color: #171717;
     --well-bg : #fafafa;
     --link-color: #c62c2c;
+    --link-color-hover: #e33b3b;
     --navbar-default-bg :#f4f4f4;
     --navbar-default-border :#c62c2c;
     --button-hover : #eae8e8;
    }
 
-/* Dark mode */
-@media (prefers-color-scheme: dark) {
-    :root {
+
+   body.dark-mode {
     --body-bg: rgb(48, 59, 74);
-    --body-color: rgb(226 232 240);
-    --headings-color:rgb(226 232 240);
-    --well-bg : rgb(68, 84, 111);
+    --body-color: rgb(226, 232, 240);
+    --headings-color: rgb(226, 232, 240);
+    --well-bg: rgb(68, 84, 111);
     --link-color: rgb(98, 188, 224);
-    --link-color-hover:rgb(140, 210, 238);
-    --navbar-default-bg :rgb(51 65 85);
-    --navbar-default-border : rgb(73, 180, 222);
-    --button-hover : rgb(30 41 59);
-     }
-   }
+    --link-color-hover: rgb(140, 210, 238);
+    --navbar-default-bg: rgb(51, 65, 85);
+    --navbar-default-border: rgb(73, 180, 222);
+    --button-hover: rgb(30, 41, 59);
+  }
 
 
 //** Global textual link color.

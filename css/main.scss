@@ -101,3 +101,13 @@ pubtit {
     margin-right: 30px;
 }
 
+#darkModeToggle{
+	margin-top:15px ;
+	border-width: 0px;
+	background-color: var(--navbar-default-bg);
+}
+
+#darkModeToggle:hover{
+	color: var(--link-color);
+}
+
