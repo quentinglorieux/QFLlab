@@ -1,0 +1,19 @@
+<!-- _includes/team_member.html -->
+
+<div class="col-sm-6 clearfix">
+  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  <h4>{{ member.name }}</h4>
+  {{ member.info }} <br> 
+  <{{ member.email }}>
+  <br> 
+  <i>{{member.tagline}} </i>
+  <ul style="overflow: hidden">
+    {% for i in (1..6) %}
+    {% assign id ="education" | append: #i %}
+    {% if member[id] %}
+    <li> {{ member[id]  }} </li>
+    {% endif %}
+    {% endfor %}
+  </ul>
+</div>
+

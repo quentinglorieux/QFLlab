@@ -1,0 +1,16 @@
+# _data/team_sections.yml
+- title: "Permanent Researchers"
+  status: "PI"
+  order: 1
+
+- title: "Postdocs"
+  status: "postdoc"
+  order: 2
+
+- title: "PhD students"
+  status: "phd"
+  order: 3
+
+- title: "Master and Bachelor Students"
+  status: "student"
+  order: 4

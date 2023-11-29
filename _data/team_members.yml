@@ -3,7 +3,6 @@
   info: Associate Professor
   status: PI
   email: quentin.glorieux@lkb.upmc.fr
-  number_educ: 5
   education1: Group leader of the ERC CoG project
   education2: IUF Junior Fellow since 2018
   education3: Marie Curie Postdoc at NIST (Bill Phillips group)
@@ -16,7 +15,6 @@
   info: Full Professor
   status: PI
   email: alberto.bramati@lkb.upmc.fr
-  number_educ: 3
   education1: IUF Senior Fellow since 2018 
   education2: Postdoc at LPL
   education3: PhD at LKB
@@ -27,7 +25,6 @@
   info: CNRS Researcher
   status: PI
   email: hanna.lejeannic@lkb.upmc.fr
-  number_educ: 3
   education1: Postdoc at NBI (Peter Lodhal group)
   education2: PhD at LKB (Laurat group)
   education3: MSc at ESPCI
@@ -38,7 +35,6 @@
   info: Postdoc, since 2023
   status: postdoc
   email: tangui.aladjidi@lkb.upmc.fr
-  number_educ: 2
   education1: PhD at LKB, Paris
   education2: MSc at Ecole Polytechnique
 
@@ -48,7 +44,6 @@
   info: Postdoc, since 2023
   status: postdoc
   email: changjie.ding@lkb.upmc.fr
-  number_educ: 2
   education1: PhD at LKB, Paris
   education2: BSc at ECNU, Shanghai
 
@@ -58,7 +53,6 @@
   info: Postdoc, since 2020
   status: postdoc
   email: maxime.jacquet@lkb.upmc.fr
-  number_educ: 2
   education1: PhD
   education2: MSc 
 
@@ -67,7 +61,6 @@
   info: PhD Student, started October 2022
   status: phd
   email: b
-  number_educ: 2
   education1: MSc at ETH Zurich
   education2: BSc at Ecole Polytechnique
 
@@ -77,17 +70,15 @@
   info: PhD Student, started October 2023
   status: phd
   email: alix.merolle@lkb.upmc.fr
-  number_educ: 1
   education1: MSc LUMI - Sorbonne University
 
 
 - name: Myrann Baker-Rasooli
   tagline: Photon fluid surfer
   photo: Myrann2.png
-  info: PhD Student, started October 2021. <br> Co-direction with Laurence Pruvost at LCPMR.
+  info: PhD Student, started October 2021. <br> *Co-direction with L. Pruvost at LCPMR.*
   status: phd
   email: myrann.abobaker@lkb.upmc.fr
-  number_educ: 1
   education1: MSc LUMI - Sorbonne University
 
 
@@ -97,7 +88,6 @@
   info: See <a href="/vacancies">openings</a> for more info
   status: phd
   email: milan.allan@gmail.com
-  number_educ: 0
   education1:
   education2:
   education3:

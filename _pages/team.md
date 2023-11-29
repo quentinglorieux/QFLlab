@@ -6,250 +6,30 @@ sitemap: false
 permalink: /team/
 ---
 
-# Group Members
+{% assign sections = site.data.admin.team_section | sort: "order" %}
 
-We are a group of **friendly and welcoming scientists** and we aim to create an **inclusive and supportive research environment**. We strongly believe in the value of diversity and inclusion in the field of quantum physics and we encourage women and/or individuals from underrepresented minority groups to apply.
-**We are currently looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
-
-<!-- Jump to [staff](#staff), [master and bachelor students](#master-and-bachelor-students), [alumni](#alumni), [administrative support](#administrative-support), [lab visitors](#lab-visitors). -->
-
-{% assign PIlist = site.data.team_members | where:"status", "PI" %}
-{% assign lsPI = PIlist | size %}
-{% assign postdoclist = site.data.team_members | where:"status", "postdoc" %}
-{% assign lspd = postdoclist | size %}
-{% assign phdlist = site.data.team_members | where:"status", "phd" %}
-{% assign lsphd = phdlist | size %}
-
-## Permanent Researchers
+{% for section in sections %}
+## {{ section.title }}
 
 {% assign number_printed = 0 %}
-{% assign even_odd = 0 %}
-{% for member in PIlist %}
-{% assign even_odd = number_printed | modulo: 2 %}
+{% assign filtered_members = site.data.team_members | where: "status", section.status %}
+{% assign member_count = filtered_members | size %}
 
-{% if even_odd == 0 %}
+{% for member in site.data.team_members %}
+  {% if member.status == section.status %}
+  {% assign even_odd = number_printed | modulo: 2 %}
 
-<div class="row">
-{% endif %}
+  {% if even_odd == 0 %}
+  <div class="row"> 
+  {% endif %}
 
-<div class="col-sm-6 clearfix">
-<img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-<h4>{{ member.name }}</h4>
-{{ member.info }} <br> 
-<{{ member.email }}>
-<br> 
-<i>{{member.tagline}} </i>
-<ul style="overflow: hidden">
+  {% include team_member.html member=member %}
 
-{% if member.number_educ == 1 %}
-
-<li> {{ member.education1 }} </li>
-{% endif %}
-
-{% if member.number_educ == 2 %}
-
-<li> {{ member.education1 | markdownify}} </li>
-<li> {{ member.education2 | markdownify}} </li>
-{% endif %}
-
-{% if member.number_educ == 3 %}
-
-<li> {{ member.education1 }} </li>
-<li> {{ member.education2 }} </li>
-<li> {{ member.education3 }} </li>
-{% endif %}
-
-{% if member.number_educ == 4 %}
-
-<li> {{ member.education1 }} </li>
-<li> {{ member.education2 }} </li>
-<li> {{ member.education3 }} </li>
-<li> {{ member.education4 }} </li>
-{% endif %}
-
-{% if member.number_educ == 5 %}
-
-<li> {{ member.education1 }} </li>
-<li> {{ member.education2 }} </li>
-<li> {{ member.education3 }} </li>
-<li> {{ member.education4 }} </li>
-<li> {{ member.education5 }} </li>
-{% endif %}
-
-</ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 or number_printed ==  lsPI%}
-
-</div>
-{% endif %}
-
+  {% assign number_printed = number_printed | plus: 1 %}
+  {% if even_odd == 1 or number_printed == member_count %} </div> {% endif %}
+  {% endif %}
 {% endfor %}
-
-## Postdocs
-
-{% assign number_printed = 0 %}
-{% for member in postdoclist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-<h4>{{ member.name }}</h4>
-{{ member.info }} <br> 
-<{{ member.email }}>
-<br> 
-<i>{{member.tagline}} </i>
-<ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 or number_printed ==  lspd%}
-
-</div>
-{% endif %}
-
 {% endfor %}
-
-## PhD students
-
-{% assign number_printed = 0 %}
-{% for member in phdlist %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-<h4>{{ member.name }}</h4>
-{{ member.info }} <br> 
-<{{ member.email }}>
-<br> 
-<i>{{member.tagline}} </i>
-<ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 or number_printed ==  lsphd%}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-## Master and Bachelor Students
-
-{% assign number_printed = 0 %}
-{% for member in site.data.students %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-
-{% if even_odd == 0 %}
-
-<div class="row">
-{% endif %}
-
-<div class="col-sm-6 clearfix">
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.info }} <!-- <br>email: <{{ member.email }}></i> -->
-  <ul style="overflow: hidden">
-
-{% if member.number_educ == 1 %}
-
-  <li> {{ member.education1 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 2 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 3 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  {% endif %}
-
-{% if member.number_educ == 4 %}
-
-  <li> {{ member.education1 }} </li>
-  <li> {{ member.education2 }} </li>
-  <li> {{ member.education3 }} </li>
-  <li> {{ member.education4 }} </li>
-  {% endif %}
-
-  </ul>
-</div>
-
-{% assign number_printed = number_printed | plus: 1 %}
-
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
 
 ## Alumni
 
