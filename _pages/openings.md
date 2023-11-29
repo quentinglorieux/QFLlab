@@ -8,11 +8,10 @@ permalink: /vacancies
 
 # Open positions
 
-**We are currently open for PhD and postdoc applications related to our ERC CoG grant. The positions are mostly related to the Electron Pair Microscopy projects.**
+We are a group of **friendly and welcoming scientists** and we aim to create an **inclusive and supportive research environment**. We strongly believe in the value of diversity and inclusion in the field of quantum physics and we encourage women and/or individuals from underrepresented minority groups to apply.
+**We are currently looking for new PhD students, Postdocs, and Master students to join the team** [(see openings)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
 
-We are  looking for new group members with passion, talent, and grit!
-
-You will have the chance to work on the grand challenges of condensed matter physics, often at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
+In our group, we work on the grand challenges of quantum gases without the burden of ultra-cold atoms setups. You will projects at the interface of instrumental design and new physics. You will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, and making discoveries.
 
 ### Past open positions
 
