@@ -3,7 +3,7 @@ title: "Quantum Fluids of Light Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
-permalink: /vacancies
+permalink: /vacancies/
 ---
 
 # Join Us
