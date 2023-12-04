@@ -4,11 +4,13 @@ This is the website of our academic research group at Leiden University.
 
 This website is powered by Jekyll and some Bootstrap, Bootwatch. 
 
-There is a Python function to generate automatically your publication list from your name or your ORCID identifier.
+
 
 ## Set-up the content
 
 ### Create your publication list
+There is a Python function to generate automatically your publication list from your name or your ORCID identifier.
+
 Type ` cd python `, then 
 
 ```python ExtractPubli.py "Quentin Glorieux"``` , or 
@@ -39,7 +41,8 @@ Open the `fundings.yml` file, then edit your fundings following yml syntax:
 
 ### Publications
 Open the `publications` folder then the `full_list_openalex.json` is supposed to be populated with your publication data (see Create your Publication list above).
-Then the file `highlights.json` contains the highlighted publications (with a picture). The picture must be saved in `images/highlights/`
+Then the file `highlights.json` contains the highlighted publications (with a picture). 
+The picture must be saved in `images/highlights/`
 
 ### Team members
 Open the `team` folder.
@@ -70,5 +73,20 @@ For alumni members (when a PhD or a postdoc leaves) edit the `alumni_members.yml
   email: 
   now_at: C2N
   ```
-Copy paste from the members.yml but remove the eduction and add `duration`, `thesis` and `now_at` fields.
+Copy paste from the members.yml but remove the `education` and `status` fields and add `duration`, `thesis` and `now_at` fields.
 Photos are stored in the `images/members/` folder
+
+#### Alumni visitors 
+For alumni visitors (when a visitor, bachelor or master students leaves) edit the `alumni_visitors.yml` file with the following yml syntax:
+```yaml
+- name: BSc (X), Spring 2017
+  status: bsc
+  pdf:
+  ```
+
+## Edit the homepage
+Open the `_pages` folder then `home.md`
+This file contains the markup for the homepage.
+Some HTML codes are included using e.g. `{% include carousel.html %}`.
+Do not edit this part (except if you want to remove it from the template).
+This file content can be modified using *markdown* syntax.
