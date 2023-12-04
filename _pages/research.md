@@ -1,7 +1,7 @@
 ---
-title: "Glorieux Lab - Research"
+title: "LKB Nano - Research"
 layout: textlay
-excerpt: "Glorieux Lab -- Research"
+excerpt: "Research"
 sitemap: false
 permalink: /research/
 ---

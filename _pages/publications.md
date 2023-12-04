@@ -1,7 +1,7 @@
 ---
-title: "Glorieux Lab - Publications"
+title: "LKB Nano Lab - Publications"
 layout: publications
-excerpt: "Glorieux Lab -- Publications."
+excerpt: Publications."
 sitemap: false
 permalink: /publications/
 ---

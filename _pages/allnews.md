@@ -1,6 +1,6 @@
 ---
 title: "News"
-excerpt: "Quantum Fluids of Light Lab at Sorbonne University."
+excerpt: "Nano Lab at Sorbonne University."
 
 layout: textlay
 sitemap: false
