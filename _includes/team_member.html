@@ -14,7 +14,15 @@
 
   <div class="col-sm-6 clearfix">
 
+
+
+{% if member.photo %}
 <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+{%else%}
+{% assign placeholder_images = site.static_files | where_exp:"file", "file.path contains 'members/placeholders'" %}
+{% assign random_index = placeholder_images | sample%}
+<img src="{{ site.url }}{{ site.baseurl }}{{ random_index.path }}" class="img-responsive" width="25%" style="float: left" />
+  {%endif%}
   <h4>{{ member.name }}</h4>
   {{ member.info }} <br>
   <a href="mailto:{{ member.email }}"> {{member.email }} </a>

@@ -9,17 +9,16 @@
   education3: MSc at ESPCI
   
 - name: Quentin Glorieux
+  tagline: Infrared monkey
   photo: Glorieux.jpg
   info: Associate Professor
   status: PI
   email: quentin.glorieux@lkb.upmc.fr
 
-  education1: Group leader of the ERC CoG project
   education2: "[IUF](https://www.iufrance.fr/les-membres-de-liuf/membre/1855-quentin-glorieux.html) Junior Fellow since 2018"
   education3: Marie Curie Postdoc at NIST (Bill Phillips group)
   education4: PhD at Paris Diderot (Thomas Coudreau)
   education5: MSc at Institut d'Optique
-  education6: see my full <a href="https://cv.quentinglorieux.fr/" target="_blank">CV</a>
 
 - name: Alberto Bramati
   tagline: Italian Godfather
@@ -34,7 +33,7 @@
 
 - name: Marianna D'Amato
   tagline: Colormaps and cycling maniac
-  photo: Tangui.jpg
+  photo: 
   info: Postdoc, since 2023
   status: postdoc
   email: tangui.aladjidi@lkb.upmc.fr
@@ -53,7 +52,7 @@
 
 
 - name: Althea Housset
-  photo: Clara.png
+  photo: 
   info: PhD Student, started October 2022
   status: phd
   email: b
@@ -72,3 +71,18 @@
   education1:
   education2:
   education3:
+
+- name: Quentin Schibler
+  status: student
+  photo: 
+  info: MSc - Topic 1
+  email: 
+  education1:  ENS Paris Saclay
+
+- name: Simon Lepleux
+  status: student
+  photo: 
+  info: MSc - Topic 2
+  email: 
+  education1: ENS Paris Saclay
+
