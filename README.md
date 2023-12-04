@@ -4,6 +4,13 @@ This is the website of our academic research group at Leiden University.
 
 This website is powered by Jekyll and some Bootstrap, Bootwatch. 
 
+## Install
+
+Clone this repository.
+Install Jekyll (see [here](https://jekyllrb.com/docs/installation/)).
+Go to your folder and run `bundle exec jekyll serve`
+Your demo site is available at [http://localhost:4000](http://localhost:4000)
+
 
 
 ## Set-up the content
@@ -66,7 +73,7 @@ For current members edit the `members.yml` file with the following yml syntax:
 For alumni members (when a PhD or a postdoc leaves) edit the `alumni_members.yml` file with the following yml syntax:
 ```yaml
 - name: Quentin Fontaine
-  tagline: Experimental theoriticia
+  tagline: Experimental theoritician
   photo: QuentinF.png
   duration: PhD from 2017 to 2020
   thesis: Titre
