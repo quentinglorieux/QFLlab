@@ -1,14 +1,13 @@
 ---
-title: "Quantum Fluids of Light Lab - Home"
+title: "Nano Lab - Home"
 layout: homelay
-excerpt: "QFL Lab at LKB Paris."
+excerpt: "Nano Lab at LKB Paris."
 sitemap: false
 permalink: /
 ---
 
-We explore **Quantum Optics** through the prism of **degenerate quantum gases**.<br>
-Our goal is to mix optics and atomic physics to explore
-superfluidity, turbulence and quantum simulation with **Quantum Fluids of Light (QFL)**.
+We explore **Quantum Optics** through the prism of **Nanophotonics**.<br>
+Our goal is 
 
 <div markdown="0" id="carousel" class="carousel slide" data-ride="carousel" data-interval="4000" data-pause="hover" >
     <!-- Menu -->

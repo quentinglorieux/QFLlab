@@ -1,6 +1,6 @@
 ---
 title: "Quantum Fluids of Light Lab - Pictures"
-layout: piclay
+layout: default
 excerpt: "Quantum Fluids of Light Lab -- Pictures"
 permalink: /pictures/
 ---

@@ -23,7 +23,9 @@ The **[full list of publications](#full-list-of-publications)** is at the end of
 {% endif %}
 
 <!-- Highlights -->
+<div markdown="0">
 {% include publication_highlights.html  %}
+</div>
 
 {% assign number_printed = number_printed | plus: 1 %}
 
@@ -42,5 +44,6 @@ The **[full list of publications](#full-list-of-publications)** is at the end of
 
 ## Full List of publications
 
+<div markdown="0">
 {% include publications_list.html %}
-
+</div>
