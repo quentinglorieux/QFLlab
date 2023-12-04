@@ -1,0 +1,18 @@
+<div class="flex-container">
+    {% for image in site.static_files %} 
+        {% if image.path contains '/images/rubidium/logo' %} 
+        <img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" style="height: 40px" /> 
+        {% endif %}
+   {% endfor %}
+  </div>
+  
+  
+<style> 
+    .flex-container{  
+      padding-top: 20px;
+      display: flex;
+      flex-wrap: wrap ;
+      justify-content: space-around;
+    }
+</style>
+    
