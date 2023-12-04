@@ -1,19 +1,37 @@
 <!-- _includes/team_member.html -->
 
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+{% assign number_printed = 0 %}
+{% assign section = include.s %}
+{% assign filtered_members = site.data.team.members | where: "status", section.status %}
+{% assign member_count = filtered_members | size %}
+
+
+{% for member in site.data.team.members %}
+{% if member.status == section.status %}
+{% assign even_odd = number_printed | modulo: 2 %}
+
+{% if even_odd == 0 %}<div class="row">{% endif %}
+
+  <div class="col-sm-6 clearfix">
+
+<img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
-  {{ member.info }} <br> 
-  <{{ member.email }}>
+  {{ member.info }} <br>
+  <a href="mailto:{{ member.email }}"> {{member.email }} </a>
   <br> 
   <i>{{member.tagline}} </i>
   <ul style="overflow: hidden">
     {% for i in (1..6) %}
-    {% assign id ="education" | append: #i %}
-    {% if member[id] %}
-    <li> {{ member[id]  }} </li>
+    {% assign edu ="education" | append: #i %}
+    {% if member[edu] %}
+    <li> {{ member[edu] | markdownify | remove: '<p>' | remove: '</p>'  }} </li>
     {% endif %}
     {% endfor %}
   </ul>
-</div>
+  </div>
+
+{% assign number_printed = number_printed | plus: 1 %}
+{% if even_odd == 1 or number_printed == member_count %} </div> {% endif %}
+{% endif %}
+{% endfor %}
 

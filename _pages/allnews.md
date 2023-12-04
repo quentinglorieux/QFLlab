@@ -1,7 +1,8 @@
 ---
 title: "News"
-layout: textlay
 excerpt: "Quantum Fluids of Light Lab at Sorbonne University."
+
+layout: textlay
 sitemap: false
 permalink: /allnews.html
 ---

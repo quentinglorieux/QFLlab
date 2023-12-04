@@ -1,66 +1,27 @@
 ---
 title: "Quantum Fluids of Light Lab - Team"
-layout: gridlay
 excerpt: "Quantum Fluids of Light Lab: Team members"
+
+layout: gridlay
 sitemap: false
 permalink: /team/
 ---
 
 {% assign sections = site.data.admin.team_section | sort: "order" %}
+{% for sec in sections %}
 
-{% for section in sections %}
-## {{ section.title }}
+## {{ sec.title }}
 
-{% assign number_printed = 0 %}
-{% assign filtered_members = site.data.team.members | where: "status", section.status %}
-{% assign member_count = filtered_members | size %}
+{% include team_member.html s=sec %}
 
-{% for member in site.data.team.members %}
-  {% if member.status == section.status %}
-  {% assign even_odd = number_printed | modulo: 2 %}
-
-  {% if even_odd == 0 %}
-  <div class="row"> 
-  {% endif %}
-
-  {% include team_member.html member=member %}
-
-  {% assign number_printed = number_printed | plus: 1 %}
-  {% if even_odd == 1 or number_printed == member_count %} </div> {% endif %}
-  {% endif %}
 {% endfor %}
-{% endfor %}
+
 
 ## Alumni
 
-{% assign number_printed = 0 %}
-{% for member in site.data.team.alumni_members %}
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 0 %}
-<div class="row">
-{% endif %}
-<div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
-  <h4>{{ member.name }}</h4>
-  <i>{{ member.duration }} <br> Role: {{ member.info }}</i>
-  <ul style="overflow: hidden">
-  </ul>
-</div>
+{% include team_alumni.html%}
 
-{% assign number_printed = number_printed | plus: 1 %}
 
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
-
-{% endfor %}
-
-{% assign even_odd = number_printed | modulo: 2 %}
-{% if even_odd == 1 %}
-
-</div>
-{% endif %}
 
 ## Former visitors, BSc/ MSc students
 
@@ -73,6 +34,7 @@ permalink: /team/
 {% for member in visitor_list %}
 {{ member.name }}
 {% endfor %}
+
 </div>
 
 <div class="col-sm-4 clearfix">

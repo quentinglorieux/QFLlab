@@ -2,21 +2,16 @@
   tagline:
   photo: Murad.png
   duration: PhD from 2020 to 2023
-  info: Titre
-  email: verdoes@fmd.physics.leidenuniv.nl
-  number_educ: 2
-  education1: Now at 
-  education2: 
+  thesis: Titre
+  email: 
+  now_at: XXX
 
 
 - name: Ferdinand Claude
   photo: Ferdinand.jpg
-  info: PhD student
-  duration: 
+  thesis: Polaritons...
+  duration: PhD from 2020 to 2023
   email: 
-  number_educ: 3
-  education1:
-  education2: 
-  education3:
+  now_at: XXX
 
 

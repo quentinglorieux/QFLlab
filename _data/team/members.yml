@@ -1,3 +1,13 @@
+- name: Hanna Le Jeannic
+  tagline: Quantum Hanna
+  photo: Hanna.png
+  info: CNRS Researcher
+  status: PI
+  email: hanna.lejeannic@lkb.upmc.fr
+  education1: Postdoc at NBI (Peter Lodhal group)
+  education2: PhD at LKB (Laurat group)
+  education3: MSc at ESPCI
+  
 - name: Quentin Glorieux
   photo: Glorieux.jpg
   info: Associate Professor
@@ -5,7 +15,7 @@
   email: quentin.glorieux@lkb.upmc.fr
 
   education1: Group leader of the ERC CoG project
-  education2: IUF Junior Fellow since 2018
+  education2: "[IUF](https://www.iufrance.fr/les-membres-de-liuf/membre/1855-quentin-glorieux.html) Junior Fellow since 2018"
   education3: Marie Curie Postdoc at NIST (Bill Phillips group)
   education4: PhD at Paris Diderot (Thomas Coudreau)
   education5: MSc at Institut d'Optique
@@ -21,17 +31,8 @@
   education2: Postdoc at LPL
   education3: PhD at LKB
 
-- name: Hanna le Jeannic
-  tagline: Quantum Hanna
-  photo: Hanna.png
-  info: CNRS Researcher
-  status: PI
-  email: hanna.lejeannic@lkb.upmc.fr
-  education1: Postdoc at NBI (Peter Lodhal group)
-  education2: PhD at LKB (Laurat group)
-  education3: MSc at ESPCI
 
-- name: Tangui Aladjidi
+- name: Marianna D'Amato
   tagline: Colormaps and cycling maniac
   photo: Tangui.jpg
   info: Postdoc, since 2023
@@ -49,16 +50,9 @@
   education1: PhD at LKB, Paris
   education2: BSc at ECNU, Shanghai
 
-- name: Maxime Jacquet
-  tagline: Analogue Gravity Guru
-  photo: Maxime.jpg
-  info: Postdoc, since 2020
-  status: postdoc
-  email: maxime.jacquet@lkb.upmc.fr
-  education1: PhD
-  education2: MSc 
 
-- name: Clara Piekarski
+
+- name: Althea Housset
   photo: Clara.png
   info: PhD Student, started October 2022
   status: phd
@@ -67,21 +61,6 @@
   education2: BSc at Ecole Polytechnique
 
 
-- name: Alix Merolle
-  photo: Alix.jpg
-  info: PhD Student, started October 2023
-  status: phd
-  email: alix.merolle@lkb.upmc.fr
-  education1: MSc LUMI - Sorbonne University
-
-
-- name: Myrann Baker-Rasooli
-  tagline: Photon fluid surfer
-  photo: Myrann2.png
-  info: PhD Student, started October 2021. <br> *Co-direction with L. Pruvost at LCPMR.*
-  status: phd
-  email: myrann.abobaker@lkb.upmc.fr
-  education1: MSc LUMI - Sorbonne University
 
 
 
