@@ -15,17 +15,10 @@
 		  </div>
 
         <div class="col-sm-4">
-          <strong>Funding: </strong><br />
-          - Consolidator Grant from the <a href="https://erc.europa.eu">ERC</a
-          ><br />
-          - Institut Universitaire de France -
-          <a
-            href="https://www.iufrance.fr/les-membres-de-liuf/membre/1855-quentin-glorieux.html"
-          >
-            IUF </a
-          ><br />
-          - Agence Nationale de la Recherche -
-          <a href="https://anr.fr/">ANR </a>
+          <strong>Fundings: </strong><br />
+          {% for funding in site.data.fundings %} 
+          - {{funding.name}} <a href="{{funding.link}}"> {{funding.link_text}}</a>  
+          {% endfor %}
         </div>
 
       

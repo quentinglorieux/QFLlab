@@ -106,7 +106,7 @@ def export_data(df):
     json_string = json.dumps(author_pub_list, indent=2)
 
     # Save the JSON string to a file
-    with open("../_data/openalex_list.json", "w") as file:
+    with open("../_data/publications/full_list_openalex.json", "w") as file:
         file.write(json_string)
 
 

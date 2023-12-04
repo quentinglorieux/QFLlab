@@ -12,10 +12,10 @@ permalink: /team/
 ## {{ section.title }}
 
 {% assign number_printed = 0 %}
-{% assign filtered_members = site.data.team_members | where: "status", section.status %}
+{% assign filtered_members = site.data.team.members | where: "status", section.status %}
 {% assign member_count = filtered_members | size %}
 
-{% for member in site.data.team_members %}
+{% for member in site.data.team.members %}
   {% if member.status == section.status %}
   {% assign even_odd = number_printed | modulo: 2 %}
 
@@ -34,7 +34,7 @@ permalink: /team/
 ## Alumni
 
 {% assign number_printed = 0 %}
-{% for member in site.data.alumni_members %}
+{% for member in site.data.team.alumni_members %}
 {% assign even_odd = number_printed | modulo: 2 %}
 {% if even_odd == 0 %}
 <div class="row">
@@ -68,7 +68,8 @@ permalink: /team/
 
 <div class="col-sm-4 clearfix">
 <h4>Visitors</h4>
-{% assign visitor_list = site.data.alumni | where:"status","visitor" %}
+{% assign visitor_list = site.data.team.alumni_students | where:"status","visitor" %}
+
 {% for member in visitor_list %}
 {{ member.name }}
 {% endfor %}
@@ -76,7 +77,7 @@ permalink: /team/
 
 <div class="col-sm-4 clearfix">
 <h4>Master students</h4>
-{% assign master_list = site.data.alumni | where:"status","master" %}
+{% assign master_list = site.data.team.alumni_students | where:"status","master" %}
 {% for member in master_list %}
 {{ member.name }}
 {% endfor %}
@@ -84,7 +85,7 @@ permalink: /team/
 
 <div class="col-sm-4 clearfix">
 <h4>Bachelor Students</h4>
-{% assign bsc_list = site.data.alumni | where:"status","bsc" %}
+{% assign bsc_list = site.data.team.alumni_students | where:"status","bsc" %}
 {% for member in bsc_list %}
 {{ member.name }}
 {% endfor %}
