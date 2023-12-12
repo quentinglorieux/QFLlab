@@ -1,0 +1,29 @@
+<div class="row">
+
+<div class="col-sm-4 clearfix">
+<h4>Visitors</h4>
+{% assign visitor_list = site.data.team.alumni_visitors | where:"status","visitor" %}
+
+{% for member in visitor_list %}
+{{ member.name }}
+{% endfor %}
+
+</div>
+
+<div class="col-sm-4 clearfix">
+<h4>Master students</h4>
+{% assign master_list = site.data.team.alumni_visitors | where:"status","master" %}
+{% for member in master_list %}
+{{ member.name }}
+{% endfor %}
+</div>
+
+<div class="col-sm-4 clearfix">
+<h4>Bachelor Students</h4>
+{% assign bsc_list = site.data.team.alumni_visitors | where:"status","bsc" %}
+{% for member in bsc_list %}
+{{ member.name }}
+{% endfor %}
+</div>
+
+</div>

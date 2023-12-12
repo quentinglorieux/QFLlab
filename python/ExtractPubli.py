@@ -4,6 +4,8 @@ import json
 import pandas as pd
 import re
 import sys
+import yaml
+
 
 
 pyalex.config.email = "quentin.glorieux@lkb.upmc.fr"
@@ -66,7 +68,9 @@ def extract_info(row):
     match = re.search(r'physrev(.+?)(\d+)', row["doi"])
     if match:
         if match.group(1)[0] not in ('l', 'r', 'x') : 
-            journal_abbreviation = match.group(1)[0].capitalize()
+            if row["primary_location"]["source"]["display_name"][-1] != match.group(1)[0].capitalize():
+                journal_abbreviation = match.group(1)[0].capitalize()
+            else : journal_abbreviation = ""
         else: 
             journal_abbreviation = ""
     else:
@@ -103,11 +107,18 @@ def extract_info(row):
 # Export JSON file
 def export_data(df):
     author_pub_list = df.apply(extract_info, axis=1).tolist()
-    json_string = json.dumps(author_pub_list, indent=2)
+    # json_string = json.dumps(author_pub_list, indent=2)
 
     # Save the JSON string to a file
-    with open("../_data/publications/full_list_openalex.json", "w") as file:
-        file.write(json_string)
+    # with open("../_data/publications/full_list_openalex.json", "w") as file:
+    #     file.write(json_string)
+    # with open('../_data/publications/full_list_openalex.yaml', 'w') as file:
+    #     yaml.dump(author_pub_list, file, default_flow_style=False , sort_keys=False)
+    with open('../_data/publications/full_list_openalex.yaml', 'w+') as f:
+        for yaml_obj in author_pub_list:
+            f.write(yaml.dump([yaml_obj], default_flow_style=False , sort_keys=False))
+            f.write("\n")
+
 
 
 

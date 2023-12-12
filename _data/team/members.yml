@@ -93,3 +93,20 @@
   education1:
   education2:
   education3:
+
+- name: Quentin Schibler
+  status: student
+  photo: 
+  info: MSc - Topic 1
+  email: 
+  education1:  ENS Paris Saclay
+
+- name: Simon Lepleux
+  status: student
+  photo: 
+  info: MSc - Topic 2
+  email: 
+  education1: ENS Paris Saclay
+
+
+

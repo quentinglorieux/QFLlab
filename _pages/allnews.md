@@ -1,7 +1,8 @@
 ---
 title: "News"
+excerpt: "Nano Lab at Sorbonne University."
+
 layout: textlay
-excerpt: "Quantum Fluids of Light Lab at Sorbonne University."
 sitemap: false
 permalink: /allnews.html
 ---

@@ -1,5 +1,5 @@
 ---
-title: "Quantum Fluids of Light Lab - Vacancies"
+title: "Nano Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false
