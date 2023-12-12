@@ -5,11 +5,11 @@ excerpt: Publications.
 sitemap: false
 permalink: /publications/
 ---
-
+<div id="top"> </div> 
 # Publications
 
-The **[full list of publications](#full-list-of-publications)** is at the end of this page. <br>
- All papers are available on Open access on **[arXiv](https://arxiv.org/a/glorieux_q_1.html)**.
+The <span> <a href="#full-list-of-publications"> <button  class='btn nav-button'> full list </button></a> </span>  is at the end of this page. <br>
+All papers are available on Open access on **[arXiv](https://arxiv.org/a/glorieux_q_1.html)**.
 
 ## Group highlights
 
@@ -45,10 +45,10 @@ The **[full list of publications](#full-list-of-publications)** is at the end of
 
 
 ## Full List of publications
-
+<a href="#top"> <button  class='btn nav-button'> To Top </button></a>
+<a href="#group-highlights"> <button  class='btn nav-button'> Highlights </button></a>
 <div markdown="0">
 {% include publications_list.html %}
 </div>
 
-<script src="{{ site.url }}{{ site.baseurl }}/js/smooth_scroll.js"></script>
 

@@ -1,5 +1,5 @@
 <div class="col-sm-6 clearfix">
-  <div class="well" style="min-height: 350px">
+  <div class="well" style="min-height: 400px">
     <pubtit>{{ publi.title }}</pubtit>
     <div class="test">
       <img
@@ -25,7 +25,15 @@
         {{publi.biblio.first_page}}
       </a>
       ({{publi.publication_year}})</strong>
+      
       </p>
+      {% if publi.oa_url %}
+  <em> Open access: </em>
+  <a href="{{ publi.oa_url }}" target="_blank">
+    <span class="glyphicon glyphicon-save"></span>
+  </a>
+  <br />
+  {% endif %}
       <p class="text-danger">{{ publi.news1 }}</p>
       <p>{{ publi.news2 }}</p>
     </div>
