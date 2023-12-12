@@ -1,11 +1,26 @@
 
 <div class="well">
-<h4>News</h4>
+    <h4 class="smallcaps">News</h4>
 
-{% for article in site.data.news limit:9 %}
-<p>{{ article.date }}<br>{{ article.headline | markdownify}}</p>
-{% endfor %}
+    {% for article in site.posts limit:9 %}
+        <ul style="margin: 0; padding-left: 15px;">
+        <li><span style="font-weight: 500; font-size: 1.5rem;">{{ article.date  | date_to_string: "ordinal", "US" }}</span>
+            <div style="font-size: 1.45rem;"> {{ article.title}}  </div>
+            <div> 
+                <a href="/news/{{article.slug}}"> 
+                <div class="btn-link" style="margin-top: 4px; font-size: 1.3rem;"> 
+                    <span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span> 
+                    En savoir plus  
+                </div>
+                </a>
+            </div
 
-<h4><a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all News</a></h4>
-
-    </div>
+            
+        </li>
+        </ul>
+        
+    {% endfor %}
+        <h4 style="font-size: 1.7rem; text-align: right;">
+            <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all news</a>
+        </h4>
+</div>
