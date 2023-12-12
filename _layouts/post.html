@@ -9,13 +9,34 @@ layout: default
       <time
         datetime="{{ page.date | date_to_xmlschema }}"
         itemprop="datePublished"
-        >{{ page.date | date: "%b %-d, %Y" }}</time
+        >{{ page.date | date_to_long_string: "ordinal" }}</time
       >{% if page.author %} •
       <span itemprop="author" itemscope itemtype="http://schema.org/Person"
         ><span itemprop="name">{{ page.author }}</span></span
       >{% endif %}
     </p>
   </header>
-  {{ page.doi }}
-  <div class="post-content" itemprop="articleBody">{{ content }}</div>
+
+  <div class="post-wrapper">
+    <div class="post-main">
+      <div class="post-content" itemprop="articleBody">{{ content }}</div>
+      <div class="post-image">
+        <img
+          src="/assets/images/news/{{ page.image }}"
+        />
+      </div>
+    </div>
+
+    {% if page.contact %}
+    <div>
+      <span style="font-size: large; font-weight: 500"> Contact: </span
+      ><span> : <a href="mailto:{{page.contact}}"> {{page.contact}}</a></span>
+    </div>
+    {%endif%} {% if page.link %}
+    <div>
+      <span style="font-size: large; font-weight: 500"> More information: </span
+      ><span> : <a href="/assets/pdf/news/{{page.link}}"> PDF</a></span>
+    </div>
+    {%endif%}
+  </div>
 </article>

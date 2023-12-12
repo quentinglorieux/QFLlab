@@ -30,5 +30,5 @@ Sometimes, we take BSc students for summer internships, but only if we get excep
 
 
 <figure>
-<img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/team.png" width="95%">
+<img src="/assets/images/team.png" width="95%">
 </figure>

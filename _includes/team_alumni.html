@@ -6,12 +6,13 @@
 <div class="row">
 {% endif %}
 <div class="col-sm-6 clearfix">
-  <img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+  {{member.photo }}
+  <img src="/assets/images/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
   <h4>{{ member.name }}</h4>
   <i>{{ member.duration }} <br> </i>
     {{ member.thesis }}
-    <br>
-    Now at : <i> {{ member.now_at }}</i>
+  <br>
+  Now at : <i> {{ member.now_at }}</i>
 </div>
 
 {% assign number_printed = number_printed | plus: 1 %}

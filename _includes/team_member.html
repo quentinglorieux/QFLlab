@@ -17,7 +17,7 @@
 
 
 {% if member.photo %}
-<img src="{{ site.url }}{{ site.baseurl }}/images/rubidium/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
+<img src="/assets/images/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
 {%else%}
 {% assign placeholder_images = site.static_files | where_exp:"file", "file.path contains 'members/placeholders'" %}
 {% assign random_index = placeholder_images | sample%}
