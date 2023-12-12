@@ -11,6 +11,7 @@ email: quentin.glorieux@lkb.upmc.fr
 description: Website of the Quantum Fluids of Light Team.
 baseurl: ""
 url: ""
+permalink: /:categories/:slug
 
 include:
   - .htaccess

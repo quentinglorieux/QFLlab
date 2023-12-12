@@ -13,8 +13,10 @@ The **[full list of publications](#full-list-of-publications)** is at the end of
 
 ## Group highlights
 
+
 {% assign number_printed = 0 %}
-{% for publi in site.data.publications.highlights %}
+{% for highlight in site.data.publications.highlights %}
+{% assign publi = site.data.publications.full_list_openalex | where: "title", highlight.title | first %}
 
 {% assign even_odd = number_printed | modulo: 2 %}
 
