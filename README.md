@@ -11,7 +11,8 @@ Install Jekyll (see [here](https://jekyllrb.com/docs/installation/)).
 Go to your folder and run `bundle exec jekyll serve`
 Your demo site is available at [http://localhost:4000](http://localhost:4000)
 
-
+### Local dev
+To run it locally : `bundle exec jekyll serve`
 
 ## Set-up the content
 
@@ -99,5 +100,3 @@ Some HTML codes are included using e.g. `{% include carousel.html %}`.
 Do not edit this part (except if you want to remove it from the template).
 This file content can be modified using *markdown* syntax.
 
-### Local dev
-To run it locally : `bundle exec jekyll serve`
