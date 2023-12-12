@@ -1,5 +1,5 @@
 ---
-title: "Nano Lab - Vacancies"
+title: "QFL Lab - Vacancies"
 layout: textlay
 excerpt: "Openings"
 sitemap: false

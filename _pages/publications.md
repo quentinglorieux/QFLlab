@@ -1,5 +1,5 @@
 ---
-title: "LKB Nano Lab - Publications"
+title: "LKB QFL Lab - Publications"
 layout: publications
 excerpt: Publications."
 sitemap: false

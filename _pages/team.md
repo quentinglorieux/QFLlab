@@ -1,5 +1,5 @@
 ---
-title: "LKB Nano Team"
+title: "LKB QFL Team"
 excerpt: "Team members"
 layout: gridlay
 sitemap: false
