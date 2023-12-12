@@ -160,7 +160,7 @@ pubtit {
 .post-content p::first-letter {
   font-size: 5.5rem;
   line-height: 1rem;
-  color: brown;
+  color: var(--link-color);
 }
 
 .post-content {
