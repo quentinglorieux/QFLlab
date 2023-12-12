@@ -47,20 +47,20 @@ $text-color:            $gray !default;
     --well-bg : rgb(241 245 249);
     --link-color: #c62c2c;
     --link-color-hover: #e33b3b;
-    --navbar-default-bg :#f4f4f4;
+    --navbar-default-bg :rgb(245 247 250);
     --navbar-default-border :#c62c2c;
     --button-hover : #eae8e8;
    }
 
 
    body.dark-mode {
-    --body-bg: rgb(48, 59, 74);
+    --body-bg: rgb(32 42 63);
     --body-color: rgb(226, 232, 240);
     --headings-color: rgb(226, 232, 240);
-    --well-bg: rgb(68, 84, 111);
+    --well-bg: rgb(51 65 85);
     --link-color: rgb(98, 188, 224);
     --link-color-hover: rgb(140, 210, 238);
-    --navbar-default-bg: rgb(51, 65, 85);
+    --navbar-default-bg: rgb(38 48 70);
     --navbar-default-border: rgb(73, 180, 222);
     --button-hover: rgb(30, 41, 59);
   }
