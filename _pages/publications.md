@@ -1,7 +1,7 @@
 ---
 title: "LKB QFL Lab - Publications"
 layout: publications
-excerpt: Publications."
+excerpt: Publications.
 sitemap: false
 permalink: /publications/
 ---
@@ -49,3 +49,6 @@ The **[full list of publications](#full-list-of-publications)** is at the end of
 <div markdown="0">
 {% include publications_list.html %}
 </div>
+
+<script src="{{ site.url }}{{ site.baseurl }}/js/smooth_scroll.js"></script>
+
