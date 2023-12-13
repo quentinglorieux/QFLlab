@@ -12,7 +12,7 @@ superfluidity, turbulence and quantum simulation with **Quantum Fluids of Light 
 
 <!-- Carousel -->
 <div markdown="0">
-{% include carousel.html %}
+    {% include carousel.html %}
 </div>
 
 At the intersection of quantum physics and optics, we focus on **quantum fluids of light within warm or cold atomic clouds**. By probing the novel observables offered by the quantum optics toolbox, we study light at the quantum level and we probe novel phenomena to push the boundaries of our understanding of **degenerate quantum gases (BEC)**.

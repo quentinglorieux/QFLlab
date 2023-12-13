@@ -1,6 +1,6 @@
 ---
 title: "LKB QFL - Research"
-layout: textlay
+layout: research_list
 excerpt: "Research"
 sitemap: false
 permalink: /research/
@@ -8,12 +8,12 @@ permalink: /research/
 
 # Research
 
+{% assign research_themes = site.posts | where_exp:"item", "item.categories contains 'research'"  %}
 
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
-
+<section class="articles">
+{% for post in research_themes %}
+  <div markdown="0">
+    {% include card.html %}
+  </div>
+{% endfor %}
+</section>
