@@ -36,3 +36,18 @@ kramdown:
   smart_quotes: lsquo,rsquo,ldquo,rdquo
   enable_coderay: false
   parse_block_html: true # default for kramdown is false. This will enable using Markdown links
+
+defaults:
+  -
+    scope:
+      path: "_posts/research" # an empty string here means all files in the project
+    values:
+      category: "research"
+      layout: "research"
+
+  -
+    scope:
+      path: "_posts/news" # an empty string here means all files in the project
+    values:
+      category: "news"
+      layout: "post"
