@@ -57,7 +57,7 @@
     {
       "path": "[[workspace]]/_pages",
       "title": "Pages",
-      "previewPath": "{{fm.sitename}}"
+      "previewPath": "/"
     },
     {
       "path": "[[workspace]]/_posts/research",

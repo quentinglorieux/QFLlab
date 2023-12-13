@@ -4,7 +4,6 @@ excerpt: "QFL Lab at LKB Paris."
 layout: homelay
 sitemap: false
 permalink: /
-sitename: ""
 ---
 
 We explore **Quantum Optics** through the prism of **degenerate quantum gases**.<br>
