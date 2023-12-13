@@ -4,6 +4,7 @@ excerpt: "QFL Lab at LKB Paris."
 layout: homelay
 sitemap: false
 permalink: /
+sitename: ""
 ---
 
 We explore **Quantum Optics** through the prism of **degenerate quantum gases**.<br>
@@ -20,7 +21,7 @@ At the intersection of quantum physics and optics, we focus on **quantum fluids 
 We are a dynamic research group, at the [Laboratoire Kastler Brossel](http://www.lkb.upmc.fr). We explore synthetic photonic materials to answer **fundamental physics questions** on degenerare quantum gases and develop **innovative quantum technologies with light** (see [Research](research)).
 
 **Job Offers:**
-We are looking for talented new PhD students, Postdocs, and Master students to join the team [(more info)]({{ site.url }}{{ site.baseurl }}/vacancies) **!**
+We are looking for talented new PhD students, Postdocs, and Master students to join the team [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
 
 
 <!-- Logo -->

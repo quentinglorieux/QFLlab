@@ -1,9 +1,10 @@
 ---
-title: "QFL Lab - Vacancies"
+title: QFL Lab - Openings
 layout: textlay
-excerpt: "Openings"
+excerpt: Openings
 sitemap: false
-permalink: /vacancies/
+permalink: /openings/
+slug: openings
 ---
 
 # Join Us
@@ -14,7 +15,7 @@ We are a group of **friendly and welcoming scientists** and we aim to create an 
 In the group, we work on the grand challenges of quantum gases without the *experimental complexity* of ultra-cold atoms setups. We conduct projects at the interface of instrumental design and novel physics. By joining the group, you will be involved in determining the important and interesting questions, creating and improving instrumental setups, performing measurements, simulating and analyzing the data, and making discoveries.
 
 ### Current Job offers
- - **ERC Postdoc** : 2-3 years ERC postdoc position on quantum fluids of light and syntheric photonic matter. <span> <a href="#mailto:{{site.data.admin.settings.email}}"> <button  class='btn nav-button'> Apply Here  </button></a> </span>
+ - **ERC Postdoc** : 2-3 years ERC postdoc position on quantum fluids of light and syntheric photonic matter. <span> <a href="mailto:{{site.data.admin.settings.email}}"> <button  class='btn nav-button'> Apply Here  </button></a> </span>
 
 <!--  -->
 ### Applications for Master 2, PhD and Postdoc positions
