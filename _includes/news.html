@@ -2,7 +2,9 @@
 <div class="well">
     <h4 class="smallcaps">News</h4>
 
-    {% for article in site.posts limit:9 %}
+    {% assign news_articles = site.posts | where_exp:"item", "item.categories contains 'news'"  %}
+
+    {% for article in news_articles limit:9 %}
         <ul style="margin: 0; padding-left: 15px;">
         <li><span style="font-weight: 500; font-size: 1.5rem;">{{ article.date  | date_to_string: "ordinal", "US" }}</span>
             <div style="font-size: 1.45rem;"> {{ article.title}}  </div>

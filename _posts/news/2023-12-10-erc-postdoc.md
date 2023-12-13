@@ -1,5 +1,6 @@
 ---
 layout: post
+category: news
 title: "New Phd and Master positions (ERC funded) "
 slug: erc-funded-postdoc
 contact: quentin.glorieux@lkb.upmc.fr
