@@ -1,6 +1,6 @@
 <div class="flex-container">
     {% for image in site.static_files %} 
-        {% if image.path contains '/images/rubidium/logo' %} 
+        {% if image.path contains '/images/logos' %} 
         <img src="{{ site.url }}{{ site.baseurl }}{{ image.path }}" style="height: 40px" /> 
         {% endif %}
    {% endfor %}

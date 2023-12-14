@@ -58,16 +58,6 @@
       "path": "[[workspace]]/_pages",
       "title": "Pages",
       "previewPath": "/"
-    },
-    {
-      "path": "[[workspace]]/_posts/research",
-      "title": "Research",
-      "previewPath": "/'research'/"
-    },
-    {
-      "title": "News",
-      "path": "[[workspace]]/_posts/news",
-      "previewPath": "/'news'/"
     }
   ]
 }

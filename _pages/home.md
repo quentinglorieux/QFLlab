@@ -23,8 +23,11 @@ We are a dynamic research group, at the [Laboratoire Kastler Brossel](http://www
 We are looking for talented new PhD students, Postdocs, and Master students to join the team [(more info)]({{ site.url }}{{ site.baseurl }}/openings) **!**
 
 
-<!-- Logo -->
-<div markdown="0">
-{% include logo.html %}
-</div>
-
+{% for project in site.projects %}
+  <h2>
+    <a href="{{ project.url }}">
+      {{ project.title }} 
+    </a>
+  </h2>
+  <p>{{ sproject.slug }}</p>
+{% endfor %}

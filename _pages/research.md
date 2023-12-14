@@ -7,11 +7,10 @@ permalink: /research/
 ---
 
 # Research
-
-{% assign research_themes = site.posts | where_exp:"item", "item.categories contains 'research'"  %}
+<!-- {% assign research_themes = site.posts | where_exp:"item", "item.categories contains 'research'"  %} -->
 
 <section class="articles">
-{% for post in research_themes %}
+{% for post in site.research %}
   <div markdown="0">
     {% include card.html %}
   </div>

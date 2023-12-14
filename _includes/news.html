@@ -2,14 +2,13 @@
 <div class="well">
     <h4 class="smallcaps">News</h4>
 
-    {% assign news_articles = site.posts | where_exp:"item", "item.categories contains 'news'"  %}
 
-    {% for article in news_articles limit:9 %}
+    {% for article in site.news limit:9 %}
         <ul style="margin: 0; padding-left: 15px;">
         <li><span style="font-weight: 500; font-size: 1.5rem;">{{ article.date  | date_to_string: "ordinal", "US" }}</span>
             <div style="font-size: 1.45rem;"> {{ article.title}}  </div>
             <div> 
-                <a href="/news/{{article.slug}}"> 
+                <a href="{{ article.url }}"> 
                 <div class="btn-home" style="margin-top: 4px; font-size: 1.3rem;"> 
                     <span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span> 
                     Read more
