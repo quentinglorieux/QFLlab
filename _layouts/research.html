@@ -2,45 +2,63 @@
 layout: default
 ---
 
-<article class="research" itemscope itemtype="http://schema.org/BlogPosting">
+<article
+  class="research container-fluid"
+  itemscope
+  itemtype="http://schema.org/BlogPosting"
+>
   <header class="post-header">
     <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-    <p class="post-meta">
-      <time
-        datetime="{{ page.date | date_to_xmlschema }}"
-        itemprop="datePublished"
-        >{{ page.date | date_to_long_string: "ordinal" }}</time
-      >{% if page.author %} •
-      <span itemprop="author" itemscope itemtype="http://schema.org/Person"
-        ><span itemprop="name">{{ page.author }}</span></span
-      >{% endif %}
-    </p>
   </header>
 
   <div class="post-wrapper">
     <div class="post-main">
-      <div class="post-content" itemprop="articleBody">{{ content }}</div>
+      <div class="post-content" itemprop="articleBody">{{ content }}
+        <h2> Associated publications</h2>
+
+        <div>
+          <ul style="
+            list-style-type: none;
+            padding: 1px; 
+            margin: 0;">
+            {% for associatedPubli in page.publications %}
+            {% assign publi = site.data.publications.full_list_openalex | where_exp:"item",
+            "item.doi == associatedPubli" | first %}
+            <div class="publi_div" data-year="{{publi.publication_year}}">
+              {% include publication_single.html %}
+            </div>
+            {% endfor %}
+          </ul>
+        </div>
+
+
+      </div>
+
+
+
       <div class="post-image">
-        <img
-          src="/assets/images/news/{{ page.image }}"
-        />
+        <img src="/assets/images/research/{{ page.image }}" />
+        <div>
+          <h2>The team</h2>
+          <ul>
+            {% for teammember in page.team %}
+            <li>
+              <div class="flex" style="padding-bottom: 10px">
+                {% assign member = site.data.team.members | where_exp:"item",
+                "item.name == teammember" | first%}
+                <div class="img-avatar">
+                  <img src="/assets/images/members/{{ member.photo }}" />
+                </div>
+                <div class="text-avatar">
+                  {{ member.name }} <br />
+                  {{ member.info }}
+                </div>
+              </div>
+            </li>
+            {% endfor %}
+          </ul>
+        </div>
       </div>
     </div>
-
-    {% if page.contact %}
-    <div>
-      <span style="font-size: large; font-weight: 500"> Contact: </span
-      ><span> <a href="mailto:{{page.contact}}"> {{page.contact}}</a></span>
-    </div>
-    {%endif%} {% if page.link %}
-    <div class="flex" style="align-items: center; gap: 2px;">
-      <span style="font-size: large; font-weight: 500;"> More information:  </span
-      ><span > 
-        <a  href="/assets/pdf/news/{{page.link}}"> 
-        <svg xmlns="http://www.w3.org/2000/svg" width="32px" height="32px" viewBox="0 -4 20 20"><g fill="currentColor">
-        <path d="M5.523 12.424c.14-.082.293-.162.459-.238a7.878 7.878 0 0 1-.45.606c-.28.337-.498.516-.635.572a.266.266 0 0 1-.035.012a.282.282 0 0 1-.026-.044c-.056-.11-.054-.216.04-.36c.106-.165.319-.354.647-.548m2.455-1.647c-.119.025-.237.05-.356.078a21.148 21.148 0 0 0 .5-1.05a12.045 12.045 0 0 0 .51.858c-.217.032-.436.07-.654.114m2.525.939a3.881 3.881 0 0 1-.435-.41c.228.005.434.022.612.054c.317.057.466.147.518.209a.095.095 0 0 1 .026.064a.436.436 0 0 1-.06.2a.307.307 0 0 1-.094.124a.107.107 0 0 1-.069.015c-.09-.003-.258-.066-.498-.256M8.278 6.97c-.04.244-.108.524-.2.829a4.86 4.86 0 0 1-.089-.346c-.076-.353-.087-.63-.046-.822c.038-.177.11-.248.196-.283a.517.517 0 0 1 .145-.04c.013.03.028.092.032.198c.005.122-.007.277-.038.465z"/><path fill-rule="evenodd" d="M4 0h5.293A1 1 0 0 1 10 .293L13.707 4a1 1 0 0 1 .293.707V14a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V2a2 2 0 0 1 2-2m5.5 1.5v2a1 1 0 0 0 1 1h2zM4.165 13.668c.09.18.23.343.438.419c.207.075.412.04.58-.03c.318-.13.635-.436.926-.786c.333-.401.683-.927 1.021-1.51a11.651 11.651 0 0 1 1.997-.406c.3.383.61.713.91.95c.28.22.603.403.934.417a.856.856 0 0 0 .51-.138c.155-.101.27-.247.354-.416c.09-.181.145-.37.138-.563a.844.844 0 0 0-.2-.518c-.226-.27-.596-.4-.96-.465a5.76 5.76 0 0 0-1.335-.05a10.954 10.954 0 0 1-.98-1.686c.25-.66.437-1.284.52-1.794c.036-.218.055-.426.048-.614a1.238 1.238 0 0 0-.127-.538a.7.7 0 0 0-.477-.365c-.202-.043-.41 0-.601.077c-.377.15-.576.47-.651.823c-.073.34-.04.736.046 1.136c.088.406.238.848.43 1.295a19.697 19.697 0 0 1-1.062 2.227a7.662 7.662 0 0 0-1.482.645c-.37.22-.699.48-.897.787c-.21.326-.275.714-.08 1.103"/></g></svg>
-      </a></span>
-    </div>
-    {%endif%}
   </div>
 </article>

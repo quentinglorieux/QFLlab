@@ -6,7 +6,7 @@
 img {
   margin-bottom: 24px;
   margin-top: 17px;
-  border-radius: 20px;
+  border-radius: 12px;
 }
 
 body {
@@ -141,7 +141,7 @@ pubtit {
 }
 
 .post-wrapper {
-  padding-top: 40px;
+  padding-top: 30px;
   margin-bottom: 50px;
 }
 
@@ -250,14 +250,14 @@ pubtit {
 // Card
 
 
-article {
+article.card-article {
   min-width: 300px; /* Adjust the width based on your preference */
   max-width: 380px;
   box-sizing: border-box;
 }
 
 /* basic article elements styling */
-article h2 {
+.card-article h2 {
   margin: 0 0 18px 0;
   font-size: 2.2rem;
   letter-spacing: 0.06em;
@@ -272,7 +272,7 @@ figure.article-fig {
   overflow: hidden;
 }
 
-article img{
+.card-article img{
   width: 102%;
   object-fit: cover;
   margin-top: 0px;
@@ -342,7 +342,7 @@ Generic layout (demo looks)
 
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 780px){
 
   .article-wrapper {
     display: grid;
@@ -379,3 +379,45 @@ Generic layout (demo looks)
   width: 1px;
 }
 
+// Research page
+article.research p::first-letter {
+  font-size: 2.5rem;
+  line-height: 1rem;
+  color: var(--link-color);}
+
+  article.research h2{
+    font-variant: small-caps
+  }
+
+ .research .post-image{
+    width: 300px;
+    // min-width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    }
+  
+  .research .post-image img{
+    object-fit: contain;
+  }
+
+  .img-avatar {
+    width: 35px; /* Adjust the width as needed */
+    height: 35px; /* Adjust the height as needed */
+    border-radius: 50%; /* To make it a circle */
+    overflow: hidden; /* Ensure the image stays within the circle */
+  }
+  
+  .img-avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain the aspect ratio and cover the container */
+    margin: 0
+  }
+
+  .text-avatar{
+    font-size: 1.4rem;
+    padding-left: 4px;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
