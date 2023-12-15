@@ -18,6 +18,11 @@ collections:
     output: true
   research:
     output: true
+  highlights:
+    output: false
+  # posts:
+  #   output: true
+  #   sidebar_label: News
 
 collections_dir: collections
 
@@ -58,3 +63,17 @@ defaults:
     values:
       category: "news"
       layout: "post"
+  - scope:
+      path: "_project" # an empty string here means all files in the project
+    values:
+      category: "project"
+      layout: "post"
+  - scope:
+      path: "_members" # an empty string here means all files in the project
+      layout: "post"
+
+jekyll_admin:
+  hidden_links:
+    - posts
+
+  homepage: "collections"
