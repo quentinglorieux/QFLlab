@@ -6,7 +6,7 @@
         <div class="article-body">
           <h2>{{ post.title }}</h2>
           <p>
-{{ post.abstract}}
+          {{ post.abstract}}
         </p>
           <a href="#" class="read-more">
             Read more 
@@ -26,7 +26,7 @@ article {
   position: relative;
   border-radius: 16px;
   box-shadow: none;
-  background: #fff;
+  background: var(--well-bg);
   transform-origin: center;
   transition: all 0.4s ease-in-out;
   overflow: hidden;
@@ -108,11 +108,11 @@ Generic layout (demo looks)
   display: grid;
   margin-inline: auto;
   padding-inline: 24px;
-  grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 24px;
 }
 
-@media screen and (max-width: 960px) {
+@media screen and (max-width: 700px) {
   article {
     container: card/inline-size;
   }
@@ -121,7 +121,7 @@ Generic layout (demo looks)
   }
 }
 
-@container card (min-width: 380px) {
+@container card (min-width: 300px) {
   .article-wrapper {
     display: grid;
     grid-template-columns: 100px 1fr;

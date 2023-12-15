@@ -70,6 +70,8 @@ defaults:
       layout: "post"
   - scope:
       path: "_members" # an empty string here means all files in the project
+    values:
+      category: "members"
       layout: "post"
 
 jekyll_admin:

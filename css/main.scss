@@ -180,6 +180,7 @@ pubtit {
   object-fit: scale-down;
 }
 
+// Perso
 .nav-button {
   padding: 2px 10px;
   margin-top: 1px;
@@ -200,6 +201,7 @@ pubtit {
   color: var(--link-color);
 }
 
+// Utility class
 .smallcaps{
   font-variant: small-caps
 }
@@ -207,6 +209,9 @@ pubtit {
 .flex{
   display: flex;
 }
+
+
+
 
 /* Add this CSS to your stylesheet */
 @keyframes fadeInOut {

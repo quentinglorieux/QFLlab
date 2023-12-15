@@ -2,5 +2,13 @@
 layout: default
 ---
 <div style="min-height: 70vh;">
-{{ content }}
+    {{ content }}
+    <section class="articles">
+        {% for post in site.research %}
+          <div markdown="0">
+            {% include card.html %}
+          </div>
+        {% endfor %}
+        </section>
+        
 </div>
