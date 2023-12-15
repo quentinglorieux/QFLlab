@@ -1,6 +1,6 @@
 ---
 title: "LKB QFL - Research"
-layout: research_list
+layout: research_page
 excerpt: "Research"
 sitemap: false
 permalink: /research/
