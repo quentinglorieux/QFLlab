@@ -4,5 +4,5 @@ source "https://rubygems.org"
 
 # gem "rails"
 
-gem 'jekyll-manager', group: :jekyll_plugins
+gem 'jekyll-admin', group: :jekyll_plugins
 gem "jekyll", "~> 4.3"
