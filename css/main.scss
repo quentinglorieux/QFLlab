@@ -247,6 +247,138 @@ pubtit {
 
 
 
+// Card
 
 
+article {
+  min-width: 300px; /* Adjust the width based on your preference */
+  max-width: 380px;
+  box-sizing: border-box;
+}
+
+/* basic article elements styling */
+article h2 {
+  margin: 0 0 18px 0;
+  font-size: 2.2rem;
+  letter-spacing: 0.06em;
+  transition: color 0.3s ease-out;
+  font-variant: small-caps;
+}
+
+figure {
+  margin: 0;
+  padding: 0;
+  aspect-ratio: 1;
+  overflow: hidden;
+
+}
+
+article img{
+  width: 102%;
+  object-fit: cover;
+  margin-top: 0px;
+
+
+}
+
+.article-body {
+  padding: 24px;
+}
+
+article a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+article a .icon {
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  margin-left: 5px;
+  opacity: 90%;
+  transition: all 0.3s;
+}
+
+/* using the has() relational pseudo selector to update our custom properties */
+article a:hover {
+  transform: translateX(5px);
+  opacity: 100%;
+  transition: all 0.3s ease-in-out;
+}
+
+/************************ 
+Generic layout (demo looks)
+**************************/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.articles {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 14px;
+  margin-top: 30px;
+  margin-bottom: 10%;
+
+}
+
+.article-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background: var(--well-bg);
+  overflow: hidden;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+  .article-wrapper {
+    display: grid;
+    grid-template-columns: 120px 2fr;
+    gap: 2px;
+    width: 400px;
+    height: 120px;
+  }
+
+  .article-body {
+    padding-left: 10;
+  }
+  .article-body p{
+    display: none;
+  }
+  figure {
+    width: 100%;
+    height: 100%;
+    // overflow: hidden;
+  }
+  figure img {
+    margin: 0px;
+    // height: 100%;
+  }
+}
+
+.sr-only:not(:focus):not(:active) {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
 
