@@ -34,9 +34,11 @@ Load your images in the `images` folder.
 - in the `logo` folder, put the logo for the homepage.
 - in the `members` folder, put your members.
 - in the `members/placeholders` folder, put the images for missing members.
+- in the `news` folder, put your news.
+- in the `research` folder, put your research.
 
-## Edit your datas
-Open the `_data` folder.
+## Edit your datas (members list and publications)
+Open the `_data` folder and edit the yaml files.
 
 ### Fundings
 Open the `fundings.yml` file, then edit your fundings following yml syntax:
@@ -52,6 +54,14 @@ Open the `fundings.yml` file, then edit your fundings following yml syntax:
 Open the `publications` folder then the `full_list_openalex.json` is supposed to be populated with your publication data (see Create your Publication list above).
 Then the file `highlights.json` contains the highlighted publications (with a picture). 
 The picture must be saved in `images/highlights/`
+The format is 
+```yaml
+- title: High-Resolution Coherent Probe Spectroscopy of a Polariton Quantum Fluid
+  image: bragg_polariton1.png
+  description: 
+    A promising spectroscopy technique to measure the dispersion relation of a Polariton Quantum Fluid
+    even at very low momenta, and with access to the ghost (negative energy) modes.
+```
 
 ### Team members
 Open the `team` folder.
@@ -93,10 +103,47 @@ For alumni visitors (when a visitor, bachelor or master students leaves) edit th
   pdf:
   ```
 
-## Edit the homepage
+## Edit the Pages
+### Homepage
 Open the `_pages` folder then `home.md`
 This file contains the markup for the homepage.
 Some HTML codes are included using e.g. `{% include carousel.html %}`.
 Do not edit this part (except if you want to remove it from the template).
 This file content can be modified using *markdown* syntax.
 
+### Job page 
+Open the `_pages` folder then `openings.md`
+This file contains the markup for the job page.
+
+## Edit Collections
+There are 4 collections:
+- members: for detailled pages of each member
+- news: for the news of the homepage
+- research: to list the research topics
+- projects: to present recent research projects
+
+### Member collection
+
+### News collection
+
+### Research collection
+Edit the md files with this frontmatter:
+```yaml
+---
+title: Superfluidity
+slug: superfluidity
+abstract : Superfluidity is one of the most striking manifestation of quantum many-body physics. Initially observed in liquid Helium, the realization of atomic Bose-Einstein condensates (BEC) has allowed detailed investigations of this macroscopic quantum phenomenon exploiting the precise control over the system parameters. 
+image: bottle.png
+team: 
+    - Quentin Glorieux
+    - Tangui Aladjidi
+    - Chengjie Ding
+    - Clara Piekarski
+publications: 
+    - https://doi.org/10.1103/physrevlett.129.100602
+    - https://doi.org/10.1051/epjconf/202226608004
+    - https://doi.org/10.1103/physrevlett.127.023401
+---
+```
+
+### Project collection
