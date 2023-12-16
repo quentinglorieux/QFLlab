@@ -9,11 +9,13 @@
 	</div>
 	<div class="collapse navbar-collapse" id="navbar-collapse-1">
 	  <ul class="nav navbar-nav navbar-right smallcaps">
+		
 		<li><a href="{{ site.url }}{{ site.baseurl }}/">Home</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/team">Team</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/openings">Job offers</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/publications">Publications</a></li>
 		<li><a href="{{ site.url }}{{ site.baseurl }}/research">Research</a></li>
+		<li><div id="search" class="algo-search"></div></li>
 		<li>
 			<button id="darkModeToggle">
 				<span id="darkModeIconContainer">
@@ -34,5 +36,43 @@
 
 <script src="/js/darkmode.js"></script>
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"></script>
+<script type="text/javascript">
+  algoliasearchNetlify({
+    appId: 'UKFG0RW50U',
+    apiKey: 'fba1d4fb70e6258abf51de96fda83b04',
+    siteId: 'adf6a35d-89cc-457b-8626-3489d6b32b97',
+    branch: 'main',
+    selector: 'div#search',
+	detached: true,
+	debug: true,
+	placeholder: 'Search...',
+	theme: {
+		mark: 'var(--headings-color)',
+		background: 'var(--navbar-default-bg)',
+		selected: 'var(--dark-well-bg)',
+		text: 'var(--body-color)',
+		colorSourceIcon: '#d6d6e7',
+	  }
+  });
+</script>
 
+<style> 
+	.aa-DetachedContainer--modal{
+		top:100px
+	}
+	.aa-DetachedSearchButton{
+		border: 0;}
+	.aa-List{
+	margin-top:20px}
+
+	.aa-Item .aa-ItemTitle{
+		font-weight: 500;
+	}
+	.aa-ItemContent mark{
+		font-weight: 500;
+		padding: 0;
+		padding-right: 0.1em;
+	}
+</style>
 

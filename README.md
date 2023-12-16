@@ -148,5 +148,5 @@ publications:
 
 ### Project collection
 
-## Serach 
+## Search 
 Search index is created using Algolia

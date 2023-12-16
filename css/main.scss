@@ -437,3 +437,37 @@ article.research p::first-letter {
     margin-top: auto;
     margin-bottom: auto;
   }
+
+  // algolia
+
+  .algo-search{
+// max-width: 30px;
+overflow: hidden;
+padding-top: 2px;
+height: 50px;
+display: flex;
+align-items: center;
+
+  }
+
+  .aa-powered-by{
+    font-size: 8px;
+  }
+
+  .aa-powered-by-link{
+    height: 12px;
+    width: 46px;
+  }
+
+  .aa-DetachedSearchButton{
+padding-right: 15px;
+  }
+
+  .aa-Item a:hover{
+    text-decoration: none;
+  }
+
+  .aa-Item{
+    padding: 12px 0;
+  }
+
