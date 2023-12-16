@@ -3,8 +3,19 @@ title: Out-of-equilibrium physics
 slug: out-of-equilibrium
 abstract: We study out-of-equilibrium phenomena in a paraxial fluid of light. Since we can shape the fluid density and velocity with a high degree of control and detect the full wave-function of our state (density and phase) we have access to novel experiments with unprecedented control. 
 image: fluid2.png
-team: [Quentin Glorieux, Tangui Aladjidi, Myrann Baker-Rasooli, Clara Piekarski, Alix Merolle]
-publications: [https://doi.org/10.1103/physrevlett.129.100602, https://doi.org/10.1103/physrevlett.126.183901, https://doi.org/10.1209/0295-5075/134/24001, https://doi.org/10.1103/physreva.104.013515, https://doi.org/10.1364/optica.405946, https://doi.org/10.1103/physrevlett.123.215301]
+team: 
+    - Quentin Glorieux
+    - Tangui Aladjidi
+    - Myrann Baker-Rasooli
+    - Clara Piekarski
+    - Alix Merolle
+publications: 
+    - https://doi.org/10.1103/physrevlett.129.100602
+    - https://doi.org/10.1103/physrevlett.126.183901
+    - https://doi.org/10.1209/0295-5075/134/24001
+    - https://doi.org/10.1103/physreva.104.013515
+    - https://doi.org/10.1364/optica.405946
+    - https://doi.org/10.1103/physrevlett.123.215301
 ---
 ## Quantum Quenches
 

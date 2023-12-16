@@ -3,9 +3,19 @@ title: Quantum simulation
 slug: quantum-simulation
 abstract: A major milestone for the fluid of light community is to reach the level of control and the precision of detection to conduct quantum simulation with light
 image: f2.png
-team: [Quentin Glorieux, Maxime Jacquet, Quentin Schibler, Simon Lepleux]
-publications: [https://doi.org/10.1088/1367-2630/acce5a, https://doi.org/10.1103/physrevlett.130.111501, https://doi.org/10.1038/s41467-022-30603-1, https://doi.org/10.1103/physrevlett.128.093601, https://doi.org/10.1140/epjd/s10053-022-00477-5, https://doi.org/10.1002/qute.202000052, https://doi.org/10.1098/rsta.2019.0225]
-
+team: 
+    - Quentin Glorieux
+    - Maxime Jacquet
+    - Quentin Schibler
+    - Simon Lepleux
+publications: 
+    - https://doi.org/10.1088/1367-2630/acce5a
+    - https://doi.org/10.1103/physrevlett.130.111501
+    - https://doi.org/10.1038/s41467-022-30603-1
+    - https://doi.org/10.1103/physrevlett.128.093601
+    - https://doi.org/10.1140/epjd/s10053-022-00477-5
+    - https://doi.org/10.1002/qute.202000052
+    - https://doi.org/10.1098/rsta.2019.0225
 ---
 
 

@@ -3,8 +3,18 @@ title: Superfluidity
 slug: superfluidity
 abstract : Superfluidity is one of the most striking manifestation of quantum many-body physics. Initially observed in liquid Helium, the realization of atomic Bose-Einstein condensates (BEC) has allowed detailed investigations of this macroscopic quantum phenomenon exploiting the precise control over the system parameters. In the group, we study superfluidity of light in hot atomic vapor with special interest on low dimensionality and beyond mean field effects.
 image: bottle.png
-team: [Quentin Glorieux, Tangui Aladjidi ,Chengjie Ding, Clara Piekarski]
-publications: [https://doi.org/10.1103/physrevlett.129.100602, https://doi.org/10.1051/epjconf/202226608004, https://doi.org/10.1103/physrevlett.127.023401, https://doi.org/10.1103/physrevresearch.2.043297, https://doi.org/10.1007/s00340-020-07452-1, https://doi.org/10.1103/physrevlett.121.183604]
+team: 
+    - Quentin Glorieux
+    - Tangui Aladjidi
+    - Chengjie Ding
+    - Clara Piekarski
+publications: 
+    - https://doi.org/10.1103/physrevlett.129.100602
+    - https://doi.org/10.1051/epjconf/202226608004
+    - https://doi.org/10.1103/physrevlett.127.023401
+    - https://doi.org/10.1103/physrevresearch.2.043297
+    - https://doi.org/10.1007/s00340-020-07452-1
+    - https://doi.org/10.1103/physrevlett.121.183604
 ---
 
 ## Introduction
