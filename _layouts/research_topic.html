@@ -40,7 +40,10 @@ layout: default
         <img src="/assets/images/research/{{ page.image }}" />
         <div>
           <h2>The team</h2>
-          <ul>
+          <ul style="
+          list-style-type: none;
+          padding: 1px; 
+          margin: 0;">
             {% for teammember in page.team %}
             <li>
               <div class="flex" style="padding-bottom: 10px">
@@ -49,7 +52,6 @@ layout: default
 
                 <div class="img-avatar">
                 
-
                 {% if member.photo %}
                   <img src="/assets/images/members/{{ member.photo }}"  />
                   {%else%}
