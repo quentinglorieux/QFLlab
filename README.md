@@ -120,7 +120,7 @@ There are 4 collections:
 - members: for detailled pages of each member
 - news: for the news of the homepage
 - research: to list the research topics
-- projects: to present recent research projects
+- projects: to present the recent research projects
 
 ### Member collection
 
