@@ -112,7 +112,7 @@ Do not edit this part (except if you want to remove it from the template).
 This file content can be modified using *markdown* syntax.
 
 ### Job page 
-Open the `_pages` folder then `openings.md`
+Open the `_pages` folder then `openings.md`.
 This file contains the markup for the job page.
 
 ## Edit the collections
