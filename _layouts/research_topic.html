@@ -46,9 +46,19 @@ layout: default
               <div class="flex" style="padding-bottom: 10px">
                 {% assign member = site.data.team.members | where_exp:"item",
                 "item.name == teammember" | first%}
+
                 <div class="img-avatar">
-                  <img src="/assets/images/members/{{ member.photo }}" />
-                </div>
+                
+
+                {% if member.photo %}
+                  <img src="/assets/images/members/{{ member.photo }}"  />
+                  {%else%}
+                  {% assign placeholder_images = site.static_files | where_exp:"file", "file.path contains 'members/placeholders'" %}
+                  {% assign random_index = placeholder_images | sample%}
+                  <img src="{{ site.url }}{{ site.baseurl }}{{ random_index.path }}"  />
+                {%endif%}
+              </div>
+
                 <div class="text-avatar">
                   {{ member.name }} <br />
                   {{ member.info }}
