@@ -115,7 +115,7 @@ This file content can be modified using *markdown* syntax.
 Open the `_pages` folder then `openings.md`
 This file contains the markup for the job page.
 
-## Edit Collections
+## Edit the collections
 There are 4 collections:
 - members: for detailled pages of each member
 - news: for the news of the homepage
