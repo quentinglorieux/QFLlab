@@ -1,4 +1,3 @@
-<!-- _includes/team_member.html -->
 
 {% assign number_printed = 0 %}
 {% assign section = include.s %}
@@ -12,9 +11,7 @@
 
 {% if even_odd == 0 %}<div class="row">{% endif %}
 
-  <div class="col-sm-6 clearfix">
-
-
+<div class="col-sm-6 clearfix">
 
 {% if member.photo %}
 <img src="/assets/images/members/{{ member.photo }}" class="img-responsive" width="25%" style="float: left" />
@@ -23,7 +20,7 @@
 {% assign random_index = placeholder_images | sample%}
 <img src="{{ site.url }}{{ site.baseurl }}{{ random_index.path }}" class="img-responsive" width="25%" style="float: left" />
   {%endif%}
-  <h4>{{ member.name }}</h4>
+  <h4>{{ member.name }} {% for staff in site.members %} {% if staff.title == member.name %} - <a href="{{ staff.url}}">CV </a>  {% endif %} {% endfor %}</h4>
   {{ member.info }} <br>
   <a href="mailto:{{ member.email }}"> {{member.email }} </a>
   <br> 

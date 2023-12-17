@@ -6,6 +6,9 @@ sitemap: false
 permalink: /team/
 ---
 
+
+
+
 {% assign sections = site.data.admin.team_section | sort: "order" %}
 
 {% for sec in sections %}

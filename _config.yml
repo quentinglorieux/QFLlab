@@ -20,6 +20,8 @@ collections:
     output: true
   highlights:
     output: false
+  members: 
+    output: true
   # posts:
   #   output: true
   #   sidebar_label: News
@@ -72,7 +74,7 @@ defaults:
       path: "_members" # an empty string here means all files in the project
     values:
       category: "members"
-      layout: "post"
+      layout: "cv"
 
 jekyll_admin:
   hidden_links:
