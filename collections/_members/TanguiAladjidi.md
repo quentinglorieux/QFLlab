@@ -1,23 +1,22 @@
 ---
-# title: Quentin Glorieux
 
 # Personal info
-name: Quentin Glorieux
-position: Associate Professor
-email: quentin.glorieux@lkb.upmc.fr
+name: Tangui Aladjidi
+position: Postdoc
+email: email@lkb.upmc.fr
 email_title: Contact
-phone: +33.1.4427.4393
+phone: 
 # phone_title: Phone (Phone title override)
-website: lab.quentinglorieux.fr
+website: 
 # website_title: Web (Website title override)
 
 # Social links
-twitter_username: quentinglorieux
-github_username:  quentinglorieux
-linkedin_username: quentinglorieux
-# youtube_username: jekyll
-orcid_username: 0000-0003-0903-0233
-googlescholar_username: c4Y1-REAAAAJ
+twitter_username: x
+github_username:  x
+linkedin_username: x
+# youtube_username: x
+orcid_username: x
+googlescholar_username: x
 # additional_links:
 # - title: Link name
 #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
@@ -25,7 +24,7 @@ googlescholar_username: c4Y1-REAAAAJ
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: assets/images/members/Glorieux.jpg
+about_profile_image: assets/images/members/Tangui.jpg
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -33,7 +32,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/assets/images/logos/07-logo-erc.jpg "Trees")
+    - Images ![alt text](/assets/images/members/Tangui.jpg "Trees")
 
 details:
   - title: Positions
@@ -41,40 +40,14 @@ details:
     content:
       - layout: left
         title: Sorbonne Université
-        sub_title: Maitre de Conférences
+        sub_title: X
         caption: 2016 - present
         link: sorbonne-universite.fr
         quote: > 
             Laboratoire Kastler Brossel
         description:  # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie.
-      - layout : left 
-        title: NIST
-        sub_title: Postdoc
-        caption: 2010 - 2013
-        link: nist.gov
-        quote: > 
-            Bill Phillips' group
-        description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie.
-      - layout : left 
-        title: ANU
-        sub_title: Postdoc
-        caption: 2011 - 2012
-        link: 
-        quote: > 
-            Ping Koy Lam's group
-        description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie.    
-      - layout : left 
-        title: Paris Diderot
-        sub_title: PhD thesis
-        caption: 2007 - 2010
-        link: 
-        quote: > 
-            Titre
-        description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
+      
 
   - title: Teaching
     layout: list
@@ -116,10 +89,11 @@ details:
           Short overview of the project (optional)
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
+  
   - title: Publications # Title for the section
     layout: publi # Type of content section (list/text)
     content:
-      yaml_file: QuentinGlorieux
+      yaml_file: Tangui
       filter: true
 
   - title: A Little More About Me
