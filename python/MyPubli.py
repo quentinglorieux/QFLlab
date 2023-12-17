@@ -1,4 +1,4 @@
-# Usage: python ExtractPubli.py <input_parameter>"
+# Usage: python MyPubli.py <input_parameter>"
 # input_parameter is either ORCID or first_name last_name
 from pyalex import Works, Authors
 import pyalex
@@ -29,9 +29,6 @@ def get_openalex_id(input_identifier):
         return 'A' + extracted_id
     else:
         return    
-
-# orcid_result = get_openalex_id("0000-0002-4297-0502")
-# name_result = get_openalex_id("Hanna Le Jeannic")
 
 def df_creation(openalex_id):
     pager = (
@@ -95,7 +92,6 @@ def extract_info(row):
             + str(row["publication_year"])
             + ").",
         },
-        # "orcid": [entry["author"]["orcid"] for entry in row["authorships"]],
         "doi": row["doi"],
         "is_oa": row["open_access"]["is_oa"],
         "oa_url": row["open_access"]["oa_url"],
@@ -106,11 +102,10 @@ def extract_info(row):
     }
 
 
-# Export JSON file
+# Export YAM: file
 def export_data(df):
     author_pub_list = df.apply(extract_info, axis=1).tolist()
-
-    with open('../_data/publications/full_list_openalex.yaml', 'w+') as f:
+    with open('../_data/publications/members/'+sys.argv[2]+'.yml', 'w+') as f:
         for yaml_obj in author_pub_list:
             f.write(yaml.dump([yaml_obj], default_flow_style=False , sort_keys=False))
             f.write("\n")
@@ -119,8 +114,8 @@ def export_data(df):
 
 
 def main():
-    if len(sys.argv) != 2:
-        print("Usage: python ExtractPubli.py <input_parameter>")
+    if len(sys.argv) != 3:
+        print("Usage: python ExtractPubli.py <input_parameter> <your_name>")
         sys.exit(1)
 
     input_parameter = sys.argv[1]

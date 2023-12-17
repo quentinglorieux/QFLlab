@@ -1,0 +1,17 @@
+<div class="row clearfix">
+  <div class="col-md-12">
+    <div id="yearButtonsContainer"></div>
+    <div style="padding-top: 20px; padding-bottom: 50px">
+      <ol reversed>
+        {% for publi in site.data.publications.members.QuentinGlorieux %}
+        <div class="publi_div" data-year="{{publi.publication_year}}">
+          {% include publication_single.html %}
+        </div>
+        {% endfor %}
+      </ol>
+    </div>
+  
+
+  </div>
+</div>
+<script src="{{ site.url }}{{ site.baseurl }}/js/filterYear.js"></script>

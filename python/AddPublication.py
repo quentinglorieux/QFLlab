@@ -1,3 +1,4 @@
+# Usage: python AddPublication.py <DOI>
 from pyalex import Works
 import pyalex
 import sys

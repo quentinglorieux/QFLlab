@@ -1,0 +1,86 @@
+- title: Hot atomic vapors for nonlinear and quantum optics
+  authors:
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Tangui Aladjidi
+    orcid: null
+  - name: Paul D. Lett
+    orcid: https://orcid.org/0000-0002-7929-5547
+  - name: Robin Kaiser
+    orcid: https://orcid.org/0000-0001-5194-3680
+  link:
+    url: https://doi.org/10.1088/1367-2630/acce5a
+    display: New Journal of Physics 25 5 (2023).
+  doi: https://doi.org/10.1088/1367-2630/acce5a
+  is_oa: true
+  oa_url: https://iopscience.iop.org/article/10.1088/1367-2630/acce5a/pdf
+  publication_year: 2023
+  journal: New Journal of Physics
+  journal_abbreviation: ''
+  biblio:
+    volume: '25'
+    issue: '5'
+    first_page: '051201'
+    last_page: '051201'
+
+- title: Analogue cosmological particle creation in an ultracold quantum fluid of
+    light
+  authors:
+  - name: Jeff Steinhauer
+    orcid: null
+  - name: Murad Abuzarli
+    orcid: null
+  - name: Tangui Aladjidi
+    orcid: null
+  - name: "Tom Bienaim\xE9"
+    orcid: null
+  - name: Clara Piekarski
+    orcid: https://orcid.org/0000-0001-6871-6003
+  - name: Wei Liu
+    orcid: https://orcid.org/0000-0002-3865-8145
+  - name: E. Giacobino
+    orcid: null
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  link:
+    url: https://doi.org/10.1038/s41467-022-30603-1
+    display: Nature Communications 13 1 (2022).
+  doi: https://doi.org/10.1038/s41467-022-30603-1
+  is_oa: true
+  oa_url: https://www.nature.com/articles/s41467-022-30603-1.pdf
+  publication_year: 2022
+  journal: Nature Communications
+  journal_abbreviation: ''
+  biblio:
+    volume: '13'
+    issue: '1'
+    first_page: null
+    last_page: null
+
+- title: Paraxial quantum fluids light in hot atomic vapors
+  authors:
+  - name: Murad Abuzarli
+    orcid: null
+  - name: Tangui Aladjidi
+    orcid: null
+  - name: Nicolas Cherroret
+    orcid: https://orcid.org/0000-0002-6956-0159
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  link:
+    url: https://doi.org/10.1051/epjconf/202226608004
+    display: Epj Web of Conferences 266 None (2022).
+  doi: https://doi.org/10.1051/epjconf/202226608004
+  is_oa: true
+  oa_url: https://www.epj-conferences.org/articles/epjconf/pdf/2022/10/epjconf_eosam2022_08004.pdf
+  publication_year: 2022
+  journal: Epj Web of Conferences
+  journal_abbreviation: ''
+  biblio:
+    volume: '266'
+    issue: null
+    first_page: 08004
+    last_page: 08004
+

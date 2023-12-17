@@ -1,0 +1,705 @@
+- title: Highly Photostable Zn-Treated Halide Perovskite Nanocrystals for Efficient
+    Single Photon Generation
+  authors:
+  - name: "Marianna D\u2019Amato"
+    orcid: null
+  - name: Lucien Belzane
+    orcid: null
+  - name: Corentin Dabard
+    orcid: https://orcid.org/0000-0003-1214-6026
+  - name: Mathieu G. Silly
+    orcid: https://orcid.org/0000-0002-0302-8442
+  - name: G. Patriarche
+    orcid: https://orcid.org/0000-0002-3917-2470
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Emmanuel Lhuillier
+    orcid: https://orcid.org/0000-0003-2582-1422
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  link:
+    url: https://doi.org/10.1021/acs.nanolett.3c02739
+    display: Nano Letters 23 22 (2023).
+  doi: https://doi.org/10.1021/acs.nanolett.3c02739
+  is_oa: false
+  oa_url: null
+  publication_year: 2023
+  journal: Nano Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '23'
+    issue: '22'
+    first_page: '10228'
+    last_page: '10235'
+
+- title: A quantum-bit encoding converter
+  authors:
+  - name: Tom Darras
+    orcid: null
+  - name: B. E. Asenbeck
+    orcid: null
+  - name: Giovanni Guccione
+    orcid: https://orcid.org/0000-0003-3710-3217
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1038/s41566-022-01117-5
+    display: Nature Photonics 17 2 (2022).
+  doi: https://doi.org/10.1038/s41566-022-01117-5
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/2211.10457
+  publication_year: 2022
+  journal: Nature Photonics
+  journal_abbreviation: ''
+  biblio:
+    volume: '17'
+    issue: '2'
+    first_page: '165'
+    last_page: '170'
+
+- title: "Publisher Correction: Dynamical photon\u2013photon interaction mediated\
+    \ by a quantum emitter"
+  authors:
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Alexey Tiranov
+    orcid: https://orcid.org/0000-0003-0791-8730
+  - name: Jacques Carolan
+    orcid: https://orcid.org/0000-0002-5736-2753
+  - name: "Tom\xE1s Ramos"
+    orcid: https://orcid.org/0000-0003-2182-7878
+  - name: Ying Wang
+    orcid: https://orcid.org/0000-0002-8710-515X
+  - name: Martin Hayhurst Appel
+    orcid: https://orcid.org/0000-0001-7318-0098
+  - name: Sven-Bodo Scholz
+    orcid: https://orcid.org/0000-0002-8663-1043
+  - name: A. D. Wieck
+    orcid: https://orcid.org/0000-0001-9776-2922
+  - name: Arne Ludwig
+    orcid: https://orcid.org/0000-0002-2871-7789
+  - name: Nir Rotenberg
+    orcid: https://orcid.org/0000-0002-8172-7222
+  - name: Leonardo Midolo
+    orcid: https://orcid.org/0000-0003-0237-587X
+  - name: "Juan Jos\xE9 Garc\xEDa-Ripoll"
+    orcid: https://orcid.org/0000-0002-5758-8461
+  - name: "Anders S. S\xF8rensen"
+    orcid: https://orcid.org/0000-0003-1337-9163
+  - name: Peter Lodahl
+    orcid: https://orcid.org/0000-0002-9348-9591
+  link:
+    url: https://doi.org/10.1038/s41567-022-01823-5
+    display: Nature Physics 18 11 (2022).
+  doi: https://doi.org/10.1038/s41567-022-01823-5
+  is_oa: true
+  oa_url: https://www.nature.com/articles/s41567-022-01823-5.pdf
+  publication_year: 2022
+  journal: Nature Physics
+  journal_abbreviation: ''
+  biblio:
+    volume: '18'
+    issue: '11'
+    first_page: '1379'
+    last_page: '1379'
+
+- title: "Dynamical photon\u2013photon interaction mediated by a quantum emitter"
+  authors:
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Alexey Tiranov
+    orcid: https://orcid.org/0000-0003-0791-8730
+  - name: Jacques Carolan
+    orcid: https://orcid.org/0000-0002-5736-2753
+  - name: "Tom\xE1s Ramos"
+    orcid: https://orcid.org/0000-0003-2182-7878
+  - name: Ying Wang
+    orcid: https://orcid.org/0000-0002-8710-515X
+  - name: Martin Hayhurst Appel
+    orcid: https://orcid.org/0000-0001-7318-0098
+  - name: Sven Scholz
+    orcid: https://orcid.org/0000-0002-4057-8830
+  - name: A. D. Wieck
+    orcid: https://orcid.org/0000-0001-9776-2922
+  - name: Arne Ludwig
+    orcid: https://orcid.org/0000-0002-2871-7789
+  - name: Nir Rotenberg
+    orcid: https://orcid.org/0000-0002-8172-7222
+  - name: Leonardo Midolo
+    orcid: https://orcid.org/0000-0003-0237-587X
+  - name: "Juan Jos\xE9 Garc\xEDa-Ripoll"
+    orcid: https://orcid.org/0000-0002-5758-8461
+  - name: "Anders S. S\xF8rensen"
+    orcid: https://orcid.org/0000-0003-1337-9163
+  - name: Peter Lodahl
+    orcid: https://orcid.org/0000-0002-9348-9591
+  link:
+    url: https://doi.org/10.1038/s41567-022-01720-x
+    display: Nature Physics 18 10 (2022).
+  doi: https://doi.org/10.1038/s41567-022-01720-x
+  is_oa: true
+  oa_url: https://hal.science/hal-03857796/document
+  publication_year: 2022
+  journal: Nature Physics
+  journal_abbreviation: ''
+  biblio:
+    volume: '18'
+    issue: '10'
+    first_page: '1191'
+    last_page: '1195'
+
+- title: Chiral quantum optics in broken-symmetry and topological photonic crystal
+    waveguides
+  authors:
+  - name: Nils Hauff
+    orcid: null
+  - name: Stephen Hughes
+    orcid: https://orcid.org/0000-0002-5486-2015
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Peter Lodahl
+    orcid: https://orcid.org/0000-0002-9348-9591
+  - name: Nir Rotenberg
+    orcid: https://orcid.org/0000-0002-8172-7222
+  link:
+    url: https://doi.org/10.1103/physrevresearch.4.023082
+    display: Physical review research 4 2 (2022).
+  doi: https://doi.org/10.1103/physrevresearch.4.023082
+  is_oa: true
+  oa_url: http://link.aps.org/pdf/10.1103/PhysRevResearch.4.023082
+  publication_year: 2022
+  journal: Physical review research
+  journal_abbreviation: ''
+  biblio:
+    volume: '4'
+    issue: '2'
+    first_page: null
+    last_page: null
+
+- title: Experimental Fock-state bunching capability of non-ideal single-photon states
+  authors:
+  - name: Petr Zapletal
+    orcid: null
+  - name: Tom Darras
+    orcid: null
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Giovanni Guccione
+    orcid: https://orcid.org/0000-0003-3710-3217
+  - name: Julien Laurat
+    orcid: null
+  - name: Radim Filip
+    orcid: https://orcid.org/0000-0003-4114-6068
+  link:
+    url: https://doi.org/10.1364/optica.419230
+    display: Optica 8 5 (2021).
+  doi: https://doi.org/10.1364/optica.419230
+  is_oa: true
+  oa_url: https://doi.org/10.1364/optica.419230
+  publication_year: 2021
+  journal: Optica
+  journal_abbreviation: ''
+  biblio:
+    volume: '8'
+    issue: '5'
+    first_page: '743'
+    last_page: '743'
+
+- title: Experimental Reconstruction of the Few-Photon Nonlinear Scattering Matrix
+    from a Single Quantum Dot in a Nanophotonic Waveguide
+  authors:
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: "Tom\xE1s Ramos"
+    orcid: https://orcid.org/0000-0003-2182-7878
+  - name: Signe Simonsen
+    orcid: https://orcid.org/0000-0003-0376-7488
+  - name: Tommaso Pregnolato
+    orcid: https://orcid.org/0000-0003-4062-8102
+  - name: Zhe Liu
+    orcid: https://orcid.org/0000-0003-0672-4328
+  - name: "R\xFCdiger Schott"
+    orcid: https://orcid.org/0000-0002-9320-0313
+  - name: A. D. Wieck
+    orcid: https://orcid.org/0000-0001-9776-2922
+  - name: Arne Ludwig
+    orcid: https://orcid.org/0000-0002-2871-7789
+  - name: Nir Rotenberg
+    orcid: https://orcid.org/0000-0002-8172-7222
+  - name: "Juan Jos\xE9 Garc\xEDa-Ripoll"
+    orcid: https://orcid.org/0000-0001-8993-4624
+  - name: Peter Lodahl
+    orcid: https://orcid.org/0000-0002-9348-9591
+  link:
+    url: https://doi.org/10.1103/physrevlett.126.023603
+    display: Physical Review Letters 126 2 (2021).
+  doi: https://doi.org/10.1103/physrevlett.126.023603
+  is_oa: true
+  oa_url: https://hal.science/hal-03271387/document
+  publication_year: 2021
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '126'
+    issue: '2'
+    first_page: null
+    last_page: null
+
+- title: Connecting heterogeneous quantum networks by hybrid entanglement swapping
+  authors:
+  - name: Giovanni Guccione
+    orcid: https://orcid.org/0000-0003-3710-3217
+  - name: Tom Darras
+    orcid: null
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Varun B. Verma
+    orcid: https://orcid.org/0000-0001-6541-1837
+  - name: Sae Woo Nam
+    orcid: https://orcid.org/0000-0002-7589-6935
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1126/sciadv.aba4508
+    display: Science Advances 6 22 (2020).
+  doi: https://doi.org/10.1126/sciadv.aba4508
+  is_oa: true
+  oa_url: https://www.science.org/doi/pdf/10.1126/sciadv.aba4508?download=true
+  publication_year: 2020
+  journal: Science Advances
+  journal_abbreviation: ''
+  biblio:
+    volume: '6'
+    issue: '22'
+    first_page: null
+    last_page: null
+
+- title: Coherent nonlinear optics of quantum emitters in nanophotonic waveguides
+  authors:
+  - name: "Pierre T\xFCrschmann"
+    orcid: https://orcid.org/0000-0002-2491-8276
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Signe Simonsen
+    orcid: https://orcid.org/0000-0003-0376-7488
+  - name: Harald R. Haakh
+    orcid: null
+  - name: "Stephan G\xF6tzinger"
+    orcid: https://orcid.org/0000-0003-4975-0112
+  - name: Vahid Sandoghdar
+    orcid: https://orcid.org/0000-0003-2594-4801
+  - name: Peter Lodahl
+    orcid: https://orcid.org/0000-0002-9348-9591
+  - name: Nir Rotenberg
+    orcid: https://orcid.org/0000-0002-8172-7222
+  link:
+    url: https://doi.org/10.1515/nanoph-2019-0126
+    display: Nanophotonics 8 10 (2019).
+  doi: https://doi.org/10.1515/nanoph-2019-0126
+  is_oa: true
+  oa_url: https://www.degruyter.com/downloadpdf/journals/nanoph/8/10/article-p1641.pdf
+  publication_year: 2019
+  journal: Nanophotonics
+  journal_abbreviation: ''
+  biblio:
+    volume: '8'
+    issue: '10'
+    first_page: '1641'
+    last_page: '1657'
+
+- title: Engineering optical hybrid entanglement between discrete- and continuous-variable
+    states
+  authors:
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Olivier Morin
+    orcid: https://orcid.org/0000-0002-0327-5646
+  - name: Tom Darras
+    orcid: null
+  - name: Giovanni Guccione
+    orcid: https://orcid.org/0000-0003-3710-3217
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1088/1367-2630/ab34e7
+    display: New Journal of Physics 21 8 (2019).
+  doi: https://doi.org/10.1088/1367-2630/ab34e7
+  is_oa: true
+  oa_url: https://doi.org/10.1088/1367-2630/ab34e7
+  publication_year: 2019
+  journal: New Journal of Physics
+  journal_abbreviation: ''
+  biblio:
+    volume: '21'
+    issue: '8'
+    first_page: 083033
+    last_page: 083033
+
+- title: Demonstration of Einstein-Podolsky-Rosen Steering Using Hybrid Continuous-
+    and Discrete-Variable Entanglement of Light
+  authors:
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: "J\xE9r\xE9my Raskop"
+    orcid: null
+  - name: Giovanni Guccione
+    orcid: https://orcid.org/0000-0003-3710-3217
+  - name: Damian Markham
+    orcid: null
+  - name: Eleni Diamanti
+    orcid: https://orcid.org/0000-0003-1795-5711
+  - name: Matthew D. Shaw
+    orcid: https://orcid.org/0000-0002-5037-3740
+  - name: Varun B. Verma
+    orcid: https://orcid.org/0000-0001-6541-1837
+  - name: Sae Woo Nam
+    orcid: https://orcid.org/0000-0002-7589-6935
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1103/physrevlett.121.170403
+    display: Physical Review Letters 121 17 (2018).
+  doi: https://doi.org/10.1103/physrevlett.121.170403
+  is_oa: true
+  oa_url: https://link.aps.org/accepted/10.1103/PhysRevLett.121.170403
+  publication_year: 2018
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '121'
+    issue: '17'
+    first_page: null
+    last_page: null
+
+- title: Remote preparation of continuous-variable qubits using loss-tolerant hybrid
+    entanglement of light
+  authors:
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: "J\xE9r\xE9my Raskop"
+    orcid: null
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1364/optica.5.001012
+    display: Optica 5 8 (2018).
+  doi: https://doi.org/10.1364/optica.5.001012
+  is_oa: true
+  oa_url: https://doi.org/10.1364/optica.5.001012
+  publication_year: 2018
+  journal: Optica
+  journal_abbreviation: ''
+  biblio:
+    volume: '5'
+    issue: '8'
+    first_page: '1012'
+    last_page: '1012'
+
+- title: Quantum Optics with Near-Lifetime-Limited Quantum-Dot Transitions in a Nanophotonic
+    Waveguide
+  authors:
+  - name: Henri Thyrrestrup
+    orcid: https://orcid.org/0000-0001-8922-4462
+  - name: "Gabija Kir\u0161ansk\u0117"
+    orcid: null
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Tommaso Pregnolato
+    orcid: https://orcid.org/0000-0003-4062-8102
+  - name: Liang Zhai
+    orcid: https://orcid.org/0000-0002-0700-7569
+  - name: Laust Raahauge
+    orcid: null
+  - name: Leonardo Midolo
+    orcid: https://orcid.org/0000-0003-0237-587X
+  - name: Nir Rotenberg
+    orcid: https://orcid.org/0000-0002-8172-7222
+  - name: Alisa Javadi
+    orcid: https://orcid.org/0000-0002-8833-0738
+  - name: "R\xFCdiger Schott"
+    orcid: https://orcid.org/0000-0002-9320-0313
+  - name: A. D. Wieck
+    orcid: https://orcid.org/0000-0001-9776-2922
+  - name: Arne Ludwig
+    orcid: https://orcid.org/0000-0002-2871-7789
+  - name: "Matthias C. L\xF6bl"
+    orcid: https://orcid.org/0000-0003-4744-3119
+  - name: "Immo S\xF6llner"
+    orcid: https://orcid.org/0000-0001-7528-8633
+  - name: Richard J. Warburton
+    orcid: https://orcid.org/0000-0002-3095-3596
+  - name: Peter Lodahl
+    orcid: https://orcid.org/0000-0002-9348-9591
+  link:
+    url: https://doi.org/10.1021/acs.nanolett.7b05016
+    display: Nano Letters 18 3 (2018).
+  doi: https://doi.org/10.1021/acs.nanolett.7b05016
+  is_oa: true
+  oa_url: http://arxiv.org/pdf/1711.10423
+  publication_year: 2018
+  journal: Nano Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '18'
+    issue: '3'
+    first_page: '1801'
+    last_page: '1806'
+
+- title: Slowing Quantum Decoherence by Squeezing in Phase Space
+  authors:
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Radim Filip
+    orcid: https://orcid.org/0000-0003-4114-6068
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1103/physrevlett.120.073603
+    display: Physical Review Letters 120 7 (2018).
+  doi: https://doi.org/10.1103/physrevlett.120.073603
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/1707.06244
+  publication_year: 2018
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '120'
+    issue: '7'
+    first_page: null
+    last_page: null
+
+- title: High-efficiency WSi superconducting nanowire single-photon detectors for
+    quantum state engineering in the near infrared
+  authors:
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Varun B. Verma
+    orcid: https://orcid.org/0000-0001-6541-1837
+  - name: "Adrien Cavaill\xE8s"
+    orcid: null
+  - name: Francesco Marsili
+    orcid: https://orcid.org/0000-0003-0209-172X
+  - name: Matthew D. Shaw
+    orcid: https://orcid.org/0000-0002-5037-3740
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Olivier Morin
+    orcid: https://orcid.org/0000-0002-0327-5646
+  - name: Sae Woo Nam
+    orcid: https://orcid.org/0000-0002-7589-6935
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1364/ol.41.005341
+    display: Optics Letters 41 22 (2016).
+  doi: https://doi.org/10.1364/ol.41.005341
+  is_oa: true
+  oa_url: https://doi.org/10.1364/ol.41.005341
+  publication_year: 2016
+  journal: Optics Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '41'
+    issue: '22'
+    first_page: '5341'
+    last_page: '5341'
+
+- title: 'Experimental quantum state engineering with time-separated heraldings from
+    a continuous-wave light source: A temporal-mode analysis'
+  authors:
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Varun B. Verma
+    orcid: https://orcid.org/0000-0001-6541-1837
+  - name: Matthew D. Shaw
+    orcid: https://orcid.org/0000-0002-5037-3740
+  - name: Francesco Marsili
+    orcid: https://orcid.org/0000-0003-0209-172X
+  - name: Sae Woo Nam
+    orcid: https://orcid.org/0000-0002-7589-6935
+  - name: E Wu
+    orcid: https://orcid.org/0000-0003-4587-6420
+  - name: "Hao\u2010Sheng Zeng"
+    orcid: https://orcid.org/0000-0002-2032-442X
+  - name: Olivier Morin
+    orcid: https://orcid.org/0000-0002-0327-5646
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1103/physreva.93.013838
+    display: Physical review 93 1 (2016).
+  doi: https://doi.org/10.1103/physreva.93.013838
+  is_oa: true
+  oa_url: https://link.aps.org/accepted/10.1103/PhysRevA.93.013838
+  publication_year: 2016
+  journal: Physical review
+  journal_abbreviation: A
+  biblio:
+    volume: '93'
+    issue: '1'
+    first_page: null
+    last_page: null
+
+- title: Optical Synthesis of Large-Amplitude Squeezed Coherent-State Superpositions
+    with Minimal Resources
+  authors:
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Josselin Ruaudel
+    orcid: null
+  - name: Varun B. Verma
+    orcid: https://orcid.org/0000-0001-6541-1837
+  - name: Matthew D. Shaw
+    orcid: https://orcid.org/0000-0002-5037-3740
+  - name: Francesco Marsili
+    orcid: https://orcid.org/0000-0003-0209-172X
+  - name: Sae Woo Nam
+    orcid: https://orcid.org/0000-0002-7589-6935
+  - name: E Wu
+    orcid: https://orcid.org/0000-0003-4587-6420
+  - name: "Hao\u2010Sheng Zeng"
+    orcid: https://orcid.org/0000-0002-2032-442X
+  - name: Youngmin Jeong
+    orcid: https://orcid.org/0000-0002-3850-7494
+  - name: Radim Filip
+    orcid: https://orcid.org/0000-0003-4114-6068
+  - name: Olivier Morin
+    orcid: https://orcid.org/0000-0002-0327-5646
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1103/physrevlett.115.023602
+    display: Physical Review Letters 115 2 (2015).
+  doi: https://doi.org/10.1103/physrevlett.115.023602
+  is_oa: true
+  oa_url: https://link.aps.org/accepted/10.1103/PhysRevLett.115.023602
+  publication_year: 2015
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '115'
+    issue: '2'
+    first_page: null
+    last_page: null
+
+- title: Microcontroller-based locking in optics experiments
+  authors:
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Josselin Ruaudel
+    orcid: null
+  - name: Olivier Morin
+    orcid: https://orcid.org/0000-0002-0327-5646
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1063/1.4903869
+    display: Review of Scientific Instruments 85 12 (2014).
+  doi: https://doi.org/10.1063/1.4903869
+  is_oa: true
+  oa_url: https://hal.science/hal-03269656/document
+  publication_year: 2014
+  journal: Review of Scientific Instruments
+  journal_abbreviation: ''
+  biblio:
+    volume: '85'
+    issue: '12'
+    first_page: null
+    last_page: null
+
+- title: Remote creation of hybrid entanglement between particle-like and wave-like
+    optical qubits
+  authors:
+  - name: Olivier Morin
+    orcid: https://orcid.org/0000-0002-0327-5646
+  - name: Kun Huang
+    orcid: https://orcid.org/0000-0002-1899-7924
+  - name: Jianli Liu
+    orcid: https://orcid.org/0000-0003-0609-9083
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Claude Fabre
+    orcid: null
+  - name: Julien Laurat
+    orcid: null
+  link:
+    url: https://doi.org/10.1038/nphoton.2014.137
+    display: Nature Photonics 8 7 (2014).
+  doi: https://doi.org/10.1038/nphoton.2014.137
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/1309.6191
+  publication_year: 2014
+  journal: Nature Photonics
+  journal_abbreviation: ''
+  biblio:
+    volume: '8'
+    issue: '7'
+    first_page: '570'
+    last_page: '574'
+
+- title: A monolithically integrated polarization entangled photon pair source on
+    a silicon chip
+  authors:
+  - name: Nobuyuki Matsuda
+    orcid: https://orcid.org/0000-0001-6014-3570
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Hiroshi Fukuda
+    orcid: https://orcid.org/0000-0002-8859-8937
+  - name: Tai Tsuchizawa
+    orcid: null
+  - name: William J. Munro
+    orcid: https://orcid.org/0000-0003-1835-2250
+  - name: Kazuo Shimizu
+    orcid: https://orcid.org/0000-0001-9914-671X
+  - name: Koji Yamada
+    orcid: https://orcid.org/0000-0002-8355-7060
+  - name: Y. Tokura
+    orcid: https://orcid.org/0000-0001-6656-4237
+  - name: Hiroki Takesue
+    orcid: https://orcid.org/0000-0003-1253-9049
+  link:
+    url: https://doi.org/10.1038/srep00817
+    display: Scientific Reports 2 1 (2012).
+  doi: https://doi.org/10.1038/srep00817
+  is_oa: true
+  oa_url: https://www.nature.com/articles/srep00817.pdf
+  publication_year: 2012
+  journal: Scientific Reports
+  journal_abbreviation: ''
+  biblio:
+    volume: '2'
+    issue: '1'
+    first_page: null
+    last_page: null
+

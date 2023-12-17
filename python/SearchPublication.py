@@ -1,3 +1,4 @@
+# Usage: python SearchPublication.py <title>
 from pyalex import Works
 import pyalex
 import sys

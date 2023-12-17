@@ -117,7 +117,7 @@ details:
         description: | # this will include new lines to allow paragraphs
           Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
   - title: Publications # Title for the section
-    layout: list # Type of content section (list/text)
+    layout: publi # Type of content section (list/text)
 
   - title: A Little More About Me
     layout: text
