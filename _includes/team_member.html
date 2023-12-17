@@ -21,7 +21,7 @@
 <img src="{{ site.url }}{{ site.baseurl }}{{ random_index.path }}" class="img-responsive" width="25%" style="float: left" />
   {%endif%}
  {% for staff in site.members %} 
-  {% if staff.title == member.name %} 
+  {% if staff.name == member.name %} 
   <h4><a href="{{ staff.url}}" class="a-name">{{ member.name }}  <span class="glyphicon glyphicon glyphicon-info-sign" style="font-size:16px" aria-hidden="true"></span>
   </a> </h4> 
   

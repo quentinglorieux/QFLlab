@@ -1,0 +1,27 @@
+<div class="mininav flex">
+    <a href="#about-me" data-offset="110"><button class="btn nav-button">About me</button></a>
+  {% for section in page.details %}
+  <div class="">
+    <a href="#{{ section.title | slugify }}" data-offset="110">
+      <button class="btn nav-button">
+        {{ section.title }}
+      </button></a>
+  </div>
+  {% endfor %}
+</div>
+
+<style>
+  .mininav {
+    position: sticky;
+    top: 53px;
+    z-index: 10000;
+    justify-content: center;
+    gap: 10px;
+    background-color: var(--body-bg);
+    padding-top: 10px;
+    padding-bottom: 15px;
+  }
+</style>
+
+<script src="{{ site.url }}{{ site.baseurl }}/js/smooth_scroll.js" ></script>
+

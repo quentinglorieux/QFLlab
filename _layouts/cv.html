@@ -7,11 +7,14 @@
 
 {%- include cv/head.html -%}
 
-<body class="{% if site.darkmode == true and site.darkmode != 'never' %}dark{% endif %}">
+
+<body >
+  
 
   {%- include cv/header.html -%}
 
   <main class="page-content" aria-label="Content">
+    {%- include cv/mininav.html -%}
     <div class="wrapper">
 
       {%- if jekyll.environment == 'production' and site.gtm -%}
@@ -40,3 +43,4 @@
 </body>
 
 </html>
+
