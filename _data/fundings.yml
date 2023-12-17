@@ -1,5 +1,23 @@
+- name: European Reaserch Council
+  projectID: ERC CoG
+  acronym: MistiQ-Light
+  link: https://erc.europa.eu/
+  link_text: (ERC CoG)
+  
 - name: Agence Nationale de la Recherche
-  projectID:
-  acronym:
+  projectID: 
+  acronym: FOLIO
   link: https://anr.fr/ 
   link_text: (ANR)
+
+- name: Institut Universitaire de France
+  projectID: IUF
+  acronym: 
+  link: https://www.iuf.fr/
+  link_text: (IUF)
+
+- name: Région Ile-de-France
+  projectID: IUF
+  acronym: 
+  link: https://www.sirteq.org
+  link_text: (Sirteq)

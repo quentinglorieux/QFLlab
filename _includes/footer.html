@@ -16,9 +16,10 @@
 
         <div class="col-sm-4">
           <strong>Fundings: </strong><br />
-          {% for funding in site.data.fundings %} 
-          - {{funding.name}} <a href="{{funding.link}}"> {{funding.link_text}}</a>  
+		  <ul class="no-bullet"> {% for funding in site.data.fundings %} 
+		 <li> - {{funding.name}} <a href="{{funding.link}}"> {{funding.link_text}}</a>  
           {% endfor %}
+		</ul>
         </div>
 
       
@@ -39,6 +40,5 @@
     </div>
   </div>
 
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-  <script src="{{ site.url }}{{ site.baseurl }}/js/bootstrap.min.js"></script>
 </div>
+

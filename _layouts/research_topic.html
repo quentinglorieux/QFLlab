@@ -17,10 +17,7 @@ layout: default
         <h2> Associated publications</h2>
 
         <div>
-          <ul style="
-            list-style-type: none;
-            padding: 1px; 
-            margin: 0;">
+          <ul class="no-bullet">
             {% for associatedPubli in page.publications %}
             {% assign publi = site.data.publications.full_list_openalex | where_exp:"item",
             "item.doi == associatedPubli" | first %}
@@ -40,10 +37,7 @@ layout: default
         <img src="/assets/images/research/{{ page.image }}" />
         <div>
           <h2>The team</h2>
-          <ul style="
-          list-style-type: none;
-          padding: 1px; 
-          margin: 0;">
+          <ul class="no-bullet">
             {% for teammember in page.team %}
             <li>
               <div class="flex" style="padding-bottom: 10px">

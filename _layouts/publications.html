@@ -2,9 +2,30 @@
 layout: default
 ---
 
+
+
+
+
 <div id="publications" class="col-sm-12">
   {{ content }}
 </div>
 
 
+
+<script>
+	$(document).ready(function(){
+		// Delay the execution of your script to ensure Algolia has loaded
+		setTimeout(function() {
+			// Use a more specific selector to target the content area
+			$(".authorname:contains('Quentin Glorieux')").html(function(_, html) {
+				return html.replace(/(Quentin Glorieux)/g, '<span class="highlight">$1</span>');
+			});
+		}, 200); // You might need to adjust the delay based on your page's loading time
+	});
+</script>
+
+
+
 <script src="{{ site.url }}{{ site.baseurl }}/js/smooth_scroll.js"></script>
+
+

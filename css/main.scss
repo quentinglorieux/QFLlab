@@ -32,8 +32,8 @@ p.byline {
   margin-bottom: 48px;
 }
 
-pubtit {
-  font-weight: bold;
+.pubtit {
+  font-weight: 600;
 }
 
 .container-fluid {
@@ -209,7 +209,11 @@ pubtit {
 .flex{
   display: flex;
 }
-
+.no-bullet{ 
+  list-style-type: none;
+  padding: 1px; 
+  margin: 0;
+  }
 
 
 

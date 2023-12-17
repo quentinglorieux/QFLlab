@@ -4,7 +4,7 @@
 
 
     {% for article in site.news limit:9 %}
-        <ul style="margin: 0; padding-left: 15px;">
+        <ul class="no-bullet">
         <li><span style="font-weight: 500; font-size: 1.5rem;">{{ article.date  | date_to_string: "ordinal", "US" }}</span>
             <div style="font-size: 1.45rem;"> {{ article.title}}  </div>
             <div> 
