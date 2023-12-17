@@ -399,6 +399,16 @@ Generic layout (demo looks)
   width: 1px;
 }
 
+// Member
+a.a-name{
+  color: var(--body-color);
+}
+
+// Member
+a.a-name:hover{
+  color: var(--link-color);
+}
+
 // Research page
 article.research p::first-letter {
   font-size: 2.5rem;
