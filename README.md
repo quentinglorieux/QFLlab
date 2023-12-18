@@ -123,6 +123,16 @@ There are 4 collections:
 - projects: to present the recent research projects
 
 ### Member collection
+Optionnaly you can add you personnal homepage to the site.
+To do so create a file `yourName.md` in `collections/members/` by copying another file (the template).
+
+Then you just fill the yaml frontmatter to add different section to your homepage
+
+The publication section is generated automatically via another yaml file. To create it use the Python script `MyPubli.py`
+```python 
+python MyPubli.py 'Quentin Glorieux or ORCID' 'filename'
+```
+
 
 ### News collection
 
