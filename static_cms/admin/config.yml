@@ -1,0 +1,33 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+media_folder: 'assets/images' # Media files will be stored in the repo under images/uploads
+media_library:
+  folder_support : true
+site_url: https://lab.quentinglorieux.fr
+display_url: https://lab.quentinglorieux.fr
+logo_url: https://lab.quentinglorieux.fr/assets/images/logos/01-logo-lkb.png
+
+collections:
+- name: 'news' # Used in routes, e.g., /admin/collections/blog
+  label: 'News' # Used in the UI
+  folder: 'collections/_news' # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Contact', name: 'contact', widget: 'string' }
+    - { label: 'Featured Image', name: 'image', widget: 'image' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }
+- name: 'research' # Used in routes, e.g., /admin/collections/blog
+  label: 'Research' # Used in the UI
+  folder: 'collections/_research' # The path to the folder where the documents are stored
+  create: true # Allow users to create new documents in this collection
+  slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+  fields: # The fields for each document, usually in front matter
+    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
+    - { label: 'Title', name: 'title', widget: 'string' }
+    - { label: 'Abstract', name: 'abstract', widget: 'text' }
+    - { label: 'Featured Image', name: 'image', widget: 'image' }
+    - { label: 'Body', name: 'body', widget: 'markdown' }

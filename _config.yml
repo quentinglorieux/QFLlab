@@ -76,11 +76,10 @@ defaults:
       category: "members"
       layout: "cv"
 
-jekyll_admin:
-  hidden_links:
-    - posts
-
-  homepage: "collections"
+# jekyll_admin:
+#   hidden_links:
+#     - posts
+#   homepage: "collections"
 
 
 version: 2
