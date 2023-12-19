@@ -1,27 +1,27 @@
 ---
 title: Out-of-equilibrium physics
 slug: out-of-equilibrium
-abstract: We study out-of-equilibrium phenomena in a paraxial fluid of light. Since we can shape the fluid density and velocity with a high degree of control and detect the full wave-function of our state (density and phase) we have access to novel experiments with unprecedented control. 
+abstract: We study out-of-equilibrium phenomena in a paraxial fluid of light. Since we can shape the fluid density and velocity with a high degree of control and detect the full wave-function of our state (density and phase) we have access to novel experiments with unprecedented control.
 image: fluid2.png
-team: 
-    - Quentin Glorieux
-    - Tangui Aladjidi
-    - Myrann Baker-Rasooli
-    - Clara Piekarski
-    - Alix Merolle
-publications: 
-    - https://doi.org/10.1103/physrevlett.129.100602
-    - https://doi.org/10.1103/physrevlett.126.183901
-    - https://doi.org/10.1209/0295-5075/134/24001
-    - https://doi.org/10.1103/physreva.104.013515
-    - https://doi.org/10.1364/optica.405946
-    - https://doi.org/10.1103/physrevlett.123.215301
+team:
+  - Quentin Glorieux
+  - Tangui Aladjidi
+  - Myrann Baker-Rasooli
+  - Clara Piekarski
+  - Alix Merolle
+publications:
+  - https://doi.org/10.1103/physrevlett.129.100602
+  - https://doi.org/10.1103/physrevlett.126.183901
+  - https://doi.org/10.1209/0295-5075/134/24001
+  - https://doi.org/10.1103/physreva.104.013515
+  - https://doi.org/10.1364/optica.405946
+  - https://doi.org/10.1103/physrevlett.123.215301
 ---
 ## Quantum Quenches
 
 Imagine a quantum system prepared at t=0 in a pure state which is the ground state of some Hamiltonian (or, more generally, in a thermal state at a temperature less than the gap to the first excited state). For times t>0, the system evolves according to the dynamics given by a different Hamiltonian after varying a parameter such as the interactions.
 This variation is called a quench, when it is carried over a short time scale compared to the energy of the first excited state.
-An important question is: how do the local observables and the correlation then evolve?
+An important question is: how do the local observables and the correlation then evolve ?
 
 A vast topic that fluids of light can help investigate is analogue gravity, i.e. how to mimic gravitational effects in a non-linear optics experiment. The underlying idea behind hydrodynamical model for gravity has been introduced by W. Unruh. In 1981, he showed that sound waves in an accelerated flowing medium mimic the space-time geometry of a black hole with a well defined event horizon.
 In our lab we study the spontaneous creation of analogue cosmological particles due to the rapid expansion of the Universe after the Big-Bang in a quenched superfluid of light.
