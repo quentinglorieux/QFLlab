@@ -16,7 +16,7 @@
 
         <div class="col-sm-4">
           <strong>Fundings: </strong><br />
-		  <ul class="no-bullet"> {% for funding in site.data.fundings %} 
+		  <ul class="no-bullet"> {% for funding in site.data.fundings.grants %} 
 		 <li> - {{funding.name}} <a href="{{funding.link}}"> {{funding.link_text}}</a>  
           {% endfor %}
 		</ul>
