@@ -1,0 +1,9 @@
+members:
+  - name: ab
+    tagline: a
+    info: a
+    status: a
+    email: a
+    short-cv:
+      - education: a
+    alumni: false

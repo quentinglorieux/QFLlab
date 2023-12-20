@@ -1,34 +1,115 @@
+# local_backend: true
+
 backend:
-  name: git-gateway
-  branch: main # Branch to update (optional; defaults to main)
-# backend:
-#   name: github
-#   repo: quentinglorieux/QFLlab
-media_folder: 'assets/images' # Media files will be stored in the repo under images/uploads
-site_url: https://lab.quentinglorieux.fr
-display_url: https://lab.quentinglorieux.fr
-logo_url: https://lab.quentinglorieux.fr/assets/images/logos/01-logo-lkb.png
+  # name: git-gateway
+  # branch: main
+  name: github
+  repo: quentinglorieux/QFLlab
+
+# site_url: https://lab.quentinglorieux.fr
+# display_url: https://lab.quentinglorieux.fr
+# logo_url: https://lab.quentinglorieux.fr/assets/images/logos/03-logo-cnrs.png
+
+site_url: http://localhost:4000
+display_url: http://localhost:4000
+logo_url: http://localhost:4000/assets/images/logos/03-logo-cnrs.png
+
+media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
 
 collections:
-- name: 'news' # Used in routes, e.g., /admin/collections/blog
-  label: 'News' # Used in the UI
-  folder: 'collections/_news' # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Contact', name: 'contact', widget: 'string' }
-    - { label: 'Featured Image', name: 'image', widget: 'image' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }
-- name: 'research' # Used in routes, e.g., /admin/collections/blog
-  label: 'Research' # Used in the UI
-  folder: 'collections/_research' # The path to the folder where the documents are stored
-  create: true # Allow users to create new documents in this collection
-  slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
-  fields: # The fields for each document, usually in front matter
-    - { label: 'Layout', name: 'layout', widget: 'hidden', default: 'post' }
-    - { label: 'Title', name: 'title', widget: 'string' }
-    - { label: 'Abstract', name: 'abstract', widget: 'text' }
-    - { label: 'Featured Image', name: 'image', widget: 'image' }
-    - { label: 'Body', name: 'body', widget: 'markdown' }
+  - name: "news" # Used in routes, e.g., /admin/collections/blog
+    label: "News!" # Used in the UI
+    description: >
+      The news section that appears on the Homepage
+    folder: "collections/_news" # The path to the folder where the documents are stored
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    summary: "{{title}} -- {{year}}/{{month}}/{{day}}"
+    create: true # Allow users to create new documents in this collection
+    media_folder: '/{{media_folder}}/news'
+    public_folder: '/{{media_folder}}/news'
+    view_groups:
+      - label: Contact
+        field: contact
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Contact", name: "contact", widget: "string" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "research" # Used in routes, e.g., /admin/collections/blog
+    label: "Research" # Used in the UI
+    folder: "collections/_research" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    media_folder: '/{{media_folder}}/research'
+    public_folder: '/{{media_folder}}/research'
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    preview_path: research/{{slug}}
+    fields: # The fields for each document, usually in front matter
+      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Abstract", name: "abstract", widget: "text" }
+      - { label: "Featured Image", name: "image", widget: "image" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+  - name: "settings"
+    label: "Settings"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "fundings"
+        label: "Fundings"
+        file: "_data/fundings.yml"
+        description: "List of Fundings"
+        fields:
+          - name: grants
+            label: Grants
+            widget: list
+            fields:
+              - label: "Name"
+                name: "name"
+                widget: "string"
+                hint: "Funding name"
+              - label: "ID"
+                name: "projectID"
+                widget: "string"
+              - label: "Acronym"
+                name: "acronym"
+                widget: "string"
+              - label: "Link"
+                name: "link"
+                widget: "string"
+              - label: "Link Text"
+                name: "link-text"
+                widget: "string"
+
+  - name: "members"
+    label: "Members List"
+    delete: false # Prevent users from deleting documents in this collection
+    editor:
+      preview: false
+    files:
+      - name: "members"
+        label: "Members"
+        file: "_data/team/members2.yml"
+        description: "List of Members"
+        fields:
+          - name: members
+            label: Members
+            widget: list
+            fields:
+            - {label: 'Name', name: 'name', widget: 'string'}
+            - {label: 'Tagline', name: 'tagline', widget: 'string'}
+            - {label: 'Photo', name: 'photo', widget: 'image', required: false}
+            - {label: 'Info', name: 'info', widget: 'string'}
+            - {label: 'Status', name: 'status', widget: 'string'}
+            - {label: 'Email', name: 'email', widget: 'string'}
+            - name: 'short-cv'
+              label: 'Short CV'
+              label_singular: Education
+              widget: 'list'
+              required : false
+              fields: 
+              - {label: 'Education', name: 'education', widget: 'string', required: false}
+            - {label: "Alumni", name: "alumni", widget: "boolean", default: false}

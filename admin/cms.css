@@ -1,0 +1,11 @@
+html,
+body {
+  font-weight: 300;
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4{ font-variant: small-caps;
+    font-weight: 500;}
