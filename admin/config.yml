@@ -1,9 +1,9 @@
-# backend:
-#   name: git-gateway
-#   branch: main # Branch to update (optional; defaults to main)
 backend:
-  name: github
-  repo: quentinglorieux/QFLlab
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to main)
+# backend:
+#   name: github
+#   repo: quentinglorieux/QFLlab
 media_folder: 'assets/images' # Media files will be stored in the repo under images/uploads
 site_url: https://lab.quentinglorieux.fr
 display_url: https://lab.quentinglorieux.fr
