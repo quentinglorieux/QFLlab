@@ -14,16 +14,16 @@ site_url: http://localhost:4000
 display_url: http://localhost:4000
 logo_url: http://localhost:4000/assets/images/logos/03-logo-cnrs.png
 
-media_folder: "assets/images" # Media files will be stored in the repo under images/uploads
+media_folder: assets/images # Media files will be stored in the repo under images/uploads
 
 collections:
-  - name: "news" # Used in routes, e.g., /admin/collections/blog
-    label: "News!" # Used in the UI
+  - name: news # Used in routes, e.g., /admin/collections/blog
+    label: News # Used in the UI
     description: >
       The news section that appears on the Homepage
-    folder: "collections/_news" # The path to the folder where the documents are stored
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
-    summary: "{{title}} -- {{year}}/{{month}}/{{day}}"
+    folder: collections/_news # The path to the folder where the documents are stored
+    slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    summary: '{{title}} -- {{year}}/{{month}}/{{day}}'
     create: true # Allow users to create new documents in this collection
     media_folder: '/{{media_folder}}/news'
     public_folder: '/{{media_folder}}/news'
@@ -31,85 +31,233 @@ collections:
       - label: Contact
         field: contact
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Contact", name: "contact", widget: "string" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Title, name: title, widget: string }
+      - { label: Contact, name: contact, widget: string }
+      - { label: Featured Image, name: image, widget: image }
+      - { label: Body, name: body, widget: markdown }
 
-  - name: "research" # Used in routes, e.g., /admin/collections/blog
-    label: "Research" # Used in the UI
-    folder: "collections/_research" # The path to the folder where the documents are stored
+  - name: research # Used in routes, e.g., /admin/collections/blog
+    label: Research # Used in the UI
+    folder: collections/_research # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     media_folder: '/{{media_folder}}/research'
     public_folder: '/{{media_folder}}/research'
-    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     preview_path: research/{{slug}}
     fields: # The fields for each document, usually in front matter
-      - { label: "Layout", name: "layout", widget: "hidden", default: "post" }
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Abstract", name: "abstract", widget: "text" }
-      - { label: "Featured Image", name: "image", widget: "image" }
-      - { label: "Body", name: "body", widget: "markdown" }
+      - { label: Layout, name: layout, widget: hidden, default: post }
+      - { label: Title, name: title, widget: string }
+      - { label: Abstract, name: abstract, widget: text }
+      - { label: Featured Image, name: image, widget: image }
+      - { label: Body, name: body, widget: markdown }
 
-  - name: "settings"
-    label: "Settings"
+  - name: profiles
+    label: Profile pages 
+    folder: collections/_profiles 
+    create: true 
+    media_folder: '/{{media_folder}}/profiles'
+    public_folder: '/{{media_folder}}/profiles'
+    slug: '{{slug}}' 
+    preview_path: profiles/{{slug}}
+    fields: 
+      - { label: Name, name: name, widget: string}
+      - { label: Academic Position, name: position, widget: string, required: false }
+      - { label: Email, name: email, widget: string, required: false }
+      - { label: Email_title, name: email_title, widget: string, required: false }
+      - { label: Phone, name: phone, widget: string, required: false }
+      - { label: Website, name: website, widget: string, required: false }
+      - { label: Twitter Username, name: twitter_username, widget: string, required: false }
+      - { label: GitHub Username, name: github_username, widget: string, required: false }
+      - { label: LinkedIn Username, name: linkedin_username, widget: string, required: false }
+      - { label: ORCID Username, name: orcid_username, widget: string, required: false }
+      - { label: Google Scholar Username, name: googlescholar_username, widget: string, required: false }
+
+      - { label: About Profile Image, name: about_profile_image, widget: string, required: false }
+      - { label: About Content, name: about_content, widget: markdown, required: false }
+
+      - label: Sections
+        name: details
+        widget: list
+        required: false
+        collapsed: true
+        fields: 
+          - { label: Title, name: title, required: false }
+          - { label: Entries, label_singular: Entry, name: content, widget: list, collapsed: true, required: false,  fields: [
+                { label: Title, name: title, widget: string, required: false },
+                { label: Sub Title, name: sub_title, widget: string, required: false },
+                { label: Caption, name: caption, widget: string, required: false },
+                { label: Link, name: link, widget: string, required: false },
+                { label: Quote, name: quote, widget: text, required: false },
+                { label: Description, name: description, widget: markdown, required: false },
+                { label: Layout, name: layout, widget: string, default: left, required: false },
+                { label: Attachment, name: pdf, widget: file, required: false },
+                { label: YAML File, name: yaml_file, widget: string, required: false },
+                { label: Year filter, name: filter, widget: boolean, required: false, default: true, hint: Should we show a year filter navbar on the publication list },
+              ]
+            }
+          - { label: Layout, name: layout, widget: string, default: list, required: false }
+
+
+          # - { label: Publications, name: publications, widget: publi, required: false, fields: [
+          #     { label: YAML File, name: yaml_file, widget: string, required: false },
+          #     { label: Filter, name: filter, widget: boolean, required: false, default: true },
+          #   ]
+          # }
+
+          # - { label: A Little More About Me, name: about_me, widget: text, required: false }
+
+  # default:
+  #   - { src: "/img/tennis.jpg", alt: "Tennis" }
+  #   - { src: "/img/footbar.jpg", alt: "Football" }
+
+
+# FILES 
+  - name: settings
+    label: Settings
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     files:
-      - name: "fundings"
-        label: "Fundings"
-        file: "_data/fundings.yml"
-        description: "List of Fundings"
+      - name: fundings
+        label: Fundings
+        file: _data/fundings.yml
+        description: List of Fundings
         fields:
           - name: grants
             label: Grants
+            label_singular: Grant
             widget: list
+            required: false
+            collapsed: true
             fields:
-              - label: "Name"
-                name: "name"
-                widget: "string"
-                hint: "Funding name"
-              - label: "ID"
-                name: "projectID"
-                widget: "string"
-              - label: "Acronym"
-                name: "acronym"
-                widget: "string"
-              - label: "Link"
-                name: "link"
-                widget: "string"
-              - label: "Link Text"
-                name: "link-text"
-                widget: "string"
+              - {label: Name, name: name, widget: string, hint: Funding name}
+              - {label: ID, name: projectID, widget: string, required: false}
+              - {label: Acronym, name: acronym, widget: string, required: false}
+              - {label: Link, name: link, widget: string, required: false}
+              - {label: Link Text, name: link-text, widget: string, required: false}
 
-  - name: "members"
-    label: "Members List"
+  - name: members
+    label: Team
     delete: false # Prevent users from deleting documents in this collection
     editor:
       preview: false
     files:
-      - name: "members"
-        label: "Members"
-        file: "_data/team/members2.yml"
-        description: "List of Members"
+      - name: members
+        label: Team Members
+        label_singular: Member
+        file: _data/team/members2.yml
+        description: List of Members
         fields:
           - name: members
             label: Members
+            label_singular: Member
             widget: list
+            collapsed: true
+            required: false
             fields:
-            - {label: 'Name', name: 'name', widget: 'string'}
-            - {label: 'Tagline', name: 'tagline', widget: 'string'}
-            - {label: 'Photo', name: 'photo', widget: 'image', required: false}
-            - {label: 'Info', name: 'info', widget: 'string'}
-            - {label: 'Status', name: 'status', widget: 'string'}
-            - {label: 'Email', name: 'email', widget: 'string'}
-            - name: 'short-cv'
+            - {label: Name, name: name, widget: string}
+            - {label: Tagline, name: tagline, widget: string, required: false, hint: Nickname or "now at" for alumni}
+            - {label: Photo, name: photo, widget: image, required: false}
+            - {label: Info, name: info, widget: string, required: false, hint: 'Ex: Associate Professor or PhD Student, started October 2023'}
+            - label: Status
+              name: status
+              widget: select
+              options: [PI, postdoc, phd, student]
+            - {label: Email, name: email, widget: string, required: false}
+            - name: education
               label: 'Short CV'
               label_singular: Education
-              widget: 'list'
-              required : false
-              fields: 
-              - {label: 'Education', name: 'education', widget: 'string', required: false}
-            - {label: "Alumni", name: "alumni", widget: "boolean", default: false}
+              widget: list
+              required: false
+              collapsed: true
+              fields:
+                - {label: Education, name: name, widget: string, max: 6, required: false}
+            - {label: Alumni, name: alumni, widget: boolean, default: false, required: false}
+            - label: PDF / Dissertation
+              name: dissertation
+              widget: object
+              collapsed: true
+              required: false
+              hint: Use this field to add your CV in pdf or your dissertation after you graduated
+              fields:
+              - {label: "Title", name: "name", widget: "string"}
+              - {label: "File", name: "pdf", widget: "file", required: false}
+      - name: visitors
+        label: Short term students & Visitors
+        label_singular: Visitor
+        file: _data/team/visitors.yml
+        fields:
+          - name: visitors
+            label: Visitors
+            label_singular: Visitor
+            widget: list
+            add_to_top: true 
+            required: false
+            fields:
+            - {label: Name, name: name, widget: string}
+            - {label: Semester, name: semester, widget: string, hint: 'ex: Spring 2017'}
+            - label: Status
+              name: status
+              widget: select
+              options: [bsc, master, visitor]
+            - {label: Report, name: pdf, widget: file, allow_multiple: false} 
+
+  - name: publications
+    label: Publications
+    editor:
+      preview: false
+    files:
+      - name: publications
+        label: All Publications
+        label_singular: Publication
+        file: _data/publications/full_list_openalex2.yaml
+        description: Full list of Publications
+        fields:
+          - name: publications
+            label: Publications
+            widget: list
+            collapsed: true
+            add_to_top: true 
+            required: false
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - label: Authors
+                name: authors
+                widget: list
+                required: false
+                fields:
+                  - {label: Name, name: name, widget: string, required: false}
+                  - {label: ORCID, name: orcid, widget: string, required: false}
+              - {label: Link, name: link, widget: object, required: false, fields: [{label: URL, name: url, widget: string, required: false}, {label: Display, name: display, widget: string, required: false}]}
+              - {label: DOI, name: doi, widget: string, required: false}
+              - {label: Is Open Access, name: is_oa, widget: boolean, required: false}
+              - {label: OA URL, name: oa_url, widget: string, required: false}
+              - {label: Publication Year, name: publication_year, widget: number, required: false}
+              - {label: Journal, name: journal, widget: string, required: false}
+              - {label: Journal Abbreviation, name: journal_abbreviation, widget: string, required: false}
+              - label: Biblio
+                name: biblio
+                widget: object
+                required: false 
+                fields:
+                  - {label: Volume, name: volume, widget: string, required: false}
+                  - {label: Issue, name: issue, widget: string, required: false}
+                  - {label: First Page, name: first_page, widget: string, required: false}
+                  - {label: Last Page, name: last_page, widget: string, required: false}
+      - name: highlights
+        label: Highlights
+        label_singular: Highlight
+        file: _data/publications/highlights2.yaml
+        description: List of Publication Highlights
+        fields:
+          - name: highlights
+            label: Highlights
+            widget: list
+            collapsed: true
+            add_to_top: true 
+            required: false
+            fields:
+              - {label: Title, name: title, widget: string, required: false}
+              - {label: Featured image, name: image, widget: image, required: false}
+              - {label: Description, name: description, widget: 'markdown', required: false}
