@@ -1,9 +1,115 @@
 members:
-  - name: ab
-    tagline: a
-    info: a
-    status: a
-    email: a
-    short-cv:
-      - education: a
+  - name: Quentin Glorieux
+    photo: Glorieux.jpg
+    info: Associate Professor
+    status: PI
+    email: quentin.glorieux@lkb.upmc.fr
+    education:
+      - name: Group leader of the ERC CoG project
+      - name: IUF Junior Fellow since 2018
+      - name: Marie Curie Postdoc at NIST (Bill Phillips group)
+      - name: PhD at Paris Diderot (Thomas Coudreau)
+      - name: MSc at Institut d'Optique
+      - name: see my full [CV](https://cv.quentinglorieux.fr/)
+    alumni: false
+  - name: Alberto Bramati
+    tagline: Italian Godfather
+    photo: Alberto.jpg
+    info: Full Professor
+    status: PI
+    email: alberto.bramati@lkb.upmc.fr
+    education:
+      - name: IUF Senior Fellow since 2018
+      - name: Postdoc at LPL
+      - name: PhD at LKB
+    alumni: false
+  - name: Hanna le Jeannic
+    tagline: Quantum Hanna
+    photo: Hanna.png
+    info: CNRS Researcher
+    status: PI
+    email: hanna.lejeannic@lkb.upmc.fr
+    education:
+      - name: Postdoc at NBI (Peter Lodhal group)
+      - name: PhD at LKB (Laurat group)
+      - name: MSc at ESPCI
+    alumni: false
+  - name: Tangui Aladjidi
+    tagline: Colormaps and cycling maniac
+    photo: Tangui.jpg
+    info: Postdoc, since 2023
+    status: postdoc
+    email: tangui.aladjidi@lkb.upmc.fr
+    education:
+      - name: PhD at LKB, Paris
+      - name: MSc at Ecole Polytechnique
+    alumni: false
+  - name: Chengjie Ding
+    tagline: Nanofiber artist
+    photo: Chengjie.jpg
+    info: Postdoc, since 2023
+    status: postdoc
+    email: chengjie.ding@lkb.upmc.fr
+    education:
+      - name: PhD at LKB, Paris
+      - name: BSc at ECNU, Shanghai
+    alumni: false
+  - name: Maxime Jacquet
+    tagline: Analogue Gravity Guru
+    photo: Maxime.jpg
+    info: Postdoc, since 2020
+    status: postdoc
+    email: maxime.jacquet@lkb.upmc.fr
+    education:
+      - name: PhD
+      - name: MSc
+    alumni: false
+  - name: Clara Piekarski
+    photo: Clara.png
+    info: PhD Student, started October 2022
+    status: phd
+    email: b
+    education:
+      - name: MSc at ETH Zurich
+      - name: BSc at Ecole Polytechnique
+    alumni: false
+  - name: Alix Merolle
+    photo: Alix.jpg
+    info: PhD Student, started October 2023
+    status: phd
+    email: alix.merolle@lkb.upmc.fr
+    education:
+      - name: MSc LUMI - Sorbonne University
+    alumni: false
+  - name: Myrann Baker-Rasooli
+    tagline: Photon fluid surfer
+    photo: Myrann2.png
+    info: PhD Student, started October 2021<br> Co-direction L. Pruvost at LCPMR.
+    status: phd
+    email: myrann.abobaker@lkb.upmc.fr
+    education:
+      - name: MSc LUMI - Sorbonne University
+    alumni: false
+  - name: This could be you !
+    photo: bottle.png
+    info: See <a href="/openings">openings</a> for more info
+    status: phd
+    email: milan.allan@gmail.com
+    education: []
+    alumni: false
+  - name: Quentin Schibler
+    status: student
+    photo: null
+    info: MSc - Topic 1
+    email: null
+    education:
+      - name: ENS Paris Saclay
+    alumni: false
+  - name: Simon Lepleux
+    status: student
+    photo: null
+    info: MSc - Topic 2
+    email: null
+    education:
+      - name: ENS Paris Saclay
     alumni: false

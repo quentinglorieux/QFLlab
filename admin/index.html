@@ -9,11 +9,53 @@
   </head>
   <body>
     <!-- Include the script that builds the page and powers Decap CMS -->
-    <!--  <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>-->
-<script src="sveltia-cms.js" type="module"></script>
+    <script src="https://unpkg.com/decap-cms@^3.0.0/dist/decap-cms.js"></script>
+    <!--  <script src="sveltia-cms.js" type="module"></script>  -->
 
     <script>
       CMS.registerPreviewStyle("cms.css");
     </script>
+
+    <script>
+      var ProfilesPreview = createClass({
+        render: function () {
+          var entry = this.props.entry;
+          var sections = entry.getIn(['data', 'sections']);
+    
+          return h('div', {},
+            h('h1', {}, entry.getIn(['data', 'name'])),
+            h('p', {}, 'Academic Position: ' + entry.getIn(['data', 'position'])),
+            h('p', {}, 'Email: ' + entry.getIn(['data', 'email'])),
+            h('p', {}, 'Email Title: ' + entry.getIn(['data', 'email_title'])),
+            h('p', {}, 'Phone: ' + entry.getIn(['data', 'phone'])),
+            h('p', {}, 'Website: ' + entry.getIn(['data', 'website'])),
+            h('p', {}, 'Twitter: ' + entry.getIn(['data', 'twitter_username'])),
+            h('p', {}, 'GitHub: ' + entry.getIn(['data', 'github_username'])),
+            h('p', {}, 'LinkedIn: ' + entry.getIn(['data', 'linkedin_username'])),
+            h('p', {}, 'ORCID: ' + entry.getIn(['data', 'orcid_username'])),
+            h('p', {}, 'Google Scholar: ' + entry.getIn(['data', 'googlescholar_username'])),
+            h('p', {}, 'About Profile Image: ' + entry.getIn(['data', 'about_profile_image'])),
+            h('div', { dangerouslySetInnerHTML: { __html: entry.getIn(['data', 'about_content']) } }),
+            h('div', {},
+              h('h2', {}, 'Additional Sections'),
+              this.props.widgetsFor('sections').map(function(section, index){
+                return h('div', {key: index},
+                h('p', {}),
+                h('h', {}, section.getIn(['data', 'type'])),
+                h('p', {}, section.getIn(['data', 'content'])),
+                );
+              })
+            )
+          );
+        }
+      });
+  
+
+      CMS.registerPreviewTemplate("profiles", ProfilesPreview);
+    </script>
+    
+    
+    
+    
   </body>
 </html>

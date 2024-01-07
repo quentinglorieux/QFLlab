@@ -1,10 +1,10 @@
-# local_backend: true
+local_backend: true
 
 backend:
-  # name: git-gateway
-  # branch: main
-  name: github
-  repo: quentinglorieux/QFLlab
+  name: git-gateway
+  branch: main
+  # name: github
+  # repo: quentinglorieux/QFLlab
 
 # site_url: https://lab.quentinglorieux.fr
 # display_url: https://lab.quentinglorieux.fr
@@ -72,38 +72,85 @@ collections:
       - { label: LinkedIn Username, name: linkedin_username, widget: string, required: false }
       - { label: ORCID Username, name: orcid_username, widget: string, required: false }
       - { label: Google Scholar Username, name: googlescholar_username, widget: string, required: false }
-
       - { label: About Profile Image, name: about_profile_image, widget: string, required: false }
       - { label: About Content, name: about_content, widget: markdown, required: false }
-
-      - label: Sections
-        name: details
+      - name: sections #Note : it was 'details' before 
+        label: Additional Sections
+        label_singular: Section
         widget: list
         required: false
-        collapsed: true
-        fields: 
-          - { label: Title, name: title, required: false }
-          - { label: Entries, label_singular: Entry, name: content, widget: list, collapsed: true, required: false,  fields: [
-                { label: Title, name: title, widget: string, required: false },
-                { label: Sub Title, name: sub_title, widget: string, required: false },
-                { label: Caption, name: caption, widget: string, required: false },
-                { label: Link, name: link, widget: string, required: false },
-                { label: Quote, name: quote, widget: text, required: false },
-                { label: Description, name: description, widget: markdown, required: false },
-                { label: Layout, name: layout, widget: string, default: left, required: false },
-                { label: Attachment, name: pdf, widget: file, required: false },
-                { label: YAML File, name: yaml_file, widget: string, required: false },
-                { label: Year filter, name: filter, widget: boolean, required: false, default: true, hint: Should we show a year filter navbar on the publication list },
-              ]
-            }
-          - { label: Layout, name: layout, widget: string, default: list, required: false }
-
-
-          # - { label: Publications, name: publications, widget: publi, required: false, fields: [
-          #     { label: YAML File, name: yaml_file, widget: string, required: false },
-          #     { label: Filter, name: filter, widget: boolean, required: false, default: true },
-          #   ]
-          # }
+        types:
+          - name: position
+            label: Positions
+            label_singular: Position
+            layout: list
+            widget: object
+            fields: 
+              - { label: Entries, label_singular: Entry, name: content, widget: list, collapsed: true, required: false,  fields: [
+                    { label: Title, name: title, widget: string, required: false },
+                    { label: Sub Title, name: sub_title, widget: string, required: false },
+                    { label: Caption, name: caption, widget: string, required: false },
+                    { label: Link, name: link, widget: string, required: false },
+                    { label: Quote, name: quote, widget: text, required: false },
+                    { label: Description, name: description, widget: markdown, required: false },
+                    { label: Layout, name: layout, widget: string, default: left, required: false },
+                  ]
+                }
+          - name: teaching
+            label: Teaching
+            label_singular: Teaching
+            layout: list
+            widget: object
+            fields: 
+              - { label: Courses, label_singular: Course, name: content, widget: list, collapsed: true, required: false,  fields: [
+                    { label: Title, name: title, widget: string, required: false },
+                    { label: Sub Title, name: sub_title, widget: string, required: false },
+                    { label: Caption, name: caption, widget: string, required: false },
+                    { label: Link, name: link, widget: string, required: false },
+                    { label: Quote, name: quote, widget: text, required: false },
+                    { label: Description, name: description, widget: markdown, required: false },
+                    { label: Attachment, name: pdf, widget: file, required: false },
+                    { label: Layout, name: layout, widget: string, default: left, required: false },
+                                  ]
+                }
+          - name: project
+            label: Projects
+            label_singular: Project
+            layout: list
+            widget: object
+            fields: 
+              - { label: Projects, label_singular: Project, name: content, widget: list, collapsed: true, required: false,  fields: [
+                    { label: Title, name: title, widget: string, required: false },
+                    { label: Sub Title, name: sub_title, widget: string, required: false },
+                    { label: Link, name: link, widget: string, required: false },
+                    { label: Link Text, name: link_text, widget: string, required: false },
+                    { label: Additional Links, name: additional_links, widget: list, collapsed: true, required: false ,  fields: [
+                      { label: Title, name: title, widget: string, required: false },
+                      { label: Icon, name: icon, widget: string, required: false, default: fab fa-github, hint: an icon from the FontAwesome library},
+                      { label: Link, name: url, widget: string, required: false, hint:  Link to project (eg. quentinglorieux.github.io/modern-resume-theme) },
+                    ]
+                    },
+                    { label: Quote, name: quote, widget: text, required: false },
+                    { label: Description, name: description, widget: markdown, required: false },
+                    { label: Attachment, name: pdf, widget: file, required: false },
+                    { label: Layout, name: layout, widget: string, default: left, required: false },
+                  ]
+                }
+          - name: publication
+            label: Publications
+            label_singular: Publication
+            layout: publi
+            fields: 
+              - { label: YAML File name, name: yaml_file, widget: file, media_folder: /_data/publications/members/, choose_url: false}
+              - { label: Filter, name: filter, widget: boolean, required: false, default: true }
+          - name: misc
+            label: Other
+            label_singular: Other
+            layout: text
+            fields: 
+              - { label: Title, name: title, widget: string }
+              - { label: layout, name: layout, widget: hidden, default: text }
+              - { label: Content, name: content, widget: markdown, required: false }
 
           # - { label: A Little More About Me, name: about_me, widget: text, required: false }
 

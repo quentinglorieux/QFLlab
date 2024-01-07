@@ -1,0 +1,65 @@
+highlights:
+  - title: Hot atomic vapors for nonlinear and quantum optics
+    image: review.png
+    description:
+      A general review to discuss all the cool physics done with hot atomic
+      vapors. It goes from conventional non-linear wave-mixing to squeezing, quantum
+      memories and more recent topics about quantum fluids of light.
+
+  - title: Quantum Vacuum Excitation of a Quasinormal Mode in an Analog Model of Black
+      Hole Spacetime
+    image: qnm.png
+    description: 
+      Vacuum fluctuations near horizons are known to yield correlated emission by the Hawking effect.
+      These quantum fluctuations then excite the horizon mode and make it ring like a bell.
+      These are the quasi-normal modes of the black holes that resonate.
+
+  # - title: Spectrum of collective excitations of a quantum fluid of polaritons
+  #   image: bragg_polariton2.png
+  #   description: 
+  #     An exploration of collective excitations with our novel spectroscopy techniques. 
+  #     Dispersion relation is more complex than standard Bogoliubov dispersion in driven-dissipative systems.
+
+  - title: Analogue cosmological particle creation in an ultracold quantum fluid of
+      light
+    image: analogue.png
+    description: 
+      Fluids of light in the paraxial geometry are intrinsically out-of-equilibrium.
+      We explore the role of the interaction quench on the structure factor of our 
+      fluid and we make connection with cosmological particle creation.
+
+
+
+  - title: High-Resolution Coherent Probe Spectroscopy of a Polariton Quantum Fluid
+    image: bragg_polariton1.png
+    description: 
+      A promising spectroscopy technique to measure the dispersion relation of a Polariton Quantum Fluid
+      even at very low momenta, and with access to the ghost (negative energy) modes.
+
+  - title: Nonequilibrium Prethermal States in a Two-Dimensional Photon Fluid
+    image: murad.png
+    description: 
+      We excite a quantum fluids of light with a bit of kinetic energy (associated to a temperature)
+      and we study the quasi long range order (algebraic coherence) to explore phase transition in
+      non-equilibrium state in collaboration with Nicolas Cherroret.
+
+  - title: Measurement of the Static Structure Factor in a Paraxial Fluid of Light Using
+      Bragg-like Spectroscopy
+    image: bragg_rb.png
+    description:
+      Fluids of light in the propagating geometry is quite a new field. A lot of common techniques of 
+      cold atoms are missing. We found a way to perform Bragg-like spectroscopy and measure the structure
+      factor in a fluid of light.
+
+  - title: Quantitative Analysis of Shock Wave Dynamics in a Fluid of Light
+    image: shock.png
+    description:
+      Fluids of light are a nice platform to test analytical theory for 1D and 2D non-linear physics.
+      Here we check shock waves in and we propose an analytical model in collaboration with the group of Nicolas Pavloff.
+
+  - title: Observation of the Bogoliubov Dispersion in a Fluid of Light
+    image: paraxial.png
+    description: 
+      Our first paper about fluids of light in the propagating geometry. We took quantum fluids of light analogy seriously and we realized that they
+      are actually superfluids ! The beginning of a long journey...
+

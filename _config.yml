@@ -20,7 +20,7 @@ collections:
     output: true
   highlights:
     output: false
-  members: 
+  profiles: 
     output: true
   # posts:
   #   output: true
@@ -71,9 +71,9 @@ defaults:
       category: "project"
       layout: "post"
   - scope:
-      path: "_members" # an empty string here means all files in the project
+      path: "_profiles" # an empty string here means all files in the project
     values:
-      category: "members"
+      category: "profiles"
       layout: "cv"
 
 # jekyll_admin:
