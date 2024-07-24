@@ -51,8 +51,8 @@ Open the `fundings.yml` file, then edit your fundings following yml syntax:
 ```
 
 ### Publications
-Open the `publications` folder then the `full_list_openalex.json` is supposed to be populated with your publication data (see Create your Publication list above).
-Then the file `highlights.json` contains the highlighted publications (with a picture). 
+Open the `_data/publications` folder then the `full_list_openalex.yaml` is supposed to be populated with your publication data (see Create your Publication list above).
+Then the file `highlights.yaml` contains the highlighted publications (with a picture). 
 The picture must be saved in `images/highlights/`
 The format is 
 ```yaml
