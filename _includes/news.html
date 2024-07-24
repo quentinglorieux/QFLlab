@@ -3,25 +3,29 @@
     <h4 class="smallcaps">News</h4>
 
 
-    {% for article in site.news limit:9 %}
-        <ul class="no-bullet">
-        <li><span style="font-weight: 500; font-size: 1.5rem;">{{ article.date  | date_to_string: "ordinal", "US" }}</span>
-            <div style="font-size: 1.45rem;"> {{ article.title}}  </div>
-            <div> 
-                <a href="{{ article.url }}"> 
-                <div class="btn-home" style="margin-top: 4px; font-size: 1.3rem;"> 
-                    <span class="glyphicon glyphicon glyphicon-info-sign" aria-hidden="true"></span> 
-                    Read more
-                </div>
-                </a>
-            </div
+    {% assign sorted_articles = site.news | sort: 'date' | reverse %}
+    <ul class="no-bullet">
+    {% for article in sorted_articles limit: 9 %}
+        <li style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #ccc;">
+            <span style="font-weight: 500; font-size: 1.5rem;">{{ article.date | date: "%B %d, %Y" }}</span>
+            <div style="display: flex;">
+                <img src="assets/images/news/{{ article.image }}" alt="{{ article.image }}" style="width: 100px; height: auto;  margin-right: 10px;">
+                <div> 
+                <div style="font-weight: 500; font-size: 1.45rem;">{{ article.title}}</div>
 
-            
+                <a href="{{ article.url }}">
+                    <div class="btn-home" style="margin-top: 2px; margin-bottom: 15px; font-size: 1.4rem;">
+                        <span class="glyphicon glyphicon-info-sign" aria-hidden="true"></span>
+                        Read more
+                    </div>
+                </a>
+                </div>
+            </div>
         </li>
-        </ul>
-        
     {% endfor %}
+    </ul>
+    
         <h4 style="font-size: 1.7rem; text-align: right;">
-            <a href="{{ site.url }}{{ site.baseurl }}/allnews.html">... see all news</a>
+            <a href="{{ site.url }}{{ site.baseurl }}/allnews.html"></a>
         </h4>
 </div>

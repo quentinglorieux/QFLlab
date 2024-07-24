@@ -61,7 +61,7 @@
   photo: Clara.png
   info: PhD Student, started October 2022
   status: phd
-  email: b
+  email: clara.piekarski@lkb.upmc.fr
   education1: MSc at ETH Zurich
   education2: BSc at Ecole Polytechnique
 
@@ -94,16 +94,22 @@
 - name: Quentin Schibler
   status: student
   photo: 
-  info: MSc - Topic 1
+  info: MSc - Feedback loop
   email: 
   education1:  ENS Paris Saclay
 
 - name: Simon Lepleux
   status: student
   photo: 
-  info: MSc - Topic 2
+  info: MSc - Solitons
   email: 
   education1: ENS Paris Saclay
+
+- name: Sukhman Singh
+  status: student
+  photo: 
+  info: MSc - Bose-Bose mixture
+  email: 
 
 
 

@@ -1,7 +1,7 @@
 ---
 title: NLSE Python package is released
 slug: nlse-python-package
-contact: quentin.glorieux@lkb.upmc.fr
+# contact: quentin.glorieux@lkb.upmc.fr
 image: LogoNLSE.png
 link: 10.21105.joss.06607.pdf
 layout: post
@@ -9,7 +9,7 @@ layout: post
 ### New release
 We are excited to announce the release of Version 2.3 of NLSE, our Python package for computing the Non-linear Schrödinger equation (also known as the Gross-Pitaevskii equation). This version offers efficient computation on both CPU and GPU, with a simple API. Visit: https://lnkd.in/eMciJBdS
 
-### The JOSS paper is online !
+The JOSS paper is online !
 This realease is published in the Journal of Open Source Software (JOSS) and is available at https://doi.org/10.21105/joss.06607
 
 **Great job Tangui Aladjidi and Clara Piekarski !**
