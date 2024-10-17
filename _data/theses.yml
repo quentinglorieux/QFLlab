@@ -107,8 +107,9 @@ internships:
       - name: "Guillaume Brochier"
         title: "Optical control upon quantum ﬂuids of light"
         link: "assets/pdf/rapports/brochier.pdf"
-      - name: "Quentin Valnais"
-        title: ""
+      - name: "Alix Merolle"
+        title: "Statistique quantique de l’émission de Hawking dans un trou noir analogue"
+        link: "assets/pdf/rapports/merolle.pdf"
   - year: 2021
     theses:
       - name: "Kévin Falque"
