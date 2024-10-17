@@ -3,17 +3,18 @@ document.addEventListener('DOMContentLoaded', function () {
     const body = document.body;
     const darkModeIconContainer = document.getElementById('darkModeIconContainer');
 
+    // Check if dark mode is stored in localStorage, or use system preference
+    const isDarkModeStored = localStorage.getItem('darkMode');
+    const isLightModePreferred = window.matchMedia('(prefers-color-scheme: light)').matches;
 
 
-    // Check if dark mode is preferred initially
-    const isDarkModePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-    const isDarkModeStored = localStorage.getItem('darkMode') === 'true';
-
-    if (isDarkModePreferred || isDarkModeStored) {
-          body.classList.add('dark-mode');
-         updateDarkModeIcon('moon');
-}
-
+    // Default to dark mode unless the user explicitly prefers light mode
+    if (isLightModePreferred) {
+        updateDarkModeIcon('sun');
+    } else {
+        body.classList.add('dark-mode');
+        updateDarkModeIcon('moon');   
+    }
 
     darkModeToggle.addEventListener('click', function () {
         body.classList.toggle('dark-mode');
