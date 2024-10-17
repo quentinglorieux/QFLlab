@@ -93,7 +93,8 @@ internships:
         title: "Light propagation in a 1D dispersive media"
         link: "assets/pdf/rapports/grenier.pdf"
       - name: "Louis Rossignol"
-        title: ""
+        title: "Nonlinear Schrödinger Equation Parameter Estimation with Neural Networks"
+        link: "assets/pdf/rapports/rossignol.md"
   - year: 2023
     theses:
       - name: "Corentin Morin"
