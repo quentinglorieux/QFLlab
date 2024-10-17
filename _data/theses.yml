@@ -81,6 +81,33 @@ PhD_theses:
     link: "http://tel.archives-ouvertes.fr/docs/00/04/75/32/PDF/tel-00000858.pdf"
 
 internships:
+  - year: 2024
+    theses:
+      - name: "Quentin Schibler"
+        title: "Controle d'un fluide quantique de lumière"
+        link: "assets/pdf/rapports/schibler.pdf"
+      - name: "Simon Lepleux"
+        title: "Study of vortices interaction and solitons in a quantum fluid of light"
+        link: "assets/pdf/rapports/lepleux.pdf"
+      - name: "Noé Grenier"
+        title: "Light propagation in a 1D dispersive media"
+        link: "assets/pdf/rapports/grenier.pdf"
+      - name: "Louis Rossignol"
+        title: ""
+  - year: 2023
+    theses:
+      - name: "Corentin Morin"
+        title: "Far-Off resonance laser locking"
+        link: "assets/pdf/rapports/morin.pdf"
+  - year: 2022
+    theses:
+      - name: "Thomas Picot"
+        title: "Tool development and characterisation of quantum fluids of light in hot atomic vapors"
+        link: "assets/pdf/rapports/picot.pdf"
+      - name: "Guillaume Brochier"
+        title: ""
+      - name: "Quentin Valnais"
+        title: ""
   - year: 2021
     theses:
       - name: "Kévin Falque"
