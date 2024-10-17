@@ -1,22 +1,42 @@
+- name: Quentin Fontaine
+  tagline: Experimental theoritician
+  photo: Fontaine.png
+  duration: PhD from 2017 to 2020
+  thesis: 
+  email: 
+  now_at: C2N
+  
 - name: Murad Abuzarli
   tagline:
   photo: Murad.png
   duration: PhD from 2020 to 2023
   info: Titre
-  email: verdoes@fmd.physics.leidenuniv.nl
-  number_educ: 2
-  education1: Now at 
-  education2: 
+  email: 
+  now_at: 
 
 
 - name: Ferdinand Claude
   photo: Ferdinand.jpg
-  info: PhD student
-  duration: 
+  info: 
+  duration: PhD from 2020 to 2023
   email: 
-  number_educ: 3
-  education1:
-  education2: 
-  education3:
+  now_at: Singapour University
+
+
+- name: Tangui Aladjidi
+  tagline: Colormaps and cycling maniac
+  photo: Tangui.jpg
+  duration: PhD from 2020 to 2023
+  status: postdoc
+  now_at: Qobli, Grenoble
+
+
+- name: Chengjie Ding
+  tagline: Nanofiber artist
+  photo: Chengjie.jpg
+  duration: PhD from 2020 to 2023
+  status: postdoc
+  now_at: WelinQ, Paris
+
 
 

@@ -5,8 +5,6 @@ abstract: Superfluidity is one of the most striking manifestation of quantum man
 image: bottle.png
 team:
   - Quentin Glorieux
-  - Tangui Aladjidi
-  - Chengjie Ding
   - Clara Piekarski
 publications:
   - https://doi.org/10.1103/physrevlett.129.100602

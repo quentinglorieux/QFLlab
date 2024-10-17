@@ -5,7 +5,6 @@ abstract: We study out-of-equilibrium phenomena in a paraxial fluid of light. Si
 image: fluid2.png
 team:
   - Quentin Glorieux
-  - Tangui Aladjidi
   - Myrann Baker-Rasooli
   - Clara Piekarski
   - Alix Merolle

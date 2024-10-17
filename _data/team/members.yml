@@ -30,23 +30,16 @@
   education2: PhD at LKB (Laurat group)
   education3: MSc at ESPCI
 
-- name: Tangui Aladjidi
-  tagline: Colormaps and cycling maniac
-  photo: Tangui.jpg
-  info: Postdoc, since 2023
-  status: postdoc
-  email: tangui.aladjidi@lkb.upmc.fr
-  education1: PhD at LKB, Paris
-  education2: MSc at Ecole Polytechnique
 
-- name: Chengjie Ding
-  tagline: Nanofiber artist
-  photo: Chengjie.jpg
-  info: Postdoc, since 2023
+
+- name: Devang Naik
+  tagline: 
+  photo: 
+  info: Postdoc, since 2024
   status: postdoc
-  email: chengjie.ding@lkb.upmc.fr
-  education1: PhD at LKB, Paris
-  education2: BSc at ECNU, Shanghai
+  email: 
+  education1: 
+  education2: 
 
 - name: Maxime Jacquet
   tagline: Analogue Gravity Guru
@@ -54,8 +47,8 @@
   info: Postdoc, since 2020
   status: postdoc
   email: maxime.jacquet@lkb.upmc.fr
-  education1: PhD
-  education2: MSc 
+  education1: 
+  education2:  
 
 - name: Clara Piekarski
   photo: Clara.png
@@ -82,32 +75,33 @@
   email: myrann.abobaker@lkb.upmc.fr
   education1: MSc LUMI - Sorbonne University
 
+
+
+- name: Quentin Schibler
+  status: phd
+  photo: 
+  info: PhD Student, started October 2024
+  email: 
+  education1:  ENS Paris Saclay
+
+- name: Simon Lepleux
+  status: phd
+  photo: 
+  info: PhD Student, started October 2024
+  email: 
+  education1: ENS Paris Saclay
+
+- name: Sukhman Singh
+  status: phd
+  photo: Sukhman.jpg
+  info: PhD Student, started October 2024
+  email: 
+
 - name: "This could be you !"
   photo: bottle.png
   info: See <a href="/openings">openings</a> for more info
   status: phd
   email: 
   education1:
-
-- name: Quentin Schibler
-  status: student
-  photo: 
-  info: MSc - Feedback loop
-  email: 
-  education1:  ENS Paris Saclay
-
-- name: Simon Lepleux
-  status: student
-  photo: 
-  info: MSc - Solitons
-  email: 
-  education1: ENS Paris Saclay
-
-- name: Sukhman Singh
-  status: student
-  photo: 
-  info: MSc - Bose-Bose mixture
-  email: 
-
 
 
