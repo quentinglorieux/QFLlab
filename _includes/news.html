@@ -6,8 +6,6 @@
     <ul class="no-bullet">
     {% for article in sorted_articles limit: 6 %}
 
-
-
         <li style="margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #ccc;">
             <span style="font-weight: 500; font-size: 1.5rem;">{{ article.date | date: "%B %d, %Y" }}</span>
             <div style="display: flex;">
