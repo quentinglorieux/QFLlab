@@ -2,7 +2,7 @@
 title: Out-of-equilibrium physics
 slug: out-of-equilibrium
 abstract: We study out-of-equilibrium phenomena in a paraxial fluid of light. Since we can shape the fluid density and velocity with a high degree of control and detect the full wave-function of our state (density and phase) we have access to novel experiments with unprecedented control.
-image: fluid2.png
+image: fluid2.webp
 team:
   - Quentin Glorieux
   - Myrann Baker-Rasooli

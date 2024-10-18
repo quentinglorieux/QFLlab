@@ -1,5 +1,5 @@
 - name: Quentin Glorieux
-  photo: Glorieux.jpg
+  photo: Glorieux.webp
   info: Associate Professor
   status: PI
   email: quentin.glorieux@lkb.upmc.fr
@@ -12,7 +12,7 @@
 
 - name: Alberto Bramati
   tagline: Italian Godfather
-  photo: Alberto.jpg
+  photo: Alberto.webp
   info: Full Professor
   status: PI
   email: alberto.bramati@lkb.upmc.fr
@@ -22,7 +22,7 @@
 
 - name: Hanna le Jeannic
   tagline: Quantum Hanna
-  photo: Hanna.png
+  photo: Hanna.webp
   info: CNRS Researcher
   status: PI
   email: hanna.lejeannic@lkb.upmc.fr
@@ -43,7 +43,7 @@
 
 - name: Maxime Jacquet
   tagline: Analogue Gravity Guru
-  photo: Maxime.jpg
+  photo: Maxime.webp
   info: Postdoc, since 2020
   status: postdoc
   email: maxime.jacquet@lkb.upmc.fr
@@ -51,7 +51,7 @@
   education2:  
 
 - name: Clara Piekarski
-  photo: Clara.png
+  photo: Clara.webp
   info: PhD Student, started October 2022
   status: phd
   email: clara.piekarski@lkb.upmc.fr
@@ -60,7 +60,7 @@
 
 
 - name: Alix Merolle
-  photo: Alix.jpg
+  photo: Alix.webp
   info: PhD Student, started October 2023
   status: phd
   email: alix.merolle@lkb.upmc.fr
@@ -69,7 +69,7 @@
 
 - name: Myrann Baker-Rasooli
   tagline: Photon fluid surfer
-  photo: Myrann2.png
+  photo: Myrann2.webp
   info: PhD Student, started October 2021<br> Co-direction L. Pruvost at LCPMR.
   status: phd
   email: myrann.abobaker@lkb.upmc.fr
@@ -93,12 +93,12 @@
 
 - name: Sukhman Singh
   status: phd
-  photo: Sukhman.jpg
+  photo: Sukhman.webp
   info: PhD Student, started October 2024
   email: 
 
 - name: "This could be you !"
-  photo: bottle.png
+  photo: bottle.webp
   info: See <a href="/openings">openings</a> for more info
   status: phd
   email: 

@@ -24,7 +24,7 @@ googlescholar_username: x
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: assets/images/members/Tangui.jpg
+about_profile_image: assets/images/members/Tangui.webp
 about_content: | # this will include new lines to allow paragraphs
   Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
 
@@ -32,7 +32,7 @@ about_content: | # this will include new lines to allow paragraphs
     - Lists
     - Tables
     - <a href="google.com">Links</a>
-    - Images ![alt text](/assets/images/members/Tangui.jpg "Trees")
+    - Images ![alt text](/assets/images/members/Tangui.webp "Trees")
 
 details:
   - title: Positions

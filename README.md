@@ -57,7 +57,7 @@ The picture must be saved in `images/highlights/`
 The format is 
 ```yaml
 - title: High-Resolution Coherent Probe Spectroscopy of a Polariton Quantum Fluid
-  image: bragg_polariton1.png
+  image: bragg_polariton1.webp
   description: 
     A promising spectroscopy technique to measure the dispersion relation of a Polariton Quantum Fluid
     even at very low momenta, and with access to the ghost (negative energy) modes.
@@ -70,7 +70,7 @@ For current members edit the `members.yml` file with the following yml syntax:
 ```yaml
 - name: Hanna Le Jeannic
   tagline: Quantum Hanna
-  photo: Hanna.png
+  photo: Hanna.webp
   info: CNRS Researcher
   status: PI
   email: 
@@ -86,7 +86,7 @@ For alumni members (when a PhD or a postdoc leaves) edit the `alumni_members.yml
 ```yaml
 - name: Quentin Fontaine
   tagline: Experimental theoritician
-  photo: QuentinF.png
+  photo: QuentinF.webp
   duration: PhD from 2017 to 2020
   thesis: Titre
   email: 
@@ -143,7 +143,7 @@ Edit the md files with this frontmatter:
 title: Superfluidity
 slug: superfluidity
 abstract : Superfluidity is one of the most striking manifestation of quantum many-body physics. Initially observed in liquid Helium, the realization of atomic Bose-Einstein condensates (BEC) has allowed detailed investigations of this macroscopic quantum phenomenon exploiting the precise control over the system parameters. 
-image: bottle.png
+image: bottle.webp
 team: 
     - Quentin Glorieux
     - Tangui Aladjidi

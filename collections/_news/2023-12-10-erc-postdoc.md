@@ -2,7 +2,7 @@
 title: New PhD and Master positions (ERC funded)
 slug: erc-funded-postdoc
 contact: quentin.glorieux@lkb.upmc.fr
-image: erc-team.png
+image: erc-team.webp
 link: Stage-LKB-2024-QuantumFluidsOfLight_en.pdf
 layout: post
 ---

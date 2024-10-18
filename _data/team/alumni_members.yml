@@ -1,6 +1,6 @@
 - name: Quentin Fontaine
   tagline: Experimental theoritician
-  photo: Fontaine.png
+  photo: Fontaine.webp
   duration: PhD from 2017 to 2020
   thesis: 
   email: 
@@ -8,7 +8,7 @@
   
 - name: Murad Abuzarli
   tagline:
-  photo: Murad.png
+  photo: Murad.webp
   duration: PhD from 2020 to 2023
   info: Titre
   email: 
@@ -16,7 +16,7 @@
 
 
 - name: Ferdinand Claude
-  photo: Ferdinand.jpg
+  photo: Ferdinand.webp
   info: 
   duration: PhD from 2020 to 2023
   email: 
@@ -25,7 +25,7 @@
 
 - name: Tangui Aladjidi
   tagline: Colormaps and cycling maniac
-  photo: Tangui.jpg
+  photo: Tangui.webp
   duration: PhD from 2020 to 2023
   status: postdoc
   now_at: Qobli, Grenoble
@@ -33,7 +33,7 @@
 
 - name: Chengjie Ding
   tagline: Nanofiber artist
-  photo: Chengjie.jpg
+  photo: Chengjie.webp
   duration: PhD from 2020 to 2023
   status: postdoc
   now_at: WelinQ, Paris

@@ -6,7 +6,7 @@ media_library:
   folder_support : true
 site_url: https://lab.quentinglorieux.fr
 display_url: https://lab.quentinglorieux.fr
-logo_url: https://lab.quentinglorieux.fr/assets/images/logos/01-logo-lkb.png
+logo_url: https://lab.quentinglorieux.fr/assets/images/logos/01-logo-lkb.webp
 
 collections:
 - name: 'news' # Used in routes, e.g., /admin/collections/blog

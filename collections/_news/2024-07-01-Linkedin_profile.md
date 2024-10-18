@@ -2,7 +2,7 @@
 title: New and updated Linkedin profile
 slug: linkedin-profile
 # contact: https://www.linkedin.com/in/quentin-glorieux-93a519298/
-image: linkedin.png
+image: linkedin.webp
 # link: https://www.linkedin.com/in/quentin-glorieux-93a519298/
 layout: post
 ---

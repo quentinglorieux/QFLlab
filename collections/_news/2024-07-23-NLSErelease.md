@@ -2,7 +2,7 @@
 title: NLSE Python package is released
 slug: nlse-python-package
 # contact: quentin.glorieux@lkb.upmc.fr
-image: LogoNLSE.png
+image: LogoNLSE.webp
 link: 10.21105.joss.06607.pdf
 layout: post
 ---

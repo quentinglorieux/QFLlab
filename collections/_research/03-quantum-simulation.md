@@ -2,7 +2,7 @@
 title: Quantum simulation
 slug: quantum-simulation
 abstract: A major milestone for the fluid of light community is to reach the level of control and the precision of detection to conduct quantum simulation with light
-image: f2.png
+image: f2.webp
 team:
   - Quentin Glorieux
   - Maxime Jacquet

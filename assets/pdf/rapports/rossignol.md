@@ -402,9 +402,9 @@ sandbox(device, resolution_input_beam, window_input, window_out,
         isat, waist_input_beam, non_locality_length, delta_z,
         cell_length, exp_image_path, saving_path)
 ```
-This should save the ouptut figure as [`sandbox.png`](/data/sandbox.png):
+This should save the ouptut figure as [`sandbox.webp`](/data/sandbox.webp):
 
-![`sandbox.png`](/data/sandbox.png)
+![`sandbox.webp`](/data/sandbox.webp)
 
 ## LAUNCH !
 Once the edge cases are checked you can launch [`parameters.py`](/parameters.py) with your parameters.
@@ -472,7 +472,7 @@ Each image will be cloned as it is already 16 times.
 #### Fringes noise
 Then, each image will be added 8 different fringes (different angles and number of fringes).
 At the end of this process your array will be of shape (24 * `number_of_n2` * `number_of_isat`, 3, `resolution_training`, `resolution_training`)
-![fringes](img/fringes_n25_isat5_alpha5_power0.57.png)
+![fringes](img/fringes_n25_isat5_alpha5_power0.57.webp)
 
 
 Once the augmentations are done, the array goes to training.
@@ -532,7 +532,7 @@ Prior to training the model was splitted into 3 arrays (80% for training, 10% va
 ```python
 f"losses_w{resolution_training}_n2{number_of_2}_isat{number_of_isat}_alpha{number_of_alpha}_alpha{number_of_alpha}.pth"
 ```
-![image info](./img/losses_w256_n210_isat10_alpha10.png)
+![image info](./img/losses_w256_n210_isat10_alpha10.webp)
 
 - Parameters file:
 
@@ -549,7 +549,7 @@ In `checkpoint.pth.tar`, there is the checkpoint of the model. It is updated thr
 ## Results
 Finally, if you provide a field of your experimental data it will compute what $n_2$, $I_{sat}$ and $\alpha$ are and will be able to propagate using [NLSE](https://github.com/Quantum-Optics-LKB/NLSE) to visually compare with your results.
 
-![Results](img/prediction_n210_isat10_alpha10_power0.57.png)
+![Results](img/prediction_n210_isat10_alpha10_power0.57.webp)
 
 
 # Future improvements:
