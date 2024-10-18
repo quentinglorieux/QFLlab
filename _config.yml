@@ -32,8 +32,23 @@ include:
   - .htaccess
   - _pages
 
+plugins:
+  - jekyll-assets
+
 sass:
   sass_dir: _sass
+
+assets:
+  compress:
+    extensions:
+      - .jpg
+      - .png
+      - .svg
+      - .webp
+  autowebp: true # Automatically generate WebP versions of images
+  sources:
+    - assets/images
+  output: assets/c_images # The output folder for compressed/optimized images
 
 # Conversion
 markdown: kramdown

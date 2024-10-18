@@ -6,3 +6,4 @@ source "https://rubygems.org"
 
 # gem 'jekyll-admin', group: :jekyll_plugins
 gem "jekyll", "~> 4.3"
+gem 'jekyll-assets'
