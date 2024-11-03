@@ -27,13 +27,15 @@ googlescholar_username: c4Y1-REAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/members/Glorieux.webp
 about_content: | # this will include new lines to allow paragraphs
-  Write an awesome description about yourself here, this supports markdown, so you can add [links](http://foobar.com) and highlight things <mark>like this</mark>.
+  After his engineering degree at Institut d’Optique and his Master degree at Ecole Polytechnique, Quentin Glorieux went to graduate school at the Paris Diderot University. In 2010, he earned a PhD in Quantum Optics at the laboratory Matériaux et Phénomènes Quantiques under the supervision of Pr Thomas Coudreau. During his PhD, he demonstrated the generation of multispatial mode entangled states using four-wave mixing in hot atomic vapors.
 
-  You can even add paragraphs by using empty lines like this and add anything else [markdown](https://www.markdownguide.org/getting-started#what-is-markdown) supports such as
-    - Lists
-    - Tables
-    - <a href="google.com">Links</a>
-    - Images ![alt text](/assets/images/logos/07-logo-erc.webp "Trees")
+  In 2010, he joined Paul Lett’s group at NIST in Gaithersburg as a postdoctoral fellow in the Laser Cooling group directed by William Phillips. Quentin Glorieux was awarded a **Marie Curie European IOF fellowship** in 2011 to initiate a project on Multimode Quantum Memories with the NIST, the Australian National University and the group of Nicolas Gisin at University of Geneva. In September 2013, Quentin Glorieux has started a position of **Associate Professor at Sorbonne University in Paris** as a member of the Laboratoire Kastler Brossel (LKB). In 2015, Quentin Glorieux received the City of Paris Young Scientist "Emergences" Award which provides fundings to start an independent research group. Since then, he conducts two experimental activities on :
+
+  - **Nanophotonics** : studying the coupling of single-photon emitters to nanostructures such as nanofiber
+  - **Quantum fluid of light** : investigating superfluidity of light propagating in atomic media
+
+  He has co-authored 59 publications in international peer reviewed journals (h=25, ~1900 citations) and 5 publications in international peer reviewed conference proceedings. In 2018 and 2023, he has been nominated **Junior Fellow** at the Institut Universitaire de France (IUF) from 2018 to 2028.|
+  In 2022, he has been awarded an **ERC Consolidator Grant** to develop a new platform for quantum simulation with light.
 
 details:
   - title: Positions
@@ -47,7 +49,7 @@ details:
         quote: > 
             Laboratoire Kastler Brossel
         description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie.
+            Associate Professor since 2013.
       - layout : left 
         title: NIST
         sub_title: Postdoc
@@ -56,7 +58,7 @@ details:
         quote: > 
             Bill Phillips' group
         description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie.
+          Working on multimode quantum optics and ultra-cold atoms.
       - layout : left 
         title: ANU
         sub_title: Postdoc
@@ -65,7 +67,7 @@ details:
         quote: > 
             Ping Koy Lam's group
         description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie.    
+          Working on multimode quantum memories.
       - layout : left 
         title: Paris Diderot
         sub_title: PhD thesis
@@ -74,27 +76,27 @@ details:
         quote: > 
             Titre
         description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
+          Thesis on four-wave mixing in hot atomic vapors.
 
   - title: Teaching
     layout: list
     content:
       - layout: right
-        title: Cours 1
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Mathématiques avec Matlab
+        sub_title: Licence professionnelle LIOVIS
+        caption: 2013 - 2024
         quote: >
-          Short institution or course description (optional)
+          
         description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
+          Cours de mathématiques pour les étudiants de troisieme année de licence professionnelle LIOVIS.
       - layout: right
-        title: Cours 2
-        sub_title: Qualifications (eg. BA Performing Arts)
-        caption: Date Range (eg. 2016 - 2019)
+        title: Mécanique quantique
+        sub_title: Licence de Physique
+        caption: 2015-2019
         quote: >
-          Short institution or course description (optional)
+          Cours magistral de mécanique quantique pour les étudiants de licence de physique.
         description:  # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
+          15 séances de 2 heures de cours magistral et 15 séances de 2 heures de travaux dirigés.
 
   - title: Projects # Title for the section
     layout: list # Type of content section (list/text)
@@ -103,8 +105,8 @@ details:
         # border: weak  # Value of `weak` will display a weak border below this item. # Any 
                       # other value (or no value) means no border will be displayed
         title: FOLIO
-        link: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
-        link_text: Link Text
+        link: Link to project
+        link_text: Link 
         additional_links:
           - title:  Github page for project (eg. sproogen/modern-resume-theme)
             icon: fab fa-twitter
@@ -113,25 +115,21 @@ details:
             icon: fab fa-github
             url: Link to project (eg. sproogen.github.io/modern-resume-theme)(optional)
         quote: >
-          Short overview of the project (optional)
+          PRCE with X-LIM and GLO-Photonics
         description: | # this will include new lines to allow paragraphs
-          Lorem ipsum dolor sit amet nullam vulputate et netus donec risus. Posuere hac sagittis quis congue justo vitae ornare hendrerit vel. Tristique mollis scelerisque faucibus convallis elit gravida vulputate iaculis. Praesent porta feugiat diam semper netus malesuada id tristique. Proin consequat purus urna mi sed elementum etiam praesent aliquam iaculis molestie. 
+          A research projet on using hollow core fibers for quantum fluids of light.
   - title: Publications # Title for the section
     layout: publi # Type of content section (list/text)
     content:
       yaml_file: QuentinGlorieux
       filter: true
 
-  - title: A Little More About Me
+  - title: A Little More
     layout: text
     content: | # this will include new lines to allow paragraphs
-      This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-      Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
-
+      I like running in the mountains (especially in Les Houches), climbing boulders and ice caves. I also enjoy photography and I am a big fan of the old school punk band NOFX.
 
 ---
 
 
-Voila **ajouter ici**
 
