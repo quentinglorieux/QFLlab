@@ -8,6 +8,11 @@ This website is powered by Jekyll and some Bootstrap, Bootwatch.
 [Clone](https://github.com/quentinglorieux/) this repository.
 
 Install Jekyll (see [here](https://jekyllrb.com/docs/installation/)).
+Run the packages installer 
+```bash
+bundle install
+```
+
 Go to your folder and run `bundle exec jekyll serve`
 Your demo site is available at [http://localhost:4000](http://localhost:4000)
 
