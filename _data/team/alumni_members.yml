@@ -12,7 +12,7 @@
   duration: PhD from 2020 to 2023
   info: Titre
   email: 
-  now_at: 
+  now_at: Universität Wien
 
 
 - name: Ferdinand Claude
@@ -38,6 +38,11 @@
   status: postdoc
   now_at: WelinQ, Paris
 
+- name: Wei Liu
+  tagline: 
+  photo: Wei.webp
+  duration: PhD from 2020 to 2023
+  now_at: High school teacher in Shanghai
 
 - name: Maxime Joos
   tagline: Nanofiber artist
