@@ -44,4 +44,4 @@ L'objectif de ce projet est de simuler une partie du jeu de cartes bien connu. C
 Une inscription par binôme. Pas plus de 1 binôme par projet.
 
 ## Fichier PDF
-Projets : [LIEN](/assets/pdf/projets.pdf)
+Projets : [LIEN](/assets/pdf/projets24-25.pdf)
