@@ -12,12 +12,12 @@ L'UE de Matlab est évaluée sur le projet encadré que vous allez effectuer. Po
 Le projet doit être effectué en binôme. La note pourra être différente entre les deux membres du binôme s'il est noté une grande disparité dans l'implication et la connaissance du code.
 
 La note se décompose de la façon suivante:
-- 30% sur l'avancement dans le projet (jusqu'où avez-vous poussé le projet ?)
-- 20% sur la qualité du code (commentaires, organisation des fonctions...)
-- 20% sur le rapport (présentation soignée, qualité de la rédaction...)
-- 30% sur la soutenance orale
+- 10% sur l'avancement dans le projet (jusqu'où avez-vous poussé le projet ?)
+- 10% sur la qualité du code (commentaires, organisation des fonctions...)
+- 40% sur le rapport (présentation soignée, qualité de la rédaction...)
+- 40% sur la soutenance orale
 
-La difficulté des projets est variable. Certains sont plus guidés que d'autres. Selon votre niveau en Matlab, choisissez un projet adapté. Pour valoriser les projets les plus difficiles, un coefficient $\times$1.2 sera appliqué aux projets Niveau 2 et un coefficient $\times$1.3 aux projets Niveau 3. Ce coefficient s'applique sur la note d'avancement uniquement.
+La difficulté des projets est variable. Certains sont plus guidés que d'autres. Selon votre niveau en Matlab, choisissez un projet adapté. Pour valoriser les projets les plus difficiles, un coefficient sera appliqué aux projets Niveau 2 et aux projets Niveau 3. Ce coefficient s'applique sur la note d'avancement uniquement.
 
 **Attention**: *Il existe des codes sur internet (mais aussi ChatGPT) pour des projets similaires, nous le savons et nous vérifierons. Vous devez comprendre parfaitement votre code pour la soutenance.*
 
