@@ -1,0 +1,20 @@
+{
+    "data": {
+      "firstname": "",
+      "lastname": "",
+      "affiliation": "",
+      "city": "",
+      "country": "",
+      "dob": "",
+      "email": "",
+      "advisor": "",
+      "gender": "",
+      "status": "",
+      "food": "",
+      "other_food_details": "",
+      "title": "",
+      "abstract": "",
+      "shortCV": "",
+      "motivation": ""
+    }
+  }
