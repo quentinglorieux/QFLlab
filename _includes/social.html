@@ -1,7 +1,7 @@
 <h4 class="smallcaps">
     <i class="fas fa-share-alt"></i> Social Links
 </h4>
-<div class="flex-container">
+<div class="flex-start">
     {% for social in site.data.social %}
     <a href="{{ social.url }}" target="_blank" rel="noopener noreferrer">
         <img src="{{ site.url }}{{ site.baseurl }}/assets/images/social/{{ social.image }}" alt="{{ social.name }}" style="height: 40px" />
@@ -10,23 +10,26 @@
 </div>
 
 <style>
-    .flex-container {
-        padding-top: 20px;
+
+
+    .flex-start {
+        padding-top: 6px;
+        gap: 20px;
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: start;
     }
 
-    .flex-container a {
+    .flex-start a {
         text-decoration: none;
         margin: 5px;
     }
 
-    .flex-container img {
+    .flex-start img {
         transition: transform 0.3s ease;
     }
 
-    .flex-container img:hover {
+    .flex-start img:hover {
         transform: scale(1.1);
     }
 </style>

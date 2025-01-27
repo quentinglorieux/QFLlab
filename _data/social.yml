@@ -1,19 +1,21 @@
-- name: Bluesky
-  url: https://bsky.app/profile/quantoptics-lkb.bsky.social
-  image: bluesky.png
+
 
 - name: ORCID
   url: https://orcid.org/0000-0003-0903-0233
-  image: orcid.png
-
-- name: LinkedIn
-  url: https://www.linkedin.com/in/quentin-glorieux-93a519298/
-  image: linkedin.png
+  image: orcid.svg
 
 - name: Google Scholar
   url: https://scholar.google.com/citations?user=c4Y1-REAAAAJ&hl=en
-  image: scholar.png
+  image: scholar.svg
 
 - name: arXiv
   url: https://arxiv.org/a/glorieux_q_1.html
-  image: arxiv.png
+  image: arxiv.svg
+
+- name: Bluesky
+  url: https://bsky.app/profile/quantoptics-lkb.bsky.social
+  image: bluesky.svg
+
+- name: LinkedIn
+  url: https://www.linkedin.com/in/quentin-glorieux-93a519298/
+  image: linkedin.svg
