@@ -7,7 +7,11 @@ layout: default
 
   <h3 class="home-pi smallcaps">{{ site.data.admin.settings.PI}}</h3>
 
-  {{ content }} {% include logo.html %}
+  {{ content }}
+  {% include social.html %}
+
+  {% include logo.html %} 
+
 </div>
 
 <div id="newsid" class="col-sm-4">{% include news.html %}</div>
