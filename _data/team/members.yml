@@ -40,6 +40,15 @@
   email: devang.naik@lkb.upmc.fr
   education1: 
   education2: 
+    
+- name: Noémie Marquet
+  tagline: 
+  info: Postdoc, since 2025
+  status: postdoc
+  email: noemie.marquet@lkb.upmc.fr
+  education1: 
+  education2: 
+    
 
 - name: Maxime Jacquet
   tagline: Analogue Gravity Guru
@@ -70,7 +79,7 @@
 - name: Myrann Baker-Rasooli
   tagline: Photon fluid surfer
   photo: Myrann2.webp
-  info: PhD Student, started October 2021<br> Co-direction L. Pruvost at LCPMR.
+  info: PhD Student, started October 2021
   status: phd
   email: myrann.abobaker@lkb.upmc.fr
   education1: MSc LUMI - Sorbonne University

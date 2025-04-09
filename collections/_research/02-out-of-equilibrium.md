@@ -5,10 +5,13 @@ abstract: We study out-of-equilibrium phenomena in a paraxial fluid of light. Si
 image: fluid2.webp
 team:
   - Quentin Glorieux
+  - Noémie Marquet
   - Myrann Baker-Rasooli
   - Clara Piekarski
   - Alix Merolle
 publications:
+  - https://doi.org/10.21105/joss.06607
+  - https://doi.org/10.1103/physreva.108.063512
   - https://doi.org/10.1103/physrevlett.129.100602
   - https://doi.org/10.1103/physrevlett.126.183901
   - https://doi.org/10.1209/0295-5075/134/24001

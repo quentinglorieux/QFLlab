@@ -6,7 +6,9 @@ image: bottle.webp
 team:
   - Quentin Glorieux
   - Clara Piekarski
+  - Quentin Schibler
 publications:
+  - https://arxiv.org/abs/2504.06262
   - https://doi.org/10.1103/physrevlett.129.100602
   - https://doi.org/10.1051/epjconf/202226608004
   - https://doi.org/10.1103/physrevlett.127.023401

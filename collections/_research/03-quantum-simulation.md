@@ -5,6 +5,7 @@ abstract: A major milestone for the fluid of light community is to reach the lev
 image: f2.webp
 team:
   - Quentin Glorieux
+  - Devang Naik
   - Maxime Jacquet
   - Quentin Schibler
   - Simon Lepleux
