@@ -1,3 +1,6 @@
+# to add a publication use : cd python then
+# python AddPublication.py   'https://doi.org/10.1103/PhysRevLett.130.111501'
+
 - title: Paraxial Fluids of Light
   authors:
   - name: Quentin Glorieux
@@ -45,6 +48,8 @@
 
 - title: Turbulent dynamics in a two-dimensional paraxial fluid of light
   authors:
+  - name: Myrann Baker-Rasooli
+    orcid: https://orcid.org/0000-0003-0969-6705
   - name: Wei Liu
     orcid: https://orcid.org/0000-0003-2655-512X
   - name: Tangui Aladjidi

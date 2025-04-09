@@ -81,6 +81,11 @@ PhD_theses:
     link: "http://tel.archives-ouvertes.fr/docs/00/04/75/32/PDF/tel-00000858.pdf"
 
 internships:
+  - year: 2025
+    theses:
+      - name: "Marc Younès"
+        title: "Time-Resolved Phase-Sensitive Detections for Quantum Fluids of Light"
+        link: "assets/pdf/rapports/younes_2025.pdf"
   - year: 2024
     theses:
       - name: "Quentin Schibler"
