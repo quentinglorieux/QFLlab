@@ -1,3 +1,10 @@
+- title: Paraxial Fluids of Light
+  image: advances.webp
+  description:
+    A (long) review paper about the physics of paraxial fluids of light. It goes from the
+    theoretical framework to the experimental realizations. It also discusses the
+    experimental techniques and the outlook of the field.
+    
 - title: "NLSE: A Python package to solve the nonlinear Schrödinger equation"
   image: LogoNLSE.webp
   description:

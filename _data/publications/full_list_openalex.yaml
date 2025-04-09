@@ -1,4 +1,63 @@
-- title: "NLSE: A Python package to solve the nonlinear Schrödinger equation"
+- title: Quantum Vacuum Excitation of a Quasinormal Mode in an Analog Model of Black
+    Hole Spacetime
+  authors:
+  - name: Maxime J. Jacquet
+    orcid: https://orcid.org/0000-0003-0977-7054
+  - name: Luca Giacomelli
+    orcid: https://orcid.org/0000-0002-4135-7087
+  - name: Quentin Valnais
+    orcid: https://orcid.org/0000-0002-2552-4199
+  - name: M. Joly
+    orcid: null
+  - name: Ferdinand Claude
+    orcid: https://orcid.org/0000-0003-1118-7379
+  - name: E. Giacobino
+    orcid: https://orcid.org/0000-0003-1582-251X
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Iacopo Carusotto
+    orcid: https://orcid.org/0000-0002-9838-0149
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  link:
+    url: https://doi.org/10.1103/physrevlett.130.111501
+    display: Physical Review Letters 130 11 (2023).
+  doi: https://doi.org/10.1103/physrevlett.130.111501
+  is_oa: true
+  oa_url: https://hal.science/hal-03420625/document
+  publication_year: 2023
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '130'
+    issue: '11'
+    first_page: null
+    last_page: null
+
+- title: Paraxial Fluids of Light
+  authors:
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Clara Piekarski
+    orcid: https://orcid.org/0000-0001-6871-6003
+  - name: Quentin Schibler
+  - name: Tangui Aladjidi
+    orcid: https://orcid.org/0000-0002-3109-9723
+  - name: Myrann Baker-Rasooli
+    orcid: https://orcid.org/0000-0003-0969-6705
+  link:
+    url: https://arxiv.org/abs/2504.06262
+    display: Advances In Atomic, Molecular, and Optical Physics
+  doi: https://arxiv.org/abs/2504.06262
+  is_oa: true
+  oa_url: https://arxiv.org/abs/2504.06262
+  publication_year: 2025
+  journal: Advances In Atomic, Molecular, and Optical Physics
+  journal_abbreviation: Advances
+  biblio:
+    volume: '73'
+
+- title: "NLSE: A Python package to solve the nonlinear Schr\xF6dinger equation"
   authors:
   - name: Tangui Aladjidi
     orcid: https://orcid.org/0000-0002-3109-9723
@@ -14,18 +73,14 @@
   oa_url: https://doi.org/10.21105/joss.06607
   publication_year: 2024
   journal: Journal of Open Source Software
-  journal_abbreviation: 'JOSS'
+  journal_abbreviation: JOSS
   biblio:
     volume: '9'
     issue: '99'
     first_page: 6607
 
-
-
 - title: Turbulent dynamics in a two-dimensional paraxial fluid of light
   authors:
-  - name: Myrann Baker-Rasooli
-    orcid: https://orcid.org/0000-0003-0969-6705
   - name: Wei Liu
     orcid: https://orcid.org/0000-0003-2655-512X
   - name: Tangui Aladjidi
@@ -42,13 +97,13 @@
   oa_url: https://arxiv.org/pdf/2211.08441
   publication_year: 2023
   journal: Physical review
-  journal_abbreviation: 'A'
+  journal_abbreviation: A
   biblio:
     volume: '108'
     issue: '6'
     first_page: null
     last_page: null
-    
+
 - title: Color-Tunable Mixed-Cation Perovskite Single Photon Emitters
   authors:
   - name: "Marianna D\u2019Amato"
@@ -75,7 +130,6 @@
     issue: '1'
     first_page: '197'
     last_page: '205'
-
 
 - title: Quantum Vacuum Excitation of a Quasinormal Mode in an Analog Model of Black
     Hole Spacetime
