@@ -27,15 +27,18 @@ googlescholar_username: c4Y1-REAAAAJ
 # about_title: About Me (Use this to override about section title)
 about_profile_image: assets/images/members/Glorieux.webp
 about_content: | # this will include new lines to allow paragraphs
-  After his engineering degree at Institut d’Optique and his Master degree at Ecole Polytechnique, Quentin Glorieux went to graduate school at the Paris Diderot University. In 2010, he earned a PhD in Quantum Optics at the laboratory Matériaux et Phénomènes Quantiques under the supervision of Pr Thomas Coudreau. During his PhD, he demonstrated the generation of multispatial mode entangled states using four-wave mixing in hot atomic vapors.
+  After his engineering degree at **Institut d’Optique** and his Master degree at École Polytechnique, Quentin Glorieux went to graduate school at Paris Diderot University. In 2010, he earned a PhD in Quantum Optics at the laboratory **Matériaux et Phénomènes Quantiques** under the supervision of **Prof. Thomas Coudreau**. During his PhD, he demonstrated the generation of multi-spatial mode entangled states using four-wave mixing in hot atomic vapors.|
 
-  In 2010, he joined Paul Lett’s group at NIST in Gaithersburg as a postdoctoral fellow in the Laser Cooling group directed by William Phillips. Quentin Glorieux was awarded a **Marie Curie European IOF fellowship** in 2011 to initiate a project on Multimode Quantum Memories with the NIST, the Australian National University and the group of Nicolas Gisin at University of Geneva. In September 2013, Quentin Glorieux has started a position of **Associate Professor at Sorbonne University in Paris** as a member of the Laboratoire Kastler Brossel (LKB). In 2015, Quentin Glorieux received the City of Paris Young Scientist "Emergences" Award which provides fundings to start an independent research group. Since then, he conducts two experimental activities on :
+  In 2010, he joined Paul Lett’s group at **NIST** (Gaithersburg, USA) as a postdoctoral fellow in the Laser Cooling group directed by William Phillips. Quentin Glorieux was awarded a Marie Curie European IOF fellowship in 2011 to initiate a project on multimode quantum memories in collaboration with NIST, the **Australian National University**, and the group of Nicolas Gisin at University of Geneva.|
+  University in Paris, joining the **Laboratoire Kastler Brossel (LKB)**. In 2015, he received the City of Paris Young Scientist Emergences Award, which provided funding to start an independent research group. Since then, he has developed two experimental research directions:
 
   - **Nanophotonics** : studying the coupling of single-photon emitters to nanostructures such as nanofiber
   - **Quantum fluid of light** : investigating superfluidity of light propagating in atomic media
 
-  He has co-authored 59 publications in international peer reviewed journals (h=25, ~1900 citations) and 5 publications in international peer reviewed conference proceedings. In 2018 and 2023, he has been nominated **Junior Fellow** at the Institut Universitaire de France (IUF) from 2018 to 2028.|
-  In 2022, he has been awarded an **ERC Consolidator Grant** to develop a new platform for quantum simulation with light.
+  In 2018 and again in 2023, he was nominated **Junior Fellow of the Institut Universitaire de France** (IUF).
+  Since 2020, his main research focus has been on quantum fluids of light, supported by the **ERC Consolidator Grant** for the project “MistiQ Light”. This European funding enables the development of a new experimental platform for quantum simulation. The aim of the project is to observe **a quantum phase transition between a superfluid and a Mott insulator in a strongly interacting photon fluid**. This will open new perspectives on collective quantum effects of light and potential applications in photonic quantum technologies.
+
+  He is author or co-author of 70 publications in international peer-reviewed journals, with an h-index of 27 and around 2000 citations. He has also contributed to 5 publications in international peer-reviewed conference proceedings.
 
 details:
   - title: Positions
