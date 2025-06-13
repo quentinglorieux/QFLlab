@@ -13,7 +13,7 @@ This is the Rubidium Lab group:
 ![rb_group_summer2025_small](/assets/images/group_pictures/rb_group_summer2025_small.jpeg)
 
 **Left to right:**
-Devang Naik, Quentin Glorieux, Alexandre Levain, Enrico Bonfissuto (first row), Simon Lepleux (first row), Lucas Lorenzi, Viktoria Turinicova, Quentin Schibler, Noémie Marquet, Alice Lesne, Clara Piekarski, Georgios Paraskevopoulos, Sukhman Singh.
+Devang Naik, Quentin Glorieux, Alexandre Levain, Enrico Bonfissuto (first row), Alix Merolle, Simon Lepleux (first row), Lucas Lorenzi, Viktoria Turinicova, Quentin Schibler, Noémie Marquet, Alice Lesne, Clara Piekarski, Georgios Paraskevopoulos, Sukhman Singh.
 ## And the entire Quantum Optics team.
 
 ![full_15B_summer2025_mini.jpg](/assets/images/group_pictures/full_15B_summer2025.jpg)
