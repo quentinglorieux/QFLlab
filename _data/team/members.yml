@@ -45,9 +45,10 @@
   tagline: 
   info: Postdoc, since 2025
   status: postdoc
+  photo: Noemie.webp
   email: noemie.marquet@lkb.upmc.fr
-  education1: 
-  education2: 
+  education1: PhD at ONERA
+  education2: Master at Institut d'Optique
     
 
 - name: Maxime Jacquet
@@ -64,7 +65,7 @@
   info: PhD Student, started October 2022
   status: phd
   email: clara.piekarski@lkb.upmc.fr
-  education1: MSc at ETH Zurich
+  education1: Master at ETH Zurich
   education2: BSc at Ecole Polytechnique
 
 
@@ -73,7 +74,7 @@
   info: PhD Student, started October 2023
   status: phd
   email: alix.merolle@lkb.upmc.fr
-  education1: MSc LUMI - Sorbonne University
+  education1: Master LUMI - Sorbonne University
 
 
 - name: Myrann Baker-Rasooli
@@ -82,7 +83,7 @@
   info: PhD Student, started October 2021
   status: phd
   email: myrann.abobaker@lkb.upmc.fr
-  education1: MSc LUMI - Sorbonne University
+  education1: Master LUMI - Sorbonne University
 
 
 
@@ -95,7 +96,7 @@
 
 - name: Simon Lepleux
   status: phd
-  photo: 
+  photo: Simon.webp
   info: PhD Student, started October 2024
   email: 
   education1: ENS Paris Saclay
@@ -105,7 +106,19 @@
   photo: Sukhman.webp
   info: PhD Student, started October 2024
   email: 
+    
+- name: Enrico Bonfissuto
+  status: student
+  photo: Enrico.jpg
+  info: Master Student, Summer 2025
+  email: 
 
+- name: Alexandre Levain
+  status: student
+  photo: Alexandre.webp
+  info: Master Student, Summer 2025
+  email: 
+    
 - name: "This could be you !"
   photo: bottle.webp
   info: See <a href="/openings">openings</a> for more info
