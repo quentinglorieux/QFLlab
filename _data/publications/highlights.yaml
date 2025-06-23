@@ -1,15 +1,23 @@
+- title : "Observation of Jones-Roberts Solitons in a Paraxial Quantum Fluid of Light"
+  image: jrs.webp
+  description: A letter about the observation of the famous Jones-Roberts solitons in a quantum fluid of light. These solitons were predicted in 1981 and never observed before. It's an editor's suggestion in Physical Review Letters !
+
+
+- title: "Spin and density modes in a binary fluid of light"
+  image: mixture.webp
+  description: A paper about the first realization of a binary fluid of light. We show how to create a Bose-Bose mixture of photons and we explore the spin and density modes of this new system.
+
 - title: Paraxial Fluids of Light
   image: advances.webp
   description:
     A (long) review paper about the physics of paraxial fluids of light. It goes from the
     theoretical framework to the experimental realizations. It also discusses the
     experimental techniques and the outlook of the field.
-    
+
 - title: "NLSE: A Python package to solve the nonlinear Schrödinger equation"
   image: LogoNLSE.webp
-  description:
-    A short paper describing the NLSE package, a Python package to solve the Gross-Pitaevskii equation and the Nonlinear Schrödinger equation using CPU or GPU.
-    
+  description: A short paper describing the NLSE package, a Python package to solve the Gross-Pitaevskii equation and the Nonlinear Schrödinger equation using CPU or GPU.
+
 - title: Hot atomic vapors for nonlinear and quantum optics
   image: review.webp
   description:
@@ -17,48 +25,48 @@
     vapors. It goes from conventional non-linear wave-mixing to squeezing, quantum
     memories and more recent topics about quantum fluids of light.
 
-- title: Quantum Vacuum Excitation of a Quasinormal Mode in an Analog Model of Black
-    Hole Spacetime
-  image: qnm.webp
-  description: 
-    Vacuum fluctuations near horizons are known to yield correlated emission by the Hawking effect.
-    These quantum fluctuations then excite the horizon mode and make it ring like a bell.
-    These are the quasi-normal modes of the black holes that resonate.
+# - title: Quantum Vacuum Excitation of a Quasinormal Mode in an Analog Model of Black
+#     Hole Spacetime
+#   image: qnm.webp
+#   description:
+#     Vacuum fluctuations near horizons are known to yield correlated emission by the Hawking effect.
+#     These quantum fluctuations then excite the horizon mode and make it ring like a bell.
+#     These are the quasi-normal modes of the black holes that resonate.
 
 # - title: Spectrum of collective excitations of a quantum fluid of polaritons
 #   image: bragg_polariton2.webp
-#   description: 
-#     An exploration of collective excitations with our novel spectroscopy techniques. 
+#   description:
+#     An exploration of collective excitations with our novel spectroscopy techniques.
 #     Dispersion relation is more complex than standard Bogoliubov dispersion in driven-dissipative systems.
 
-- title: Analogue cosmological particle creation in an ultracold quantum fluid of
+- title:
+    Analogue cosmological particle creation in an ultracold quantum fluid of
     light
   image: analogue.webp
-  description: 
+  description:
     Fluids of light in the paraxial geometry are intrinsically out-of-equilibrium.
-    We explore the role of the interaction quench on the structure factor of our 
+    We explore the role of the interaction quench on the structure factor of our
     fluid and we make connection with cosmological particle creation.
-
-
 
 - title: High-Resolution Coherent Probe Spectroscopy of a Polariton Quantum Fluid
   image: bragg_polariton1.webp
-  description: 
+  description:
     A promising spectroscopy technique to measure the dispersion relation of a Polariton Quantum Fluid
     even at very low momenta, and with access to the ghost (negative energy) modes.
 
 - title: Nonequilibrium Prethermal States in a Two-Dimensional Photon Fluid
   image: murad.webp
-  description: 
+  description:
     We excite a quantum fluids of light with a bit of kinetic energy (associated to a temperature)
     and we study the quasi long range order (algebraic coherence) to explore phase transition in
     non-equilibrium state in collaboration with Nicolas Cherroret.
 
-- title: Measurement of the Static Structure Factor in a Paraxial Fluid of Light Using
+- title:
+    Measurement of the Static Structure Factor in a Paraxial Fluid of Light Using
     Bragg-like Spectroscopy
   image: bragg_rb.webp
   description:
-    Fluids of light in the propagating geometry is quite a new field. A lot of common techniques of 
+    Fluids of light in the propagating geometry is quite a new field. A lot of common techniques of
     cold atoms are missing. We found a way to perform Bragg-like spectroscopy and measure the structure
     factor in a fluid of light.
 
@@ -70,7 +78,6 @@
 
 - title: Observation of the Bogoliubov Dispersion in a Fluid of Light
   image: paraxial.webp
-  description: 
+  description:
     Our first paper about fluids of light in the propagating geometry. We took quantum fluids of light analogy seriously and we realized that they
     are actually superfluids ! The beginning of a long journey...
-

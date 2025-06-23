@@ -1,5 +1,51 @@
-# to add a publication use : cd python then
-# python AddPublication.py   'https://doi.org/10.1103/PhysRevLett.130.111501'
+- title: Observation of Jones-Roberts Solitons in a Paraxial Quantum Fluid of Light
+  authors:
+  - name: Myrann Baker-Rasooli
+    orcid: https://orcid.org/0000-0003-0969-6705
+  - name: Tangui Aladjidi
+    orcid: https://orcid.org/0000-0002-3109-9723
+  - name: Nils A. Krause
+    orcid: null
+  - name: A. S. Bradley
+    orcid: https://orcid.org/0000-0002-3027-3195
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  link:
+    url: https://doi.org/10.1103/physrevlett.134.233401
+    display: Physical Review Letters 134 23 (2025).
+  doi: https://doi.org/10.1103/physrevlett.134.233401
+  is_oa: true
+  oa_url: http://arxiv.org/pdf/2501.08383
+  publication_year: 2025
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '134'
+    issue: '233401'
+    first_page: null
+    last_page: null
+
+- title: Spin and density modes in a binary fluid of light
+  authors:
+  - name: Clara Piekarski
+    orcid: https://orcid.org/0000-0001-6871-6003
+  - name: Nicolas Cherroret
+    orcid: https://orcid.org/0000-0002-6956-0159
+  - name: Tangui Aladjidi
+    orcid: https://orcid.org/0000-0002-3109-9723
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  link:
+    url: https://doi.org/10.1103/s58b-3mmx
+    display: Physical Review Letters).
+  doi: https://doi.org/10.1103/s58b-3mmx
+  is_oa: treu
+  oa_url: https://arxiv.org/abs/2412.08718
+  publication_year: 2025
+  journal: Physical Review Letters
+  biblio:
+    volume: 134
+    first_page: 223403
 
 - title: Paraxial Fluids of Light
   authors:
