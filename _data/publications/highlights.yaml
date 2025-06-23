@@ -70,11 +70,11 @@
     cold atoms are missing. We found a way to perform Bragg-like spectroscopy and measure the structure
     factor in a fluid of light.
 
-- title: Quantitative Analysis of Shock Wave Dynamics in a Fluid of Light
-  image: shock.webp
-  description:
-    Fluids of light are a nice platform to test analytical theory for 1D and 2D non-linear physics.
-    Here we check shock waves in and we propose an analytical model in collaboration with the group of Nicolas Pavloff.
+# - title: Quantitative Analysis of Shock Wave Dynamics in a Fluid of Light
+#   image: shock.webp
+#   description:
+#     Fluids of light are a nice platform to test analytical theory for 1D and 2D non-linear physics.
+#     Here we check shock waves in and we propose an analytical model in collaboration with the group of Nicolas Pavloff.
 
 - title: Observation of the Bogoliubov Dispersion in a Fluid of Light
   image: paraxial.webp
