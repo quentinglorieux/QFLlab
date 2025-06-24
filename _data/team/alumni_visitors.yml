@@ -1,13 +1,40 @@
-- name: BSc (X), Spring 2017
-  status: bsc
-  pdf:
+- name: Alice Lesne, M1 - 2025
+  status: master
 
-- name: Visitor (X), Spring 2017
+- name: Georgios Paraskevopoulos, M1 - 2025
+  status: master
+
+- name: Mikael Rechtsmann - 2025
   status: visitor
 
-- name: MSc (X), Spring 2018
+- name: Jeff Steinhauer - 2023
+  status: visitor
+
+- name: Viktoria Turinicova, L3 - 2025
+  status: bsc
+
+- name: Luca Lorenzi, L3 - 2025
+  status: bsc
+
+- name: Noé Grenier, M2 - 2024
   status: master
-  pdf:
+
+- name : Louis Rossignol, L3 - 2024
+  status: bsc
+
+- name : Corentin Morin, M1 - 2023
+  status: master  
+
+- name : Thomas Picot, L3 - 2022
+  status: bsc
+
+- name : Guillaume Brochier, M2 - 2022
+  status: master
+
+- name : Milino Kerowgodage, M1 - 2021
+  status: master
+
+
 
 
 

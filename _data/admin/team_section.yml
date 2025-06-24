@@ -11,6 +11,7 @@
   status: "phd"
   order: 3
 
-- title: "Master and Bachelor Students"
+- title: "Master Students"
   status: "student"
   order: 4
+
