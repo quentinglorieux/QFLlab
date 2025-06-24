@@ -1,3 +1,8 @@
+- title : "Observation of the diffusive Nambu–Goldstone mode of a non-equilibrium phase transition"
+  image: goldstone.webp
+  description: Our letter about the observation of a diffusive Nambu–Goldstone mode. Although these modes are known to propagate as sound waves in conservative systems, non-equilibrium phase transitions have been predicted to feature a diffusive Nambu–Goldstone mode and we observed this in a quantum fluid of light. 
+
+
 - title : "Observation of Jones-Roberts Solitons in a Paraxial Quantum Fluid of Light"
   image: jrs.webp
   description: A letter about the observation of the famous Jones-Roberts solitons in a quantum fluid of light. These solitons were predicted in 1981 and never observed before. It's an editor's suggestion in Physical Review Letters !
@@ -14,9 +19,9 @@
     theoretical framework to the experimental realizations. It also discusses the
     experimental techniques and the outlook of the field.
 
-- title: "NLSE: A Python package to solve the nonlinear Schrödinger equation"
-  image: LogoNLSE.webp
-  description: A short paper describing the NLSE package, a Python package to solve the Gross-Pitaevskii equation and the Nonlinear Schrödinger equation using CPU or GPU.
+# - title: "NLSE: A Python package to solve the nonlinear Schrödinger equation"
+#   image: LogoNLSE.webp
+#   description: A short paper describing the NLSE package, a Python package to solve the Gross-Pitaevskii equation and the Nonlinear Schrödinger equation using CPU or GPU.
 
 - title: Hot atomic vapors for nonlinear and quantum optics
   image: review.webp

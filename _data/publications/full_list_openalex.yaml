@@ -1,3 +1,35 @@
+- title: "Observation of the diffusive Nambu\u2013Goldstone mode of a non-equilibrium\
+    \ phase transition"
+  authors:
+  - name: Ferdinand Claude
+    orcid: https://orcid.org/0000-0003-1118-7379
+  - name: Maxime J. Jacquet
+    orcid: https://orcid.org/0000-0003-0977-7054
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Michiel Wouters
+    orcid: https://orcid.org/0000-0003-1312-9842
+  - name: "\xC9lisabeth Giacobino"
+    orcid: null
+  - name: Iacopo Carusotto
+    orcid: https://orcid.org/0000-0002-9838-0149
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  link:
+    url: https://doi.org/10.1038/s41567-025-02902-z
+    display: Nature Physics None None (2025).
+  doi: https://doi.org/10.1038/s41567-025-02902-z
+  is_oa: true
+  oa_url: https://arxiv.org/abs/2310.11903
+  publication_year: 2025
+  journal: Nature Physics
+  journal_abbreviation: ''
+  biblio:
+    volume: 21
+    issue: 
+    first_page: 924
+    last_page: 930
+
 - title: Observation of Jones-Roberts Solitons in a Paraxial Quantum Fluid of Light
   authors:
   - name: Myrann Baker-Rasooli
