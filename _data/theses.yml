@@ -86,6 +86,9 @@ internships:
       - name: "Marc Younès"
         title: "Time-Resolved Phase-Sensitive Detections for Quantum Fluids of Light"
         link: "assets/pdf/rapports/younes_2025.pdf"
+      - name: "Alice Lesne"
+        title: "Stabilisation d’un laser pour une expérience de fluide de lumière"
+        link: "assets/pdf/rapports/lesne.pdf"
   - year: 2024
     theses:
       - name: "Quentin Schibler"
