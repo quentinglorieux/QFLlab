@@ -89,6 +89,9 @@ internships:
       - name: "Alice Lesne"
         title: "Stabilisation d’un laser pour une expérience de fluide de lumière"
         link: "assets/pdf/rapports/lesne.pdf"
+      - name: "Georgios Paraskevopoulos"
+        title: "Cross-Kerr nonlinearity in paraxial fluids of light"
+        link: "assets/pdf/rapports/georgios25.pdf"
   - year: 2024
     theses:
       - name: "Quentin Schibler"
