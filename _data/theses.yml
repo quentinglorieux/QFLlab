@@ -83,6 +83,9 @@ PhD_theses:
 internships:
   - year: 2025
     theses:
+      - name: "Alexandre Levain"
+        title: "Quantum effect in paraxial fluid of light"
+        link: "assets/pdf/rapports/levain_2025.pdf"
       - name: "Marc Younès"
         title: "Time-Resolved Phase-Sensitive Detections for Quantum Fluids of Light"
         link: "assets/pdf/rapports/younes_2025.pdf"
