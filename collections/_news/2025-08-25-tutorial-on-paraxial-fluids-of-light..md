@@ -2,7 +2,7 @@
 title: Tutorial on Paraxial Fluids of Light at Cargèse IESC 2025
 slug: cargese-iesc-2025
 contact: quentin.glorieux@lkb.upmc.fr
-image: cargese2025_mini.jpg
+image: cargese2025_mini.png
 layout: textlay
 ---
 
