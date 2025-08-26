@@ -3,7 +3,6 @@ title: Our review paper on Paraxial Fluids of Light is on arXiv
 slug: review-paper
 contact: quentin.glorieux@lkb.upmc.fr
 image: advances.webp
-link: https://arxiv.org/abs/2504.06262
 layout: post
 ---
 ## Our review paper is on arXiv
