@@ -2,7 +2,7 @@
 title: Noéme Receives Best Thesis Prize 2025 from the GDR MecaQ
 slug: thesis-prize-2025-gdr-mecaq
 contact: noemie.marquet@lkb.upmc.fr
-image: noeme_prize.jpg
+image: noemie_prize.jpg
 layout: textlay
 ---
 
