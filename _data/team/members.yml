@@ -51,14 +51,14 @@
   education2: Master at Institut d'Optique
     
 
-- name: Maxime Jacquet
-  tagline: Analogue Gravity Guru
-  photo: Maxime.webp
-  info: Postdoc, since 2020
-  status: postdoc
-  email: maxime.jacquet@lkb.upmc.fr
-  education1: 
-  education2:  
+# - name: Maxime Jacquet
+#   tagline: Analogue Gravity Guru
+#   photo: Maxime.webp
+#   info: Postdoc, since 2020
+#   status: postdoc
+#   email: maxime.jacquet@lkb.upmc.fr
+#   education1: 
+#   education2:  
 
 - name: Clara Piekarski
   photo: Clara.webp
@@ -107,17 +107,17 @@
   info: PhD Student, started October 2024
   email: 
     
-- name: Enrico Bonfissuto
-  status: student
-  photo: Enrico.jpg
-  info: Master Student, Summer 2025
-  email: 
+# - name: Enrico Bonfissuto
+#   status: student
+#   photo: Enrico.jpg
+#   info: Master Student, Summer 2025
+#   email: 
 
-- name: Alexandre Levain
-  status: student
-  photo: Alexandre.webp
-  info: Master Student, Summer 2025
-  email: 
+# - name: Alexandre Levain
+#   status: student
+#   photo: Alexandre.webp
+#   info: Master Student, Summer 2025
+#   email: 
     
 - name: "This could be you !"
   photo: bottle.webp
