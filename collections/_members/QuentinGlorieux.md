@@ -3,7 +3,7 @@
 
 # Personal info
 name: Quentin Glorieux
-position: Associate Professor
+position: Full Professor
 email: quentin.glorieux@lkb.upmc.fr
 email_title: Contact
 phone: +33.1.4427.4393
