@@ -114,6 +114,9 @@ internships:
       - name: "Corentin Morin"
         title: "Far-Off resonance laser locking"
         link: "assets/pdf/rapports/morin.pdf"
+      - name: "Sukhman K. Singh"
+        title: "Progress towards a 39K Bose-Einstein Condensate Apparatus - U. Toronto"
+        link: "assets/pdf/rapports/Sukhman_master.pdf"
   - year: 2022
     theses:
       - name: "Thomas Picot"
