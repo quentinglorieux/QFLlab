@@ -12,4 +12,3 @@ The first week is dedicated to foundational lectures covering ultracold atomic p
 
 Super cool group of speakers and participants:
 ![groupe](/assets/images/news/houches25.jpeg)
-
