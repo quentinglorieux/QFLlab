@@ -3,7 +3,7 @@ title: Phoqus
 slug: phoqus
 abstract : Photons for Quantum Simulation
 layout: default
-image: phoqus.webp
+image: vortex.webp
 ---
 
 # PhoQuS: Photons for Quantum Simulation

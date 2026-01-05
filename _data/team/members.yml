@@ -60,13 +60,7 @@
 #   education1: 
 #   education2:  
 
-- name: Clara Piekarski
-  photo: Clara.webp
-  info: PhD Student, started October 2022
-  status: phd
-  email: clara.piekarski@lkb.upmc.fr
-  education1: Master at ETH Zurich
-  education2: BSc at Ecole Polytechnique
+
 
 
 - name: Alix Merolle
@@ -77,13 +71,13 @@
   education1: Master LUMI - Sorbonne University
 
 
-- name: Myrann Baker-Rasooli
-  tagline: Photon fluid surfer
-  photo: Myrann2.webp
-  info: PhD Student, started October 2021
-  status: phd
-  email: myrann.abobaker@lkb.upmc.fr
-  education1: Master LUMI - Sorbonne University
+# - name: Myrann Baker-Rasooli
+#   tagline: Photon fluid surfer
+#   photo: Myrann2.webp
+#   info: PhD Student, started October 2021
+#   status: phd
+#   email: myrann.abobaker@lkb.upmc.fr
+#   education1: Master LUMI - Sorbonne University
 
 
 

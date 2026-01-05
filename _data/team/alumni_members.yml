@@ -1,3 +1,25 @@
+- name: Clara Piekarski
+  photo: Clara.webp
+  duration: PhD from 2022 to 2025
+  status: phd
+  now_at: Holidays
+
+- name: Myrann Baker-Rasooli
+  now_at: LENS, INO-CNR Florence
+  photo: Myrann2.webp
+  duration: PhD from 2021 to 2025
+  status: phd
+  email: myrann.abobaker@lkb.upmc.fr
+  education1: Master LUMI - Sorbonne University
+
+
+- name: Tangui Aladjidi
+  tagline: Colormaps and cycling maniac
+  photo: Tangui.webp
+  duration: PhD from 2020 to 2023
+  status: postdoc
+  now_at: Quobly, Grenoble
+
 - name: Quentin Fontaine
   tagline: Experimental theoritician
   photo: Fontaine.webp
@@ -23,19 +45,11 @@
   now_at: Singapour University
 
 - name: Marianna D'amato
-  photo: Marianna.jpg
+  photo: Marianna.png
   info: 
   duration: PhD from 2021 to 2024
   email: 
   now_at: Berlin Humboldt University
-
-
-- name: Tangui Aladjidi
-  tagline: Colormaps and cycling maniac
-  photo: Tangui.webp
-  duration: PhD from 2020 to 2023
-  status: postdoc
-  now_at: Quobly, Grenoble
 
 
 - name: Chengjie Ding

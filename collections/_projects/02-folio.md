@@ -3,7 +3,7 @@ title: Folio
 slug: folio
 abstract : Fluids of Light in Hollow-Core Fiber Micro-Cells
 layout: default
-image: folio.webp
+image: folio2.webp
 ---
 # FOLIO Project: Fluids of Light in Hollow-Core Fiber Micro-Cells
 
