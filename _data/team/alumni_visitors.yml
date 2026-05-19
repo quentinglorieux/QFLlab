@@ -1,3 +1,26 @@
+- name: Nuno Silva, INESC-TEC - 2026
+  status: visitor
+  
+- name: Raul Teixeira, Universidade Federal de São Carlos - 2026
+  status: visitor
+
+- name: Tiago Ferreira, Universidade do Porto - 2026
+  status: visitor
+
+- name: Juan Alvarez, L3 - 2026
+  status: bsc
+
+- name: Mathieu Guerin, M2 - 2026
+  status: master
+
+- name: Christelle Khairallah, M1 - 2026
+  status: master
+
+- name: Anaé Prudhomme, M1 - 2026
+  status: master
+  
+- name: Come Beneteau, M2 - 2025
+  status: master
 
 - name: Enrico Bonfissuto, M2 - 2025
   status: master
