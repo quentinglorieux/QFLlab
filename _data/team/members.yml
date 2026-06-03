@@ -100,7 +100,14 @@
   photo: Sukhman.webp
   info: PhD Student, started October 2024
   email: 
-    
+
+- name: Jeanne Duboeuf
+  status: phd
+  photo: 
+  info: PhD Student, will start October 2026
+  email:   
+
+
 # - name: Enrico Bonfissuto
 #   status: student
 #   photo: Enrico.jpg
