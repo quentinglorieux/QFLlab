@@ -1,5 +1,5 @@
 ---
-title: A quantum fish swims upstream in a fluid of light
+title: A new CNRS communication about our quantum fish
 slug: quantum-fish-superfluid-light
 contact: quentin.glorieux@lkb.upmc.fr
 image: quantum-fish-superfluid-light.png
