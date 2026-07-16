@@ -68,6 +68,23 @@ p.byline {
   display: block;
 }
 
+.news-post-header {
+  margin: 32px 0 24px;
+}
+
+.news-post-title {
+  margin: 0;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.15;
+}
+
+@media (max-width: 767px) {
+  .news-post-title {
+    font-size: 36px;
+  }
+}
+
 #homeid {
   margin-top: 10px;
   margin-bottom: 40px;
@@ -491,4 +508,3 @@ padding-right: 15px;
   .aa-Item{
     padding: 12px 0;
   }
-
