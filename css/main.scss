@@ -61,7 +61,13 @@ p.byline {
   margin-bottom: 6px;
 }
 
-#textid img,
+#textid img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block;
+}
+
 .post-content img {
   width: 100%;
   height: auto;
