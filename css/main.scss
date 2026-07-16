@@ -61,6 +61,13 @@ p.byline {
   margin-bottom: 6px;
 }
 
+#textid img,
+.post-content img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
 #homeid {
   margin-top: 10px;
   margin-bottom: 40px;
