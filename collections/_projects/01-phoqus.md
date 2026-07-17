@@ -1,59 +1,39 @@
 ---
 title: Phoqus
 slug: phoqus
-abstract : Photons for Quantum Simulation
+status: completed
+end_date: 2022-03-31
+abstract: Photons for Quantum Simulation (H2020, 2018–2022)
 layout: default
 image: vortex.webp
 ---
 
-# PhoQuS: Photons for Quantum Simulation
+# PhoQuS — Photons for Quantum Simulation
 
+**PhoQuS** was a European Horizon 2020 FET project dedicated to analogue quantum simulation with fluids of light. Coordinated by Sorbonne Université, the project ran from October 2018 to March 2022 under grant agreement **No. 820392**, with an EU contribution of approximately €3 million.
 
+## Scientific programme
 
-## Introduction
+Optical nonlinearities make photons interact and allow a light field to display collective behaviour usually associated with quantum gases: superfluid flow, sound-like excitations, vortices and turbulence. PhoQuS brought together complementary photon-fluid platforms—including semiconductor polaritons, propagating fluids of light and photon condensates—to use these phenomena as controllable quantum simulators.
 
-**PhoQuS** is a European research initiative funded under the Horizon 2020 FET Flagship program, aiming to pioneer a new platform for quantum simulation based on photonic quantum fluids.
+The programme focused on three connected goals:
 
-Unlike traditional quantum simulators based on cold atoms or superconducting circuits, PhoQuS explores **light as a quantum fluid**, where photons interact and behave like particles in a superfluid. This approach enables the simulation of complex quantum systems using nonlinear optical effects that give rise to photon-photon interactions.
+- characterising superfluidity, collective excitations and quantum turbulence in photonic systems;
+- creating and controlling topological excitations such as vortices and solitons;
+- using fluids of light to emulate difficult problems from condensed-matter physics, statistical physics and curved-spacetime quantum field theory.
 
-## Scientific Goals
+## Main outcomes
 
-- **Quantum superfluidity and turbulence**  
-  Investigate quantum hydrodynamic effects such as superfluidity, turbulence, and quantized vortices in optical media.
+PhoQuS established tools for measuring excitation spectra with high resolution, controlling the geometry and dimensionality of driven photonic systems, and generating long-lived topological excitations. The consortium also explored analogue horizons, phase transitions and routes towards strongly correlated photonic states.
 
-- **Simulation of exotic quantum systems**  
-  Reproduce phenomena such as:
-  - Many-body localization  
-  - Superfluid to Mott–insulator transitions  
-  - Analog black holes and rotating spacetime  
-  - Emergent gravitational-like behavior in light fluids
+These results helped turn fluids of light from a hydrodynamic analogy into a versatile experimental platform for quantum simulation. They now underpin several of the group's current research directions, from paraxial superfluids and vortex dynamics to quantum-field simulations in tailored effective spacetimes.
 
-## Methodologies
+## Project information
 
-PhoQuS utilizes several experimental platforms:
+- **Programme:** Horizon 2020, Future and Emerging Technologies
+- **Grant agreement:** 820392
+- **Duration:** 1 October 2018 – 31 March 2022
+- **Status:** completed
+- **Coordinator:** Sorbonne Université
 
-- **Photon fluids** in rubidium vapors and photorefractive crystals  
-- **Polaritons** in semiconductor microcavities  
-- **Photon BECs** in dye-filled cavities  
-- **Trapped photon “bubbles”** in laser-cooled atoms
-
-These systems are engineered with:
-- Tailored potentials using spatial light modulators  
-- Observation of flow patterns, quantized vortices, and collective excitations  
-- Optical lattices for simulating strongly correlated systems
-
-## Consortium
-
-PhoQuS is coordinated by Prof. Alberto Bramati (Sorbonne Université) and includes partners from:
-
-- France: SU, CNRS, Université Paris Diderot  
-- UK: Imperial College London, University of Glasgow  
-- Germany: University of Bonn  
-- Italy: Sapienza, CNR  
-- Portugal: Instituto Superior Técnico  
-
-The team consists of both experimental and theoretical experts in quantum optics, condensed matter physics, and ultracold atomic systems.
-
-## Outlook
-
-PhoQuS aims to position **quantum fluids of light** as a novel, versatile platform for quantum simulation—advancing our understanding of quantum many-body physics and unlocking new directions in photonic quantum technologies.
+Read the [official PhoQuS project report on CORDIS](https://cordis.europa.eu/project/id/820392/reporting).

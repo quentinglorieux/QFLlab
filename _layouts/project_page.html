@@ -4,10 +4,29 @@ layout: default
 
   {{ content }}
 
-  <section class="articles">
+  <h2>Current projects</h2>
+  <section class="articles current-projects">
     {% for post in site.projects %}
+      {% if post.status != "completed" %}
         {% include card.html %}
+      {% endif %}
     {% endfor %}
   </section>
 
-
+  {% assign completed_projects = site.projects | where: "status", "completed" | sort: "end_date" | reverse %}
+  {% if completed_projects.size > 0 %}
+    <section class="completed-projects" aria-labelledby="completed-projects-title">
+      <h2 id="completed-projects-title">Completed projects</h2>
+      <ul class="completed-project-list">
+        {% for post in completed_projects %}
+          <li>
+            <a href="{{ post.url }}">
+              <span class="completed-project-title">{{ post.title }}</span>
+              <span class="completed-project-abstract">{{ post.abstract }}</span>
+              <span class="completed-project-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}

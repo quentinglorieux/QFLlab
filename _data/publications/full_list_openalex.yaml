@@ -1,3 +1,88 @@
+- title: Machine learning approach to single-shot multiparameter estimation for the nonlinear Schrödinger equation
+  authors:
+  - name: Louis Rossignol
+    orcid: https://orcid.org/0009-0003-1109-4532
+  - name: Tangui Aladjidi
+    orcid: https://orcid.org/0000-0002-3109-9723
+  - name: Myrann Baker-Rasooli
+    orcid: https://orcid.org/0000-0003-0969-6705
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  link:
+    url: https://doi.org/10.1140/epjd/s10053-026-01183-2
+    display: The European Physical Journal D 80 6 (2026).
+  doi: https://doi.org/10.1140/epjd/s10053-026-01183-2
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/2509.18479
+  publication_year: 2026
+  journal: The European Physical Journal D
+  journal_abbreviation: ''
+  biblio:
+    volume: '80'
+    issue: '6'
+    first_page: null
+    last_page: null
+
+- title: 'Swimming against a Superfluid Flow: Self-Propulsion via Vortex-Antivortex Shedding in a Quantum Fluid of Light'
+  authors:
+  - name: Myrann Baker-Rasooli
+    orcid: https://orcid.org/0000-0003-0969-6705
+  - name: Tangui Aladjidi
+    orcid: https://orcid.org/0000-0002-3109-9723
+  - name: Tiago D. Ferreira
+    orcid: https://orcid.org/0000-0002-1318-4940
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  - name: Mathias Albert
+    orcid: https://orcid.org/0000-0002-6593-0300
+  - name: Pierre-Élie Larré
+    orcid: https://orcid.org/0000-0002-8273-3333
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  link:
+    url: https://doi.org/10.1103/ndj1-1j89
+    display: Physical Review Letters 136 22 (2026).
+  doi: https://doi.org/10.1103/ndj1-1j89
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/2512.09028
+  publication_year: 2026
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '136'
+    issue: '22'
+    first_page: '223401'
+    last_page: '223401'
+
+- title: Polariton Fluids as Quantum Field Theory Simulators on Tailored Curved Spacetimes
+  authors:
+  - name: Kévin Falque
+    orcid: null
+  - name: Adrià Delhom
+    orcid: https://orcid.org/0000-0002-3497-3455
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Élisabeth Giacobino
+    orcid: null
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  - name: Maxime J. Jacquet
+    orcid: https://orcid.org/0000-0003-0977-7054
+  link:
+    url: https://doi.org/10.1103/t5dh-rx6w
+    display: Physical Review Letters 135 2 (2025).
+  doi: https://doi.org/10.1103/t5dh-rx6w
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/2311.01392
+  publication_year: 2025
+  journal: Physical Review Letters
+  journal_abbreviation: ''
+  biblio:
+    volume: '135'
+    issue: '2'
+    first_page: '023401'
+    last_page: '023401'
+
 - title: "Observation of the diffusive Nambu\u2013Goldstone mode of a non-equilibrium\
     \ phase transition"
   authors:
@@ -26,7 +111,7 @@
   journal_abbreviation: ''
   biblio:
     volume: 21
-    issue: 
+    issue: '6'
     first_page: 924
     last_page: 930
 
@@ -53,9 +138,9 @@
   journal_abbreviation: ''
   biblio:
     volume: '134'
-    issue: '233401'
-    first_page: null
-    last_page: null
+    issue: '23'
+    first_page: '233401'
+    last_page: '233401'
 
 - title: Spin and density modes in a binary fluid of light
   authors:
@@ -71,13 +156,49 @@
     url: https://doi.org/10.1103/s58b-3mmx
     display: Physical Review Letters).
   doi: https://doi.org/10.1103/s58b-3mmx
-  is_oa: treu
+  is_oa: true
   oa_url: https://arxiv.org/abs/2412.08718
   publication_year: 2025
   journal: Physical Review Letters
+  journal_abbreviation: ''
   biblio:
-    volume: 134
-    first_page: 223403
+    volume: '134'
+    issue: '22'
+    first_page: '223403'
+    last_page: '223403'
+
+- title: Room-Temperature Efficient Single-Photon Generation from CdSe/ZnS Nanoplatelets
+  authors:
+  - name: Marianna D’Amato
+    orcid: https://orcid.org/0000-0003-3827-8529
+  - name: Ningyuan Fu
+    orcid: https://orcid.org/0000-0001-6231-3991
+  - name: Quentin Glorieux
+    orcid: https://orcid.org/0000-0003-0903-0233
+  - name: Elisabeth Giacobino
+    orcid: null
+  - name: Hanna Le Jeannic
+    orcid: https://orcid.org/0000-0002-5341-9046
+  - name: Sandrine Ithurria
+    orcid: https://orcid.org/0000-0002-4733-9883
+  - name: Emmanuel Lhuillier
+    orcid: https://orcid.org/0000-0003-2582-1422
+  - name: Alberto Bramati
+    orcid: https://orcid.org/0000-0002-8554-4036
+  link:
+    url: https://doi.org/10.1021/acsnano.5c01971
+    display: ACS Nano 19 14 (2025).
+  doi: https://doi.org/10.1021/acsnano.5c01971
+  is_oa: true
+  oa_url: https://arxiv.org/pdf/2407.21504
+  publication_year: 2025
+  journal: ACS Nano
+  journal_abbreviation: ''
+  biblio:
+    volume: '19'
+    issue: '14'
+    first_page: '14404'
+    last_page: '14409'
 
 - title: Paraxial Fluids of Light
   authors:
@@ -92,16 +213,19 @@
   - name: Myrann Baker-Rasooli
     orcid: https://orcid.org/0000-0003-0969-6705
   link:
-    url: https://arxiv.org/abs/2504.06262
-    display: Advances In Atomic, Molecular, and Optical Physics
-  doi: https://arxiv.org/abs/2504.06262
+    url: https://doi.org/10.1016/bs.aamop.2025.04.002
+    display: Advances in Atomic, Molecular, and Optical Physics 74 (2025).
+  doi: https://doi.org/10.1016/bs.aamop.2025.04.002
   is_oa: true
   oa_url: https://arxiv.org/abs/2504.06262
   publication_year: 2025
-  journal: Advances In Atomic, Molecular, and Optical Physics
-  journal_abbreviation: Advances
+  journal: Advances in Atomic, Molecular, and Optical Physics
+  journal_abbreviation: ''
   biblio:
-    volume: '73'
+    volume: '74'
+    issue: null
+    first_page: '157'
+    last_page: '241'
 
 - title: "NLSE: A Python package to solve the nonlinear Schr\xF6dinger equation"
   authors:
@@ -2271,4 +2395,3 @@
     issue: '1'
     first_page: '47'
     last_page: '52'
-

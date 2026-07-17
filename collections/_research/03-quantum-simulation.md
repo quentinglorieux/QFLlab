@@ -1,15 +1,18 @@
 ---
-title: Quantum simulation
+title: Quantum simulation beyond mean field
 slug: quantum-simulation
-abstract: A major milestone for the fluid of light community is to reach the level of control and the precision of detection to conduct quantum simulation with light
+abstract: We use controlled interactions and full-field measurements to reveal quantum noise, analogue spacetime and new phases of photonic matter.
 image: f2.webp
 team:
   - Quentin Glorieux
   - Devang Naik
-  - Maxime Jacquet
   - Quentin Schibler
   - Simon Lepleux
+  - Sukhman Singh
 publications:
+  - https://doi.org/10.1103/t5dh-rx6w
+  - https://doi.org/10.1038/s41567-025-02902-z
+  - https://doi.org/10.1016/bs.aamop.2025.04.002
   - https://doi.org/10.1088/1367-2630/acce5a
   - https://doi.org/10.1103/physrevlett.130.111501
   - https://doi.org/10.1038/s41467-022-30603-1
@@ -18,14 +21,48 @@ publications:
   - https://doi.org/10.1002/qute.202000052
   - https://doi.org/10.1098/rsta.2019.0225
 ---
-## Quantum Phase Transition with Light
+## A simulator with direct access to the wave field
 
-A novel research axis in our laboratory is to investigate Quantum Phase Transition in a fluid of light. We have all already observed in everyday life water that freezes or boils and ice that melts. A modification in the fundamental properties of a physical system that crosses the boundary between two phases is known as a phase transition. This macroscopic change is driven by fluctuations at the microscopic scale. For a system at a temperature close to absolute zero, all thermal fluctuations vanish and the system loses any opportunity to change. Phase transitions are therefore prohibited in classical systems at zero temperature. In the quantum world, physics is very different since fluctuations are present even at zero temperature, due to Heisenberg’s uncertainty relation. In certain situations, these microscopic quantum fluctuations may be strong enough to drive a macroscopic transition from one phase to another, known as a quantum phase transition.
+Quantum simulation with light combines programmable initial conditions, tunable
+interactions and spatially resolved detection. In our platform, propagation
+implements the evolution of a many-body Hamiltonian while interferometry gives
+access to both quadratures of the field. The challenge is to move beyond the
+mean density and identify the fluctuations and correlations that certify the
+underlying quantum process.
 
-One striking consequence of quantum phase transitions is the existence of metals, predicted to be conductors by the conventional band theory, that are actually insulators at low temperature. The explanation, proposed by Mott is the presence of a quantum phase transition due the interplay between the Coulomb repulsive interaction of electrons and their degree of localization in the crystalline lattice. These states, known as Mott insulators, are thought to have a deep connection with high-temperature superconductivity and therefore are subject to intense research not only in condensed matter but also in ultracold atomic physics.
+## Quantum noise created by a quench
 
-> ‘Our goal is to observe the superfluid to Mott insulator transition in a fluid of light.’
+When interactions are switched on at the entrance of the vapour cell, the
+incoming optical vacuum is no longer the ground state of the interacting
+fluid. Opposite-momentum Bogoliubov excitations are then created in correlated
+pairs. Mathematically, this transformation is the same as two-mode squeezing.
+The second quench at the cell exit mixes the modes once more and produces an
+interference pattern analogous to Sakharov oscillations.
 
-Achieving this prime experimental challenge is due to bring a major revolution to the fields of analogue quantum simulation and linear optics quantum computing.
-On the fundamental side, it could push photon fluids to a new regime of many-body physics, opening the way to create and study strongly correlated systems with light.
-On the applied side, we use the Mott insulator state of light as a giant source of single photons (or any Fock states) with potentially several hundreds of lattice sites delivering tunable photon number states in parallel and at a high rate, with the potential for a massive implementation of linear optics quantum computing.
+We develop complementary measurements of these correlations, from spatially
+resolved intensity fluctuations to mode-selective quadrature detection and
+covariance reconstruction. Their common purpose is to separate spontaneous
+quantum noise from stimulated and technical backgrounds.
+
+## Simulating geometry and collective matter
+
+Collective excitations propagate in an effective spacetime defined by the
+fluid's density and velocity. Engineering these quantities lets us investigate
+particle creation in expanding backgrounds, curved-spacetime dynamics and the
+fate of symmetry-breaking modes outside equilibrium. These experiments turn
+analogue gravity into a measurable many-body problem rather than a purely
+kinematic analogy.
+
+## Towards a supersolid of light
+
+We are exploring regimes in which effective attraction and nonlocal response
+favour a stable, periodically modulated fluid. Such a state is a candidate
+supersolid only if it combines crystalline density order with long-range phase
+coherence. Our programme therefore tests both properties and searches for the
+two collective Goldstone branches expected when translational and phase
+symmetries are broken together.
+
+This work extends the photonic simulator from weakly perturbed superfluids to
+new phases of correlated light. The same correlation and cumulant measurements
+used for quenches and turbulence provide the stringent diagnostics needed to
+distinguish a genuine many-body phase from a classical intensity pattern.

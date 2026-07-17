@@ -1,31 +1,55 @@
 ---
-title: Superfluidity
+title: Superfluidity and multicomponent fluids
 slug: superfluidity
-abstract: Superfluidity is one of the most striking manifestation of quantum many-body physics. Initially observed in liquid Helium, the realization of atomic Bose-Einstein condensates (BEC) has allowed detailed investigations of this macroscopic quantum phenomenon exploiting the precise control over the system parameters. In the group, we study superfluidity of light in hot atomic vapor with special interest on low dimensionality and beyond mean field effects.
+abstract: We probe frictionless transport, fluid–object backaction and collective excitations in one- and two-component fluids of light.
 image: bottle2.webp
 team:
   - Quentin Glorieux
-  - Clara Piekarski
+  - Noémie Marquet
+  - Alix Merolle
   - Quentin Schibler
 publications:
-  - https://arxiv.org/abs/2504.06262
+  - https://doi.org/10.1103/ndj1-1j89
+  - https://doi.org/10.1103/s58b-3mmx
+  - https://doi.org/10.1016/bs.aamop.2025.04.002
+  - https://doi.org/10.1103/physrevlett.134.233401
   - https://doi.org/10.1103/physrevlett.129.100602
-  - https://doi.org/10.1051/epjconf/202226608004
   - https://doi.org/10.1103/physrevlett.127.023401
   - https://doi.org/10.1103/physrevresearch.2.043297
-  - https://doi.org/10.1007/s00340-020-07452-1
   - https://doi.org/10.1103/physrevlett.121.183604
 ---
-## Introduction
+## Light as a flowing quantum medium
 
-Quantum fluids of light are photonic counterpart to atomic Bose gases and are attracting increasinging interest for probing many-body physics quantum phenomena such as superfluidity. Two different configurations are commonly used: the confined geometry where a nonlinear material is fixed inside an optical cavity (proposed 30 years ago by Pomeau and Rica), and the propagating geometry where the propagation direction plays the role of an effective time for the system.
+Superfluidity is collective transport without ordinary viscous drag. In our
+paraxial platform, a broad laser beam behaves as a two-dimensional compressible
+fluid: intensity is its density, phase gradients define its velocity, and the
+optical nonlinearity provides repulsive interactions. This direct access to both
+density and phase lets us follow sound, vortices, solitons and other nonlinear
+excitations as they evolve.
 
-Recently, my experimental research group focused on the propagating geometry inspired by pioneering works in photorefractive crystals and thermo-optic liquids. We developed a novel platform for fluids of light based on the spatial evolution of a continuous laser beam propagating in a hot atomic vapor under the paraxial approximation. Interestingly, this geometry allows for a mathematical mapping to the 2D Gross-Pitaevskii equation, where the local light intensity corresponds to the photon density and the spatial gradient of its phase to the velocity. The key point is that this system simulates the dynamics of a 2D quantum fluid where each transverse plan (x,y) at a given z is a time snapshot of the effective temporal evolution. In 2018, my group demonstrated the relevance of this approach, known as paraxial fluid of light, with the observation of a superfluid state of light.
+Our first experiments established superfluid behaviour through the suppression
+of scattering from a fixed obstacle below a critical velocity. We then used the
+same platform to ask a more dynamical question: what happens when the obstacle
+is free to respond to the fluid?
 
- 
-## Optomechanical signature of superfluidity
+## A moving object in a superfluid of light
 
-Superfluidity is the ability of a fluid to move without any friction. Landau proposed several experiments to demonstrate superfluidity including a rotating bucket (if a bucket of superfluid is rotated it would be expected that the fluid would remain stationary due to the fluid lack of friction with the bucket) or the fountain effect. There are several behaviours that can be said to be the hallmarks of superfluidity simply because they do not occur anywhere else in nature.
+Instead of treating the defect as an immobile probe, we couple it dynamically
+to the photon fluid and measure their mutual backaction. The resulting
+“quantum fish” can propel itself and even move upstream in the superfluid
+regime. This optomechanical signature provides a direct view of momentum
+exchange between a collective medium and an embedded object, and offers a new
+route to studying critical velocities, drag and nonlinear excitations.
 
-For fluid fluids of light, the standard way to probe superfluidity is by observing the absence of scattering when a fluid of light hits a potential defect, as recently demonstrated in my group
-We are now focusing on a new way of testing light superfluidity. The goal of this experiment is to replace a fixed potential barrier by a movable defect and observe the optical feedback of the fluid on the defect itself. To take an hydrodynamic example, I will replace a fixed bridge pile in a superfluid river by a mobile branch of a tree and observe the movement of the branch. Our goal is to observe the first mechanical signature of superfluid behavior of light.
+## Binary fluids and collective modes
+
+Polarisation gives light an internal degree of freedom from which we build a
+two-component quantum fluid. Its excitations separate into density and spin
+modes, each with its own speed of sound and interaction scale. Controlling these
+modes gives us access to the miscible–immiscible transition, symmetry breaking
+and coarsening after a quench.
+
+The same setting supports composite defects, including vortices whose cores are
+filled by the second component. These “massive” vortices connect topological
+hydrodynamics to the dynamics of an effective particle and provide a transverse
+thread across our studies of transport, turbulence and phase ordering.
