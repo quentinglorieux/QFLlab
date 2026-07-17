@@ -1,9 +1,6 @@
 ---
 title: Folio
 slug: folio
-status: completed
-end_date: 2026-11-30
-abstract: Fluids of Light in Hollow-Core Fiber Micro-Cells (ANR, 2022–2026)
 layout: default
 image: folio2.webp
 ---
